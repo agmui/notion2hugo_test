@@ -43,6 +43,7 @@ async function main() {
     page_ids.push(page.id);
     await savePage(page, notion, mount);
   }
+  console.log('Current directory: ' + process.cwd());
 
   // remove posts that exist locally but not in Notion Database
   const contentFiles = getAllContentFiles("content");
@@ -51,6 +52,7 @@ async function main() {
       fs.removeSync(file.filepath);
     }
   }
+  console.log('Current directory: ' + process.cwd());
 }
 
 main()
