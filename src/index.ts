@@ -44,6 +44,7 @@ async function main() {
     await savePage(page, notion, mount);
   }
   console.log('Current directory: ' + process.cwd());
+  console.log(fs.readdirSync(process.cwd()));
 
   // remove posts that exist locally but not in Notion Database
   const contentFiles = getAllContentFiles("content");
@@ -53,6 +54,8 @@ async function main() {
     }
   }
   console.log('Current directory: ' + process.cwd());
+    console.log(fs.readdirSync(process.cwd()));
+
 }
 
 main()
