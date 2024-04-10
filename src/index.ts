@@ -54,7 +54,9 @@ async function main() {
     }
   }
   console.log('Current directory: ' + process.cwd());
-    console.log(fs.readdirSync(process.cwd()));
+  console.log(fs.readdirSync(process.cwd()));
+  console.log(fs.readdirSync(process.cwd()+"/content"));
+
 
 }
 
