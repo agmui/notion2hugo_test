@@ -53,13 +53,13 @@ async function main() {
       fs.removeSync(file.filepath);
     }
   }
-  let path: Any = process.cwd();
+  let path: any = process.cwd();
   console.log('Current directory: ' + path);
   console.log(fs.readdirSync(process.cwd()));
-  let files:Any = fs.readdirSync(process.cwd()+"/content")
+  let files:any = fs.readdirSync(process.cwd()+"/content")
   console.log(files);
   exec('cat '+path+files[1].// /home/runner/work/notion2hugo_test/notion2hugo_test/content/Debug-9190bf97e6074f088e2b1efa81052618.md',
-    function (error: Any, stdout: Any, stderr: Any) {
+    function (error: any, stdout: any, stderr: any) {
         console.log('stdout: ' + stdout);
         console.log('stderr: ' + stderr);
         if (error !== null) {
