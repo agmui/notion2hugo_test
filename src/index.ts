@@ -56,6 +56,14 @@ async function main() {
   console.log('Current directory: ' + process.cwd());
   console.log(fs.readdirSync(process.cwd()));
   console.log(fs.readdirSync(process.cwd()+"/content"));
+  exec('cat /home/runner/work/notion2hugo_test/notion2hugo_test/content/Debug-9190bf97e6074f088e2b1efa81052618.md',
+    function (error, stdout, stderr) {
+        console.log('stdout: ' + stdout);
+        console.log('stderr: ' + stderr);
+        if (error !== null) {
+             console.log('exec error: ' + error);
+        }
+    });
 
 
 }
