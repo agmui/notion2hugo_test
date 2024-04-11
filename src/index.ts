@@ -66,6 +66,7 @@ async function main() {
     if (err) throw err;
     console.log("file contents: "+data.toString());
   });
+  console.log("after");
 
 
 }
