@@ -64,7 +64,7 @@ async function main() {
   console.log('file to read:'+ filepath);
   fs.readFile(filepath, (err: any, data: any) => {
     if (err) throw err;
-    console.log(data.toString());
+    console.log("file contents: "+data.toString());
   });
 
 
