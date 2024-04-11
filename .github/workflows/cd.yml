@@ -34,8 +34,16 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CLOUDFLARE_PAGES_DEPLOY_HOOK: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
+      HUGO_VERSION: 0.120.4
 
     steps:
+      - name: Updateing Go version
+        #uses: actions/checkout@v4
+        uses: actions/setup-go@v4
+       # ==== GO VERSION ====
+        with:
+          go-version: '^1.21.4' # The Go version to download (if necessary) and use.
+
       - name: Trigger Cloudflare Pages build
         if: startsWith(env.CLOUDFLARE_PAGES_DEPLOY_HOOK, 'https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/') && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         run: curl -X POST ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
@@ -67,7 +75,10 @@ jobs:
         run: |
           npm install
           npm start
-          hugo
+          hugo \
+              --gc \
+              --minify \
+              --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       # - name: Commit updated content
       #   uses: stefanzweifel/git-auto-commit-action@v4
