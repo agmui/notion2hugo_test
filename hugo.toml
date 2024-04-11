@@ -1,0 +1,36 @@
+baseURL = 'http://rhit_docs.github.io/'
+languageCode = 'en-us'
+title = 'RHIT Robomasters Documention site'
+
+[module]
+    [[module.imports]]
+        path = "github.com/colinwilson/lotusdocs"
+        disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[[menu.primary]]
+    name  = "Docs"
+    url = "/docs/"
+    identifier = "docs"
+    weight = 10
+
+[params]
+    [params.social]
+        github          = "agmui/sample_rm_pico_app"
+    [params.docs]
+        themeColor      = "cardinal"
+        darkMode        = true                                # enable dark mode option? default false
+        prism           = true                                # enable syntax highlighting via Prism
+        # prismTheme = "lucario" # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
+        repoURL         = "https://github.com/agmui/rhit_docs.github.io" 
+
+        sidebarIcons    = true
+        titleIcon       = false
+
+        lastMod         = true
+        lastModRelative = true                                # format 'Last modified' time as relative - default true
