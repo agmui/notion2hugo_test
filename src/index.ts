@@ -62,10 +62,15 @@ async function main() {
   //exec('cat '+path+files[1],// /home/runner/work/notion2hugo_test/notion2hugo_test/content/Debug-9190bf97e6074f088e2b1efa81052618.md',
   let filepath:any = path+'/content/'+files[1];
   console.log('file to read:'+ filepath);
+  function sleepFor(sleepDuration:any){
+    var now = new Date().getTime();
+    while(new Date().getTime() < now + sleepDuration){ /* Do nothing */ }
+  }
   fs.readFile(filepath, (err: any, data: any) => {
     if (err) throw err;
     console.log("file contents: "+data.toString());
   });
+  sleepFor(1000);
   console.log("after");
 
 
