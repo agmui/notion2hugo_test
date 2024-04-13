@@ -22,6 +22,7 @@ async function main() {
 
   console.info("[Info] Start processing mounted databases");
   // process mounted databases
+  console.log(config)
   for (const mount of config.mount.databases) {
     fs.ensureDirSync(`content/${mount.target_folder}`);
     for await (const page of iteratePaginatedAPI(notion.databases.query, {
