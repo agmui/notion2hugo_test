@@ -93,8 +93,8 @@ NOTION_METADATA:
           href: null
   url: "https://www.notion.so/Markdown-d6ab5db450c9448994b2acae39d5b636"
   public_url: null
-UPDATE_TIME: "2024-04-14T20:53:48.879Z"
-EXPIRY_TIME: "2024-04-14T21:53:38.902Z"
+UPDATE_TIME: "2024-04-14T23:27:59.613Z"
+EXPIRY_TIME: "2024-04-15T00:27:51.068Z"
 
 ---
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/katex.min.css" integrity="sha384-bYdxxUwYipFNohQlHt0bjN/LCpueqWz13HufFEV1SUatKs1cm4L6fFgCi1jT643X" crossorigin="anonymous">
@@ -229,7 +229,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis commodo mau
 ### Internal
 
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6942fdc2-293f-402d-b35d-ff8c4c74bc98/photo-1470225620780-dba8ba36b745.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T205338Z&X-Amz-Expires=3600&X-Amz-Signature=aa9450d3a267ff3355430e605138b5d7576ecc79762ff73d37e269d13d3637a1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6942fdc2-293f-402d-b35d-ff8c4c74bc98/photo-1470225620780-dba8ba36b745.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T232751Z&X-Amz-Expires=3600&X-Amz-Signature=eb4516babbe49d27a9646ffb98b48ba1d6523905b9b5e33c753d89595d5081f3&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### External
@@ -257,10 +257,10 @@ File
 
 
 <video controls style="height:auto;width:100%;">
-  <source src="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3c12cd74-c2cb-45c1-8d00-b62133634fa4/How_to_make_video.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T205338Z&X-Amz-Expires=3600&X-Amz-Signature=f592eb4e9c78f4822f9eb5cb5a98d60d2d3af9d531e90a65f15f06934a989a46&X-Amz-SignedHeaders=host&x-id=GetObject">
+  <source src="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3c12cd74-c2cb-45c1-8d00-b62133634fa4/How_to_make_video.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T232751Z&X-Amz-Expires=3600&X-Amz-Signature=93c9099140b8fe70690adfbbd421232c80aa6c8d4119f1f97bdcdfff94ddc817&X-Amz-SignedHeaders=host&x-id=GetObject">
   <p>
     Your browser does not support HTML5 video. Here is a
-    <a href="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3c12cd74-c2cb-45c1-8d00-b62133634fa4/How_to_make_video.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T205338Z&X-Amz-Expires=3600&X-Amz-Signature=f592eb4e9c78f4822f9eb5cb5a98d60d2d3af9d531e90a65f15f06934a989a46&X-Amz-SignedHeaders=host&x-id=GetObject" download="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3c12cd74-c2cb-45c1-8d00-b62133634fa4/How_to_make_video.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T205338Z&X-Amz-Expires=3600&X-Amz-Signature=f592eb4e9c78f4822f9eb5cb5a98d60d2d3af9d531e90a65f15f06934a989a46&X-Amz-SignedHeaders=host&x-id=GetObject">link to the video</a> instead.
+    <a href="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3c12cd74-c2cb-45c1-8d00-b62133634fa4/How_to_make_video.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T232751Z&X-Amz-Expires=3600&X-Amz-Signature=93c9099140b8fe70690adfbbd421232c80aa6c8d4119f1f97bdcdfff94ddc817&X-Amz-SignedHeaders=host&x-id=GetObject" download="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3c12cd74-c2cb-45c1-8d00-b62133634fa4/How_to_make_video.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T232751Z&X-Amz-Expires=3600&X-Amz-Signature=93c9099140b8fe70690adfbbd421232c80aa6c8d4119f1f97bdcdfff94ddc817&X-Amz-SignedHeaders=host&x-id=GetObject">link to the video</a> instead.
   </p>
 </video>
 
@@ -277,7 +277,7 @@ YouTube
 ## Audio
 
 
-<audio controls src="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/33d87473-e789-4dbe-ba33-ed5971df029c/t-rex-roar.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T205339Z&X-Amz-Expires=3600&X-Amz-Signature=51612b9ba20c11569186dccaced864426ffdc055b4a4abc94d5d6094d7fe923a&X-Amz-SignedHeaders=host&x-id=GetObject"></audio>
+<audio controls src="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/33d87473-e789-4dbe-ba33-ed5971df029c/t-rex-roar.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T232751Z&X-Amz-Expires=3600&X-Amz-Signature=f628853d0db748e9e087f6d4c27243073a5b68fede1a9ab8fa5c88e7b6aa8cbf&X-Amz-SignedHeaders=host&x-id=GetObject"></audio>
 
 
 ---
@@ -301,13 +301,13 @@ int main() {
 ## PDF
 
 
-<embed src="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4a0c96da-8fad-4cea-9991-f3da89f3e2c8/trees-that-grow.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T205339Z&X-Amz-Expires=3600&X-Amz-Signature=e9f5447c69ecf4e681722a071219378468a4e94913edc4e20d8733962534aa8f&X-Amz-SignedHeaders=host&x-id=GetObject" type="application/pdf" style="width: 100%;aspect-ratio: 2/3;height: auto;" />
+<embed src="https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4a0c96da-8fad-4cea-9991-f3da89f3e2c8/trees-that-grow.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T232751Z&X-Amz-Expires=3600&X-Amz-Signature=56d4e79e9b1a30a69370e339281a80093575f82f2c36726490218e2742f31574&X-Amz-SignedHeaders=host&x-id=GetObject" type="application/pdf" style="width: 100%;aspect-ratio: 2/3;height: auto;" />
 
 
 ## File
 
 
-[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ce9c6086-f3d8-448a-b754-9bf37f0a8bd5/Living-Guide.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T205339Z&X-Amz-Expires=3600&X-Amz-Signature=ec94d6e9310a76005b363621982d0b7a746f5562aa2457982239ce31da2d6569&X-Amz-SignedHeaders=host&x-id=GetObject)
+[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ce9c6086-f3d8-448a-b754-9bf37f0a8bd5/Living-Guide.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240414T232751Z&X-Amz-Expires=3600&X-Amz-Signature=12d0532cbd2f97f3444847463cfb91fa3e929ca1ceb280e6a1d25f110bcf9d04&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ---
