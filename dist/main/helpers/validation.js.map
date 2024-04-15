@@ -1,0 +1,1 @@
+{"version":3,"file":"validation.js","sourceRoot":"","sources":["../../../src/main/helpers/validation.ts"],"names":[],"mappings":";;;AAAO,MAAM,kBAAkB,GAAG,CAAC,YAAoB,EAAW,EAAE;IAClE,MAAM,SAAS,GAAG,IAAI,MAAM,CAC1B,kDAAkD,EAClD,IAAI,CACL,CAAC;IAEF,IAAI,YAAY,CAAC,KAAK,CAAC,SAAS,CAAC,EAAE;QACjC,OAAO,IAAI,CAAC;KACb;IACD,OAAO,KAAK,CAAC;AACf,CAAC,CAAC;AAVW,QAAA,kBAAkB,sBAU7B"}
