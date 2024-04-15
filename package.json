@@ -14,7 +14,7 @@
     "npm": ">=8"
   },
   "scripts": {
-    "start": "ls; ./src/notion-hugo.js",
+    "start": "ls src/; ./src/notion-hugo.js",
     "typecheck": "tsc --noEmit",
     "build": "tsc",
     "format": "prettier --write src/**/*.ts"
