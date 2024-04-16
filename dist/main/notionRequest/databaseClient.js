@@ -41,12 +41,12 @@ const getPublishedArticles = () => __awaiter(void 0, void 0, void 0, function* (
                     equals: true,
                 },
             },
-            // sorts: [
-            //   {
-            //     property: "Created",
-            //     direction: "ascending",
-            //   },
-            // ],
+            sorts: [
+                {
+                    property: "Created",
+                    direction: "ascending",
+                },
+            ],
         });
         pages.push(...results);
         if (!next_cursor) {

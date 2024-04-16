@@ -193,7 +193,10 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
             yield (0, datastore_1.createPage)(frontMatter.sys);
             createMessages.push(`Create message: pageId: ${pageId}: title: ${frontMatter.title}`);
         }
-        const mdString = yield fetchBodyFromNotion(config, frontMatter, argv);
+        const text = pageMeta["properties"]["filepath"]["rich_text"][0]["plain_text"];
+        let mdString = "";
+        if (text.substring(text.length - 10) != "/_index.md")
+            mdString = yield fetchBodyFromNotion(config, frontMatter, argv);
         (0, logger_1.log)(`[Info] [pageId: ${pageId}] Writing...`);
         yield writeContentFile(config, frontMatter, mdString);
     });
@@ -235,7 +238,7 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
             const filepath_obj = pageMeta["properties"]["filepath"]["rich_text"];
             // if there already is rich text
             if (filepath_obj.length > 0) {
-                console.log("-------", filepath_obj[0]["plain_text"]);
+                (0, logger_1.log)(`[Info] creating file at: ${filepath_obj[0]["plain_text"]}`);
                 cleaned_results.push(pageMeta);
                 continue;
             }
@@ -256,7 +259,7 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
             else {
                 filepath_str += id2name[pageId]["name"] + "/" + "_index.md"; // _index.md is in its own dir name
             }
-            console.log("-------", filepath_str);
+            (0, logger_1.log)(`[Info] creating file at: ${filepath_str}`);
             filepath_obj[0] = {
                 type: "text",
                 text: { content: filepath_str, link: null },

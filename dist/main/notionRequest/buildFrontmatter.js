@@ -53,15 +53,17 @@ options, customProperties) => __awaiter(void 0, void 0, void 0, function* () {
         author: (0, property_1.pageAuthor)(properties, options),
         draft: (0, property_1.pageDraft)(properties),
     };
-    // if (hasPlainText(properties["Url"])) {
-    //   frontMatter["url"] = pageUrl(properties);
-    // } else if (hasPlainText(properties["Slug"])) {
-    //   frontMatter["slug"] = pageSlug(properties);
-    // } else {
-    //   throw new Error(
-    //     `One of the "Url" and "Slug" page properties must be defined.`
-    //   );
-    // }
+    /*
+    if (hasPlainText(properties["Url"])) {
+      frontMatter["url"] = pageUrl(properties);
+    } else if (hasPlainText(properties["Slug"])) {
+      frontMatter["slug"] = pageSlug(properties);
+    } else {
+      throw new Error(
+        `One of the "Url" and "Slug" page properties must be defined.`
+      );
+    }
+    */
     // Property for forcing the exported `.md` file name.
     if ((0, property_1.pageFilepath)(properties)) {
         frontMatter["sys"]["propFilepath"] = (0, property_1.pageFilepath)(properties);
