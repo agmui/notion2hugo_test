@@ -76,6 +76,7 @@ jobs:
         run: |
           npm install
           npm start
+          rm -rf content/
           hugo \
               --gc \
               --minify \
