@@ -18,7 +18,7 @@ toc: false
 icon: ""
 ---
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/c6900f8e-01c6-48e3-b789-96998d6c744b/led.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T130344Z&X-Amz-Expires=3600&X-Amz-Signature=d940a0c629ac0ea0c171b4ef4bcd78c2a39730cb190f029f3587366b6a102ca4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/c6900f8e-01c6-48e3-b789-96998d6c744b/led.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T140219Z&X-Amz-Expires=3600&X-Amz-Signature=e22118c9af1f0eb360a3a56b648ce77ebd7b4ac75a975e97b17a751c04b133d7&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 sets up pin 25(the led) to blink
 
