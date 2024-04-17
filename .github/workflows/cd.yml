@@ -75,12 +75,13 @@ jobs:
          NOTION_BLOG_DATABASE_ID: 4c567433bd4c449fb1a2311ba2e9205b
         run: |
           npm install
-          rm -rf content/
           npm start
+          rm -rf content/
           hugo \
               --gc \
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
+          rm -rf .notion-hugo-cache/
 
       - name: Commit updated content
         uses: stefanzweifel/git-auto-commit-action@v4
