@@ -117,7 +117,7 @@ $\KaTeX$
 
 ### Internal
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6942fdc2-293f-402d-b35d-ff8c4c74bc98/photo-1470225620780-dba8ba36b745.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T014838Z&X-Amz-Expires=3600&X-Amz-Signature=9da0315559dafb126894cfb7c7501f044266ffaee06049b43daf5af347857db0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6942fdc2-293f-402d-b35d-ff8c4c74bc98/photo-1470225620780-dba8ba36b745.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T030216Z&X-Amz-Expires=3600&X-Amz-Signature=e2d2b9b0b91389cfdcab3092b787edd7c74772365c1c40436dfa367baeff5dbc&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### External
 
@@ -135,7 +135,7 @@ $\KaTeX$
 
 File
 
-[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3c12cd74-c2cb-45c1-8d00-b62133634fa4/How_to_make_video.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T014838Z&X-Amz-Expires=3600&X-Amz-Signature=50e45f50c356cb500a62794d0cc43f8485a910e9e96e565d76f84eeec8aa51fa&X-Amz-SignedHeaders=host&x-id=GetObject)
+[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3c12cd74-c2cb-45c1-8d00-b62133634fa4/How_to_make_video.webm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T030216Z&X-Amz-Expires=3600&X-Amz-Signature=4c0568ffe0927e2116d7fd343f51b83e34f2b33cb77aa743a248f92aaf09ad8d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 YouTube
 
@@ -161,11 +161,11 @@ int main() {
 
 ## PDF
 
-[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4a0c96da-8fad-4cea-9991-f3da89f3e2c8/trees-that-grow.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T014838Z&X-Amz-Expires=3600&X-Amz-Signature=e2e13ceb046ea2c757735d7611f4363373721d3236e05c73fc065f9469ade609&X-Amz-SignedHeaders=host&x-id=GetObject)
+[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4a0c96da-8fad-4cea-9991-f3da89f3e2c8/trees-that-grow.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T030216Z&X-Amz-Expires=3600&X-Amz-Signature=91dfd332f1695f3642477b455b2180034208f016b6dc1a1525c14a386216e143&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## File
 
-[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ce9c6086-f3d8-448a-b754-9bf37f0a8bd5/Living-Guide.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T014838Z&X-Amz-Expires=3600&X-Amz-Signature=5dca9a20554789accf56e5af3216ed51be3aa29a5686b421b4295e8b92bdeb1c&X-Amz-SignedHeaders=host&x-id=GetObject)
+[image](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ce9c6086-f3d8-448a-b754-9bf37f0a8bd5/Living-Guide.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T030216Z&X-Amz-Expires=3600&X-Amz-Signature=527bda51ba199baca89454d98cdcd9634eb9474ad3cde3ea86cd16e84db0a002&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ---
 
