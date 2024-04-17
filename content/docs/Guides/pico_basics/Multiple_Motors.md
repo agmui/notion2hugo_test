@@ -2,7 +2,7 @@
 sys:
   pageId: "accff560-fef2-4991-95df-8926f3dbcd04"
   createdTime: "2024-04-16T17:21:00.000Z"
-  lastEditedTime: "2024-04-17T04:41:00.000Z"
+  lastEditedTime: "2024-04-17T06:52:00.000Z"
   propFilepath: "docs/Guides/pico_basics/Multiple_Motors.md"
 title: "Multiple_Motors"
 date: "2024-04-17T00:00:00Z"
@@ -14,6 +14,7 @@ categories:
 author: "Overridden author"
 draft: false
 section: "asdf"
+weight: 117
 toc: false
 icon: ""
 ---

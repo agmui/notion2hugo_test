@@ -2,7 +2,7 @@
 sys:
   pageId: "07376a5c-5a1e-4cd3-960a-8923f917e525"
   createdTime: "2024-04-16T19:45:00.000Z"
-  lastEditedTime: "2024-04-17T06:01:00.000Z"
+  lastEditedTime: "2024-04-17T06:09:00.000Z"
   propFilepath: "docs/Guides/pico_basics/Blink_Led.md"
 title: "Blink_Led"
 date: "2024-04-17T00:00:00Z"
@@ -18,7 +18,7 @@ toc: false
 icon: ""
 ---
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/c6900f8e-01c6-48e3-b789-96998d6c744b/led.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T060853Z&X-Amz-Expires=3600&X-Amz-Signature=38bdbb1e35a56d646cf93b42b5691c4079ffbce3d94d8a1188492720bc5a2b64&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/c6900f8e-01c6-48e3-b789-96998d6c744b/led.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T070214Z&X-Amz-Expires=3600&X-Amz-Signature=5794ceccdb6e70ff584193439db78692f0766643f370a85b3fff97628309275c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 sets up pin 25(the led) to blink
 
