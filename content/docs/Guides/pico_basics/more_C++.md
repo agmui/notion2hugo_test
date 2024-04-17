@@ -173,9 +173,9 @@ int main()
 
 ### Header files
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/31f8ffc6-9fc6-4cfc-9e1b-c4b26b1281b1/ezgif.com-video-to-gif-converter.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T110156Z&X-Amz-Expires=3600&X-Amz-Signature=2dc9e1b909386d9254a597c3892ea81ba07e347d89100eed4dd36c3e078cb9b8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/31f8ffc6-9fc6-4cfc-9e1b-c4b26b1281b1/ezgif.com-video-to-gif-converter.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T121110Z&X-Amz-Expires=3600&X-Amz-Signature=8ec54114c324e410503e283fc29fc5dd6835aecbcaa797555c85149d5eeb89b9&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T110156Z&X-Amz-Expires=3600&X-Amz-Signature=d2059ee0176b30f7ae50808b7da2d17042a1330a895f63ece97c18a14bd056c7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240417T121110Z&X-Amz-Expires=3600&X-Amz-Signature=e4a7f39ebd89e586815e021d73d8e8e64e51abdce01b8cb09903e3aa4f7813a8&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Unlike python or Java C/C++ splits its files
 
