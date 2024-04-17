@@ -1,11 +1,11 @@
 ---
 sys:
-  pageId: "f7c8cb1d-967e-4259-b902-b6144578958b"
-  createdTime: "2024-04-16T17:21:00.000Z"
+  pageId: "c95e7c25-92e7-4121-b4f8-023789c53848"
+  createdTime: "2024-04-16T19:47:00.000Z"
   lastEditedTime: "2024-04-17T04:39:00.000Z"
-  propFilepath: "docs/Guides/Cli_demos/_index.md"
-title: "Cli_demos"
-date: "2024-04-16T00:00:00Z"
+  propFilepath: "docs/Wokwi/Set_up.md"
+title: "Set_up"
+date: "2024-04-17T00:00:00Z"
 description: ""
 tags:
   - "Onboarding"

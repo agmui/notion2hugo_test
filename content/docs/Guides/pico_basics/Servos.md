@@ -1,11 +1,11 @@
 ---
 sys:
-  pageId: "f7c8cb1d-967e-4259-b902-b6144578958b"
+  pageId: "5524a39f-59c4-4d0e-8d93-d6770eb14cb9"
   createdTime: "2024-04-16T17:21:00.000Z"
-  lastEditedTime: "2024-04-17T04:39:00.000Z"
-  propFilepath: "docs/Guides/Cli_demos/_index.md"
-title: "Cli_demos"
-date: "2024-04-16T00:00:00Z"
+  lastEditedTime: "2024-04-17T04:41:00.000Z"
+  propFilepath: "docs/Guides/pico_basics/Servos.md"
+title: "Servos"
+date: "2024-04-17T00:00:00Z"
 description: ""
 tags:
   - "Onboarding"
