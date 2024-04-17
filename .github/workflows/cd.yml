@@ -75,8 +75,8 @@ jobs:
          NOTION_BLOG_DATABASE_ID: 4c567433bd4c449fb1a2311ba2e9205b
         run: |
           npm install
-          npm start
           rm -rf content/*
+          npm start
           hugo \
               --gc \
               --minify \
