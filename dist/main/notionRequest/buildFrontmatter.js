@@ -21,7 +21,6 @@ const property_1 = require("./property");
 const getPageFrontmatter = (pageMeta, // pageId: string,
 options, customProperties) => __awaiter(void 0, void 0, void 0, function* () {
     const pageId = pageMeta["id"];
-    (0, logger_1.log)(`[Info] [pageId: ${pageId}] Fetch from Notion API`);
     // const pageMeta = await getArticle(pageId);
     //@ts-ignore
     if (pageMeta["archive"]) {
@@ -31,6 +30,7 @@ options, customProperties) => __awaiter(void 0, void 0, void 0, function* () {
     }
     //@ts-ignore
     const properties = pageMeta["properties"];
+    (0, logger_1.log)(`[Info] [name: ${(0, property_1.pageTitle)(properties)}, pageId: ${pageId}] Fetch from Notion API`);
     (0, logger_1.log)(properties, logger_1.LogTypes.debug);
     const date = pageMeta["last_edited_time"]; //pagePublishedAt(properties);
     const dateWithZone = (0, date_1.isOnlyDate)(date)
@@ -49,7 +49,7 @@ options, customProperties) => __awaiter(void 0, void 0, void 0, function* () {
         date: dateWithZone,
         description: (0, property_1.pageDescription)(properties),
         tags: (0, property_1.pageTags)(properties),
-        categories: (0, property_1.pageCategory)(properties),
+        // categories: pageCategory(properties),
         author: (0, property_1.pageAuthor)(properties, options),
         draft: (0, property_1.pageDraft)(properties),
     };
@@ -68,9 +68,9 @@ options, customProperties) => __awaiter(void 0, void 0, void 0, function* () {
     if ((0, property_1.pageFilepath)(properties)) {
         frontMatter["sys"]["propFilepath"] = (0, property_1.pageFilepath)(properties);
     }
-    if ((0, property_1.pageSection)(properties)) {
-        frontMatter["section"] = (0, property_1.pageSection)(properties);
-    }
+    // if (pageSection(properties)) {
+    //   frontMatter["section"] = pageSection(properties);
+    // }
     if ((0, property_1.pageUpdatedAt)(properties)) {
         const lastmod = (0, property_1.pageUpdatedAt)(properties);
         frontMatter["lastmod"] = (0, date_1.isOnlyDate)(lastmod)
@@ -94,7 +94,7 @@ options, customProperties) => __awaiter(void 0, void 0, void 0, function* () {
         for (const customProperty of customProperties) {
             const cProp = customProperty[0];
             const cType = customProperty[1];
-            frontMatter[cProp] = (0, property_1.customPropery)(properties, cProp, cType);
+            frontMatter[cProp] = (0, property_1.getCustomProperty)(properties, cProp, cType);
         }
     }
     return frontMatter;

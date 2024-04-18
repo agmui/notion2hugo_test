@@ -185,6 +185,7 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
             skipMessages.push(`Skip mesage: pageId: ${pageId}: title: ${frontMatter.title}`);
             return;
         }
+        //TODO: add remove pg feature
         if (lastCheckedCache) {
             yield (0, datastore_1.updatePage)(frontMatter.sys);
             updatedMessages.push(`Updated cache: pageId: ${pageId}: title: ${frontMatter.title}`);
@@ -238,7 +239,7 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
                     in_use: false,
                 };
             }
-            //to determine if the current page is a directory we check if it already has an entry in the table
+            // to determine if the current page is a directory we check if it already has an entry in the table
             // if it does some other page must have pre generated the entry and thus must be a directory
             const directory = id in id2name ? id2name[id]["directory"] : false;
             id2name[id] = {
@@ -267,9 +268,8 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
             const { name, parent_id, directory, in_use } = id2name[pageId];
             const isPublished = pageMeta["properties"]["isPublished"]["checkbox"];
             // skipping pages/directories that are not published or empty
-            if (!((in_use && directory) || (isPublished && !directory))) {
+            if (!((in_use && directory) || (isPublished && !directory)))
                 continue;
-            }
             const filepath_obj = pageMeta["properties"]["filepath"]["rich_text"];
             // if there already is a file path
             if (filepath_obj.length > 0) {
@@ -282,11 +282,6 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
             while (parent_var in id2name) {
                 filepath_str = id2name[parent_var]["name"] + "/" + filepath_str;
                 parent_var = id2name[parent_var]["parent_id"];
-            }
-            // account for case when parent is not published
-            if (parent_id == null) {
-                console.log(parent_id);
-                continue;
             }
             if (directory == false) {
                 filepath_str += name + ".md";

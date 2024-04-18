@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.customPropery = exports.booleanProperty = exports.textProperty = exports.hasPlainText = exports.extractExternalUrl = exports.pageWeight = exports.pageLinkTitle = exports.pageFilepath = exports.pageDescription = exports.pageUrl = exports.pageSlug = exports.pageSection = exports.pageCategory = exports.pageTags = exports.pageUpdatedAt = exports.pagePublishedAt = exports.pageDraft = exports.pageAuthor = exports.pageTitle = void 0;
+exports.getCustomProperty = exports.booleanProperty = exports.textProperty = exports.hasPlainText = exports.extractExternalUrl = exports.pageWeight = exports.pageLinkTitle = exports.pageFilepath = exports.pageDescription = exports.pageUrl = exports.pageSlug = exports.pageSection = exports.pageCategory = exports.pageTags = exports.pageUpdatedAt = exports.pagePublishedAt = exports.pageDraft = exports.pageAuthor = exports.pageTitle = void 0;
 const string_1 = require("../helpers/string");
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const pageTitle = (prop) => {
@@ -33,6 +33,8 @@ const pagePublishedAt = (prop) => {
 };
 exports.pagePublishedAt = pagePublishedAt;
 const pageUpdatedAt = (prop) => {
+    if (prop["UpdatedAt"] === undefined)
+        return null;
     return extractDateTime(prop["UpdatedAt"]);
 };
 exports.pageUpdatedAt = pageUpdatedAt;
@@ -49,6 +51,8 @@ const pageCategory = (prop) => {
 };
 exports.pageCategory = pageCategory;
 const pageSection = (prop) => {
+    if (prop["Section"] === undefined)
+        return null;
     return extractPlainText(prop["Section"]);
 };
 exports.pageSection = pageSection;
@@ -159,7 +163,7 @@ const booleanProperty = (prop) => {
     return false;
 };
 exports.booleanProperty = booleanProperty;
-const customPropery = (prop, propertyKey, propertyType) => {
+const getCustomProperty = (prop, propertyKey, propertyType) => {
     try {
         if (propertyType === "boolean") {
             return (0, exports.booleanProperty)(prop[propertyKey]);
@@ -173,6 +177,6 @@ const customPropery = (prop, propertyKey, propertyType) => {
     }
     return undefined;
 };
-exports.customPropery = customPropery;
+exports.getCustomProperty = getCustomProperty;
 /* eslint-enable @typescript-eslint/no-explicit-any */
 //# sourceMappingURL=property.js.map
