@@ -170,10 +170,10 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
             utcOffset: config.utcOffset ? config.utcOffset : "",
         };
         const frontMatter = yield (0, buildFrontmatter_1.getPageFrontmatter)(pageMeta, options, config.customProperties);
-        if (!checkFrontMatterContainRequiredValues(frontMatter)) {
-            (0, logger_1.log)(frontMatter);
-            throw new Error(`frontMatter does not contain the required values.`);
-        }
+        // if (!checkFrontMatterContainRequiredValues(frontMatter)) {
+        //   log(frontMatter);
+        //   throw new Error(`frontMatter does not contain the required values.`);
+        // }
         const lastCheckedCache = yield (0, datastore_1.findByPageId)(pageId);
         (0, logger_1.log)(`[Info] [pageId: ${pageId}] Check cache: ${lastCheckedCache
             ? "Found: " + lastCheckedCache.createdTime
@@ -195,6 +195,7 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
         }
         const text = pageMeta["properties"]["filepath"]["rich_text"][0]["plain_text"];
         let mdString = "";
+        // directories will not have its body copied over
         if (text.substring(text.length - 10) != "/_index.md")
             mdString = yield fetchBodyFromNotion(config, frontMatter, argv);
         (0, logger_1.log)(`[Info] [pageId: ${pageId}] Writing...`);
@@ -219,6 +220,7 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
     then all pages under will be removed.
     */
     const getSubDir = (results) => {
+        // generate the id2name table/tree for the later steps
         const id2name = {};
         for (const p of results) {
             const parent = p["parent"][Object.keys(p["parent"])[1]]; // this is hack
@@ -228,36 +230,69 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
                 id2name[parent]["directory"] = true;
             }
             else if (p["parent"]["type"] != "database_id") {
-                id2name[parent] = { name: null, parent_id: null, directory: true };
+                // pre generate the parent entry
+                id2name[parent] = {
+                    name: null,
+                    parent_id: null,
+                    directory: true,
+                    in_use: false,
+                };
             }
+            //to determine if the current page is a directory we check if it already has an entry in the table
+            // if it does some other page must have pre generated the entry and thus must be a directory
             const directory = id in id2name ? id2name[id]["directory"] : false;
-            id2name[id] = { name: name, parent_id: parent, directory: directory };
+            id2name[id] = {
+                name: name,
+                parent_id: parent,
+                directory: directory,
+                in_use: false,
+            };
         }
+        // set the in_use flag up the tree
+        for (const p of results) {
+            const id = p["id"];
+            if (id2name[id]["directory"] == false &&
+                p["properties"]["isPublished"]["checkbox"]) {
+                let parent = id2name[id]["parent_id"];
+                while (parent in id2name && !id2name[parent]["in_use"]) {
+                    id2name[parent]["in_use"] = true;
+                    parent = id2name[parent]["parent_id"];
+                }
+            }
+        }
+        // generating file path for each page
         const cleaned_results = [];
         for (const pageMeta of results) {
+            const pageId = pageMeta["id"];
+            const { name, parent_id, directory, in_use } = id2name[pageId];
+            const isPublished = pageMeta["properties"]["isPublished"]["checkbox"];
+            // skipping pages/directories that are not published or empty
+            if (!((in_use && directory) || (isPublished && !directory))) {
+                continue;
+            }
             const filepath_obj = pageMeta["properties"]["filepath"]["rich_text"];
-            // if there already is rich text
+            // if there already is a file path
             if (filepath_obj.length > 0) {
                 (0, logger_1.log)(`[Info] creating file at: ${filepath_obj[0]["plain_text"]}`);
                 cleaned_results.push(pageMeta);
                 continue;
             }
             let filepath_str = "";
-            const pageId = pageMeta["id"];
-            let parent = id2name[pageId]["parent_id"];
-            while (parent in id2name) {
-                filepath_str = id2name[parent]["name"] + "/" + filepath_str;
-                parent = id2name[parent]["parent_id"];
+            let parent_var = parent_id;
+            while (parent_var in id2name) {
+                filepath_str = id2name[parent_var]["name"] + "/" + filepath_str;
+                parent_var = id2name[parent_var]["parent_id"];
             }
             // account for case when parent is not published
-            if (parent == null) {
+            if (parent_id == null) {
+                console.log(parent_id);
                 continue;
             }
-            if (id2name[pageId]["directory"] == false) {
-                filepath_str += id2name[pageId]["name"] + ".md";
+            if (directory == false) {
+                filepath_str += name + ".md";
             }
             else {
-                filepath_str += id2name[pageId]["name"] + "/" + "_index.md"; // _index.md is in its own dir name
+                filepath_str += name + "/_index.md"; // _index.md is in its own dir name
             }
             (0, logger_1.log)(`[Info] creating file at: ${filepath_str}`);
             filepath_obj[0] = {

@@ -35,12 +35,12 @@ const getPublishedArticles = () => __awaiter(void 0, void 0, void 0, function* (
         const { results, next_cursor } = yield client_1.default.databases.query({
             database_id: databaseId,
             start_cursor: cursor,
-            filter: {
-                property: "isPublished",
-                checkbox: {
-                    equals: true,
-                },
-            },
+            // filter: { // commented out because directories may not be published but may need to be used
+            //   property: "isPublished",
+            //   checkbox: {
+            //     equals: true,
+            //   },
+            // },
             sorts: [
                 {
                     property: "Created",

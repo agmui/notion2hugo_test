@@ -32,7 +32,7 @@ options, customProperties) => __awaiter(void 0, void 0, void 0, function* () {
     //@ts-ignore
     const properties = pageMeta["properties"];
     (0, logger_1.log)(properties, logger_1.LogTypes.debug);
-    const date = (0, property_1.pagePublishedAt)(properties);
+    const date = pageMeta["last_edited_time"]; //pagePublishedAt(properties);
     const dateWithZone = (0, date_1.isOnlyDate)(date)
         ? (0, date_1.setTimeMidnight)(date, options.utcOffset)
         : date;
