@@ -82,11 +82,11 @@ cd sample_rm_pico_app
 Have vscode open this repo
 When first opining vscode should ask you to install the plugins
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/89bd30f0-1825-4e77-867b-0a41ce370880/install_plugins.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T220144Z&X-Amz-Expires=3600&X-Amz-Signature=dd94b9fd89704ac8fab43092a8985f0c14e054f13387888c003550e3c360ca24&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/89bd30f0-1825-4e77-867b-0a41ce370880/install_plugins.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T230058Z&X-Amz-Expires=3600&X-Amz-Signature=6e073170b340db5348988640db9e470d08ddc59762a00d5da6edb08c719894c5&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 If not just type `@recommended` here  
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/61e661e9-5d85-4dfc-be0d-8d2097a5e793/recommended.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T220144Z&X-Amz-Expires=3600&X-Amz-Signature=6bf68642835b54995b7dacdd0be342d0935213bea03e87c313c32318ffd99161&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/61e661e9-5d85-4dfc-be0d-8d2097a5e793/recommended.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T230058Z&X-Amz-Expires=3600&X-Amz-Signature=01909b4a0a86105c2c70bb4157bb778b0a937c16cdd62092cb431729c7e947ff&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Uploading
 
@@ -99,9 +99,9 @@ If not just type `@recommended` here
 
 select kit
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/bdef0d54-6332-4187-b52a-eb4e69908fc0/noKitBtn.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T220144Z&X-Amz-Expires=3600&X-Amz-Signature=cc94f61e82f601a3dee329675a1aed36d7493fe44ed1179f78a1d1ae54776b55&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/bdef0d54-6332-4187-b52a-eb4e69908fc0/noKitBtn.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T230058Z&X-Amz-Expires=3600&X-Amz-Signature=2649caff82890f12cefb9480a1a6f44cb9f5b5bd5e104dbf163d52f19ffc52ca&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/15135698-6e60-4452-8ede-576d687a564a/armKit.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T220144Z&X-Amz-Expires=3600&X-Amz-Signature=3c6cd0664c5bcbee2768cccceaf5aef7d4a4c5a419a73e401c2ffed5791f5a0b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/15135698-6e60-4452-8ede-576d687a564a/armKit.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T230058Z&X-Amz-Expires=3600&X-Amz-Signature=d56bae7593f046847610bc82a800e6309f0021e121c8515dd702093eb025d8cf&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### Step2:
 
@@ -111,7 +111,7 @@ press `CTRL + SHIFT + B`
 
 select the usb port the pico is plugged in it should look like this:
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T220144Z&X-Amz-Expires=3600&X-Amz-Signature=4242bd0081f01609c12a80c908e8182df1b0398648ece7202a3701a30723c76a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T230058Z&X-Amz-Expires=3600&X-Amz-Signature=005e927f5a083c811024defcc2e717324b59bc0bbaa91d471041a549d48841b9&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 then hit **Start Monitoring**
 
@@ -159,7 +159,7 @@ unplug the pico
 
 Hold the bootsel button on the pico
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9e1f170b-d0ce-4bcf-978e-bb25bf1d630b/bootsel.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T220145Z&X-Amz-Expires=3600&X-Amz-Signature=e93223944c24c402ecbc483ee4871c279a8579e516c59c48f4e8f25b6cd8b24c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9e1f170b-d0ce-4bcf-978e-bb25bf1d630b/bootsel.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T230059Z&X-Amz-Expires=3600&X-Amz-Signature=9813363618302a523239a69c5f618049bc2c44c209f1a45cece11b63da65888f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 while still holding the button plug the pico back in
 
@@ -169,7 +169,7 @@ TODO: add pic
 
 drag and drop the `pico_app.u2f` file in the build folder
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/18bd49a6-0102-44ae-9f59-0bb08248a312/copy_uf2_over.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T220145Z&X-Amz-Expires=3600&X-Amz-Signature=1cd9962e693528949a10e598ef5f099a969d9e425369b91823e40da8e61fbc77&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/18bd49a6-0102-44ae-9f59-0bb08248a312/copy_uf2_over.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240531%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240531T230059Z&X-Amz-Expires=3600&X-Amz-Signature=1d969875f1473b45dddb4c1f2fbd1d13db98a7511fd050be531658bfe5bd6700&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 {{% /tab %}}
 {{< /tabs >}}
