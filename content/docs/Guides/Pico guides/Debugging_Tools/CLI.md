@@ -3,7 +3,7 @@ sys:
   pageId: "aa66a353-729f-41a9-9923-756fab946e04"
   createdTime: "2024-04-16T17:21:00.000Z"
   lastEditedTime: "2024-04-17T21:08:00.000Z"
-  propFilepath: "docs/Library_Overview/Debugging_Tools/CLI.md"
+  propFilepath: "docs/Guides/Pico guides/Debugging_Tools/CLI.md"
 title: "CLI"
 date: "2024-04-17T21:08:00.000Z"
 description: ""

@@ -3,7 +3,7 @@ sys:
   pageId: "320ca7c5-7fbb-4499-9c9c-34e3413c87f8"
   createdTime: "2024-04-16T17:21:00.000Z"
   lastEditedTime: "2024-04-17T20:43:00.000Z"
-  propFilepath: "docs/Guides/Cli_demos/Adding_custom_cli_cmd.md"
+  propFilepath: "docs/Guides/Pico guides/Cli_demos/Adding_custom_cli_cmd.md"
 title: "Adding_custom_cli_cmd"
 date: "2024-04-17T20:43:00.000Z"
 description: ""
