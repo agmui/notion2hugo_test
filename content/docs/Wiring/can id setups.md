@@ -2,12 +2,13 @@
 sys:
   pageId: "b2343b4a-caa4-419b-981a-8b8faae88548"
   createdTime: "2024-06-02T22:23:00.000Z"
-  lastEditedTime: "2024-06-02T22:39:00.000Z"
+  lastEditedTime: "2024-06-26T20:34:00.000Z"
   propFilepath: "docs/Wiring/can id setups.md"
 title: "can id setups"
-date: "2024-06-02T22:39:00.000Z"
+date: "2024-06-26T20:34:00.000Z"
 description: ""
-tags: []
+tags:
+  - "Design"
 author: "Overridden author"
 draft: false
 toc: false
