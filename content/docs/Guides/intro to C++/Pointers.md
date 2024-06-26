@@ -2,10 +2,10 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-06-26T21:56:00.000Z"
+  lastEditedTime: "2024-06-26T22:22:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-06-26T21:56:00.000Z"
+date: "2024-06-26T22:22:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -104,6 +104,23 @@ Person* person_pointer = &person;
 // like in the first example the 4th person was stored in array[9]
 // so &person would return 9
 ```
+
+Then to access what is in array:
+
+```c++
+Person person = {1,2,3}; 
+
+Person* person_pointer = &person;
+
+int age = *person_pointer; // this is the same as array[9]
+
+//Note: this does not give height but
+// will give you the next person in array (5th person).
+// This is because of pointer math and you will cover this in CSSE132
+*(person_pointer + 1);
+```
+
+we put a `*` in front a pointer type to <u>dereference</u> or basically plug in the index into `array[]`
 
 **HOWEVER****:**
 
