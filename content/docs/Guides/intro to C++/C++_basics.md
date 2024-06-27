@@ -2,10 +2,10 @@
 sys:
   pageId: "2c186972-738f-45b3-8010-c79e039b1b58"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-06-26T20:29:00.000Z"
+  lastEditedTime: "2024-06-27T12:58:00.000Z"
   propFilepath: "docs/Guides/intro to C++/C++_basics.md"
 title: "C++_basics"
-date: "2024-06-26T20:29:00.000Z"
+date: "2024-06-27T12:58:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -48,13 +48,13 @@ std::cout << "hello world" << std::endl;
 
 // or
 
-printf("hello world\\n"); // the \\n means newline
+printf("hello world\n"); // the \\n means newline
 
 printf("%d\\n", 5); // prints: 5
 
 int num = 5;
 int s = "hi";
-printf("%d, %s\\n", num, s); // prints: 5, hi
+printf("%d, %s\n", num, s); // prints: 5, hi
 
 ```
 
@@ -64,17 +64,17 @@ printf("%d, %s\\n", num, s); // prints: 5, hi
 
 int never_gona = 0;
 if(never_gona){
-    printf("give you up\\n");
+    printf("give you up\n");
 }
 
 // else if
 int amount_of_pilk = 10;
 if(amount_of_pilk == 0){
-    printf("sad\\n");
+    printf("sad\n");
 } else if (amount_of_pilk < 10) {
-    printf("it is wut it is\\n");
+    printf("it is wut it is\n");
 } else{
-    printf("LEZZ GOOO\\n");
+    printf("LEZZ GOOO\n");
 }
 
 
@@ -84,7 +84,7 @@ if(amount_of_pilk == 0){
 
 ```c++
 for(int i=0; i<10; i++){
-    printf("%d\\n",i); // %d means digit so we are printing the digit i
+    printf("%d\n",i); // %d means digit so we are printing the digit i
 }
 // outputs:
 // 0
@@ -95,7 +95,7 @@ for(int i=0; i<10; i++){
 
 int j = 0;
 while(j < 3){
-    printf("%d\\n",j);
+    printf("%d\n",j);
     j++;// increments j
 }
 // outputs:
@@ -109,10 +109,10 @@ while(j < 3){
 
 ```c++
 int[] arr = {1, 2, 3};
-printf("%d\\n", arr[0]); // prints 1
+printf("%d\n", arr[0]); // prints 1
 
 arr[0] = 69;
-printf("%d\\n", arr[0]); // prints 69
+printf("%d\n", arr[0]); // prints 69
 
 ```
 
@@ -126,6 +126,6 @@ int addOne(int x){ // just adds one to x
 
 int myNum = 0;
 int output = addOne(myNum);
-printf("%d\\n", output);
+printf("%d\n", output);
 
 ```
