@@ -2,10 +2,10 @@
 sys:
   pageId: "bf3df218-7a8a-40ea-948f-f7cebc4a46da"
   createdTime: "2024-06-25T02:27:00.000Z"
-  lastEditedTime: "2024-06-26T20:34:00.000Z"
+  lastEditedTime: "2024-06-27T01:38:00.000Z"
   propFilepath: "docs/Guides/intro to C++/include/defines.md"
 title: "include/defines"
-date: "2024-06-26T20:34:00.000Z"
+date: "2024-06-27T01:38:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -126,6 +126,8 @@ How do we get around this problem?
 #ifndef FILENAME_H_
 #define FILENAME_H_
 ...
+// your code in here
+...
 #endif //  FILENAME_H_
 ```
 
@@ -168,7 +170,8 @@ If we wrap A.h and B.h with this it will first check if a file has already been 
 #include B.h
 
 int main(){
-	...
+	A a_obj;
+	B b_obj;
 }
 ```
 
