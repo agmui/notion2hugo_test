@@ -2,10 +2,10 @@
 sys:
   pageId: "bf3df218-7a8a-40ea-948f-f7cebc4a46da"
   createdTime: "2024-06-25T02:27:00.000Z"
-  lastEditedTime: "2024-06-27T13:07:00.000Z"
+  lastEditedTime: "2024-06-27T13:43:00.000Z"
   propFilepath: "docs/Guides/intro to C++/include/defines.md"
 title: "include/defines"
-date: "2024-06-27T13:07:00.000Z"
+date: "2024-06-27T13:43:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -21,7 +21,7 @@ like python or Java `import`
 
 > `#include` works as a literal copy and paste
 
-### Ilk.cpp:
+### Ilk.h:
 
 ```c++
 class Ilk{
@@ -33,7 +33,7 @@ class Ilk{
 ### main.cpp
 
 ```c++
-#include "Ilk.cpp" // like Ctrl+C and Ctrl+V
+#include "Ilk.h" // like Ctrl+C and Ctrl+V
 
 int main(){
 
@@ -54,22 +54,29 @@ int main(){
 
 ```
 
+### including headers from other directories
+
+```c++
+#include "headers/myHeader.h"
+#include "../moreHeaders/myOtherHeader.h"
+```
+
 ### ok but what about this
 
-		## A.cpp
+		## A.h
 
-		## B.cpp
+		## B.h
 
 		```c++
-		
 		
 		class A{
 			...
 		}
+		
 		```
 
 		```c++
-		#include A.cpp
+		#include A.h
 		
 		class B{
 			...
@@ -79,8 +86,8 @@ int main(){
 ## main.cpp
 
 ```c++
-#include A.cpp
-#include B.cpp
+#include A.h
+#include B.h
 
 int main(){
 	...
@@ -122,6 +129,8 @@ How do we get around this problem?
 
 # Header guards
 
+for now don’t worry so much about what the code means. Just know wrapping our classes fixes the problem
+
 ```c++
 #ifndef FILENAME_
 #define FILENAME_
@@ -131,7 +140,7 @@ How do we get around this problem?
 #endif //  FILENAME_H_
 ```
 
-If we wrap A.h and B.h with this it will first check if a file has already been included before
+If we wrap A.cpp and B.cpp with this it will first check if a file has already been included before
 
 		## A.cpp
 
@@ -139,35 +148,35 @@ If we wrap A.h and B.h with this it will first check if a file has already been 
 
 		```c++
 		
-		#ifndef A_CPP_
-		#define A_CPP_
+		#ifndef A_H_
+		#define A_H_
 		
 		class A{
 			...
 		}
 		
 		...
-		#endif //  A_CPP_
+		#endif //  A_H_
 		```
 
 		```c++
-		#ifndef B_CPP_
-		#define B_CPP_
+		#ifndef B_H_
+		#define B_H_
 		
-		#include A.cpp
+		#include A.H
 		
 		class B{
 			...
 		}
 		
-		#endif //  B_CPP_
+		#endif //  B_H_
 		```
 
 ## main.cpp
 
 ```c++
-#include A.cpp
-#include B.cpp
+#include A.H
+#include B.H
 
 int main(){
 	A a_obj;
@@ -177,11 +186,11 @@ int main(){
 
 step by step breakdown
 
-	the first line in main.cpp is `#include A.cpp` so we copy class A into main.cpp like before.
+	the first line in main.cpp is `#include A.h` so we copy class A into main.cpp like before.
 
-	But when we get to `#include B.cpp`it copies the content of B.cpp into main.cpp
+	But when we get to `#include B.h`it copies the content of B.h into main.cpp
 
-	Then when we get to the `#include A.cpp` from the copied B.cpp file we try to copy A.cpp again.
+	Then when we get to the `#include A.h` from the copied B.h file we try to copy A.h again.
 
 	But this time we get stopped by the Header guards so we end up with only one class A
 

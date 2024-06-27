@@ -2,10 +2,10 @@
 sys:
   pageId: "097e6377-fc82-4107-944a-004e9e161ded"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-06-26T22:25:00.000Z"
+  lastEditedTime: "2024-06-27T13:13:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pass by ref.md"
 title: "Pass by ref"
-date: "2024-06-26T22:25:00.000Z"
+date: "2024-06-27T13:13:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -41,7 +41,7 @@ void height_times_weight(Person &person){
 }
 
 int main(){
-	Person person = Person(1,2,3);
+	Person person(1,2,3);
 	height_times_weight(person);
 }
 ```
