@@ -2,10 +2,10 @@
 sys:
   pageId: "cbb61f02-1c1c-48b6-9015-9a3b096c1017"
   createdTime: "2024-06-25T02:33:00.000Z"
-  lastEditedTime: "2024-06-27T15:04:00.000Z"
-  propFilepath: "docs/Guides/intro to C++/misc.md"
-title: "misc"
-date: "2024-06-27T15:04:00.000Z"
+  lastEditedTime: "2024-06-27T17:31:00.000Z"
+  propFilepath: "docs/Guides/intro to C++/misc TODO:.md"
+title: "misc TODO:"
+date: "2024-06-27T17:31:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -66,4 +66,25 @@ enum season {
 };
 ```
 
-### compiler flags (ifdef)
+### compiler flags (`#ifdef`)
+
+before compiling we can have some options for what code we want
+
+For example we can have code only for tests, simulations, or hardware
+
+this is done though `#ifdef`
+
+In taproot the options are listed here
+
+| Test     | ENV_UNIT_TESTS, PLATFORM_HOSTED, RUN_WITH_PROFILING |
+| -------- | --------------------------------------------------- |
+| Sim      | PLATFORM_HOSTED, RUN_WITH_PROFILING                 |
+| Hardware | N/A                                                 |
+
+We in <u>Hardware</u> mode so in the `#ifdef` block line 30 will not be included when compiling 
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240627%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240627T180759Z&X-Amz-Expires=3600&X-Amz-Signature=787fdaf13a85c35b815c3084295fa1f8e78ef2cca21421a8d87887ef4cce1ffc&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+Here you see we are in <u>Test</u> mode so ENV_UNIT_TESTS is turned on. So line 30 will be included
+
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240627%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240627T180759Z&X-Amz-Expires=3600&X-Amz-Signature=f1f5397d5f0f30c326ce60706c9909c995bba20ad3840fb11b2152bfbc3b9c5e&X-Amz-SignedHeaders=host&x-id=GetObject)
