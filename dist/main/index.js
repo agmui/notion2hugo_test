@@ -150,7 +150,10 @@ const fetchBodyFromNotion = (config, frontMatter, argv) => __awaiter(void 0, voi
         config.customTransformerCallback(n2m);
     }
     const mdblocks = yield n2m.blocksToMarkdown(blocks);
-    const mdString = n2m.toMarkdownString(mdblocks);
+    const mdString = n2m.toMarkdownString(mdblocks).parent;
+    console.log("--------------------------------");
+    console.log(mdString);
+    console.log("--------------------------------");
     const markdownText = yield (0, markdown_1.convertS3ImageUrl)(mdString);
     if (config.s3ImageUrlWarningEnabled && (0, validation_1.includeAwsImageUrl)(markdownText)) {
         (0, logger_1.log)(markdownText, logger_1.LogTypes.debug);
@@ -194,10 +197,12 @@ const fetchDataFromNotion = (config, argv) => __awaiter(void 0, void 0, void 0, 
             yield (0, datastore_1.createPage)(frontMatter.sys);
             createMessages.push(`Create message: pageId: ${pageId}: title: ${frontMatter.title}`);
         }
-        const text = pageMeta["properties"]["filepath"]["rich_text"][0]["plain_text"];
+        const file_path = pageMeta["properties"]["filepath"]["rich_text"][0]["plain_text"];
         let mdString = "";
         // directories will not have its body copied over
-        if (text.substring(text.length - 10) != "/_index.md")
+        const dir_file_name = "/_index.md";
+        if (file_path.substring(file_path.length - dir_file_name.length) !=
+            dir_file_name)
             mdString = yield fetchBodyFromNotion(config, frontMatter, argv);
         (0, logger_1.log)(`[Info] [pageId: ${pageId}] Writing...`);
         yield writeContentFile(config, frontMatter, mdString);

@@ -68,9 +68,9 @@ options, customProperties) => __awaiter(void 0, void 0, void 0, function* () {
     if ((0, property_1.pageFilepath)(properties)) {
         frontMatter["sys"]["propFilepath"] = (0, property_1.pageFilepath)(properties);
     }
-    // if (pageSection(properties)) {
-    //   frontMatter["section"] = pageSection(properties);
-    // }
+    if ((0, property_1.pageSection)(properties)) {
+        frontMatter["section"] = (0, property_1.pageSection)(properties);
+    }
     if ((0, property_1.pageUpdatedAt)(properties)) {
         const lastmod = (0, property_1.pageUpdatedAt)(properties);
         frontMatter["lastmod"] = (0, date_1.isOnlyDate)(lastmod)

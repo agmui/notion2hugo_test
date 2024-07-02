@@ -43,7 +43,7 @@ class NotionToMarkdownCustom extends notion_to_md_1.NotionToMarkdown {
      * @param {number} nestingLevel - Defines max depth of nesting
      * @returns {string} - Returns markdown string
      */
-    toMarkdownString(mdBlocks = [], nestingLevel = 0) {
+    toMarkdownString(mdBlocks = [], pageIdentifier = "parent", nestingLevel = 0) {
         let mdString = "";
         // Insert a blank line when List starts
         let listStyleContinuationStatus = false;
@@ -55,7 +55,16 @@ class NotionToMarkdownCustom extends notion_to_md_1.NotionToMarkdown {
                     mdBlocks.type !== "numbered_list_item") {
                     listStyleContinuationStatus = false;
                     // add extra line breaks non list blocks
-                    mdString += `\n${md.addTabSpace(mdBlocks.parent, nestingLevel)}\n`;
+                    if (mdBlocks.type === "table") {
+                        // wrap table with shortcode
+                        mdString +=
+                            '\n{{< table "table-striped table-hover table-responsive" >}}\n';
+                        mdString += `\n${md.addTabSpace(mdBlocks.parent, nestingLevel)}\n`;
+                        mdString += "\n{{< /table >}}\n";
+                    }
+                    else {
+                        mdString += `\n${md.addTabSpace(mdBlocks.parent, nestingLevel)}\n`;
+                    }
                 }
                 else {
                     const preLineBreak = listStyleContinuationStatus === false && nestingLevel === 0
@@ -67,10 +76,14 @@ class NotionToMarkdownCustom extends notion_to_md_1.NotionToMarkdown {
             }
             // process child blocks
             if (mdBlocks.children && mdBlocks.children.length > 0) {
-                mdString += this.toMarkdownString(mdBlocks.children, nestingLevel + 1);
+                console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+                mdString += this.toMarkdownString(mdBlocks.children, pageIdentifier, nestingLevel + 1).parent;
+                console.log("child blocks:", mdString, "lv:", nestingLevel);
             }
         });
-        return mdString;
+        console.log("==============================");
+        console.log("ret:", mdString, "lv:", nestingLevel);
+        return { parent: mdString };
     }
 }
 exports.NotionToMarkdownCustom = NotionToMarkdownCustom;
