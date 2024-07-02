@@ -85,6 +85,7 @@ jobs:
           rm -rf .notion-hugo-cache/
           pwd
           ls
+          echo hi
           ls content
 
 
