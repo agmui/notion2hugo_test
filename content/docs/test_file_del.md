@@ -35,23 +35,5 @@ icon: ""
       asdf2
   </details>
 
-	asdf2
-
 </div>
 </div>
-
-{{< table "table-striped table-hover table-responsive" >}}
-
-		| 1 | 2 |
-		| - | - |
-		| 3 | 4 |
-		| 5 | 6 |
-
-{{< /table >}}
-
-		<details>
-		      <summary>asdfasdfasdf</summary>
-		      asdf2
-		  </details>
-
-			asdf2
