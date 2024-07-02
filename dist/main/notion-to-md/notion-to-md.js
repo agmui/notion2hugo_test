@@ -76,13 +76,9 @@ class NotionToMarkdownCustom extends notion_to_md_1.NotionToMarkdown {
             }
             // process child blocks
             if (mdBlocks.children && mdBlocks.children.length > 0) {
-                console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
                 mdString += this.toMarkdownString(mdBlocks.children, pageIdentifier, nestingLevel + 1).parent;
-                console.log("child blocks:", mdString, "lv:", nestingLevel);
             }
         });
-        console.log("==============================");
-        console.log("ret:", mdString, "lv:", nestingLevel);
         return { parent: mdString };
     }
 }
