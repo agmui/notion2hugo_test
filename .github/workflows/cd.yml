@@ -82,6 +82,9 @@ jobs:
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
           rm -rf .notion-hugo-cache/
+          pwd
+          ls
+
 
       - name: Commit updated content
         uses: stefanzweifel/git-auto-commit-action@v4
