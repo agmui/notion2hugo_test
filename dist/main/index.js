@@ -152,6 +152,7 @@ const fetchBodyFromNotion = (config, frontMatter, argv) => __awaiter(void 0, voi
     const mdblocks = yield n2m.blocksToMarkdown(blocks);
     const mdString = n2m.toMarkdownString(mdblocks).parent;
     const markdownText = yield (0, markdown_1.convertS3ImageUrl)(mdString);
+    console.log(markdownText);
     if (config.s3ImageUrlWarningEnabled && (0, validation_1.includeAwsImageUrl)(markdownText)) {
         (0, logger_1.log)(markdownText, logger_1.LogTypes.debug);
         throw (0, logger_1.error)(`The AWS image url was found in the article. Access time to this URL is limited.
