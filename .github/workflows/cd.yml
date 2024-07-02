@@ -75,7 +75,6 @@ jobs:
          NOTION_BLOG_DATABASE_ID: 4c567433bd4c449fb1a2311ba2e9205b
         run: |
           npm install
-          mkdir content
           rm -rf content/*
           npm start
           hugo \
@@ -83,10 +82,6 @@ jobs:
               --minify \
               --baseURL "${{ steps.pages.outputs.base_url }}/"
           rm -rf .notion-hugo-cache/
-          pwd
-          ls
-          echo hi
-          ls content
 
 
       - name: Commit updated content
