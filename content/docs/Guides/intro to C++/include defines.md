@@ -2,10 +2,10 @@
 sys:
   pageId: "bf3df218-7a8a-40ea-948f-f7cebc4a46da"
   createdTime: "2024-06-25T02:27:00.000Z"
-  lastEditedTime: "2024-06-27T13:43:00.000Z"
-  propFilepath: "docs/Guides/intro to C++/include/defines.md"
-title: "include/defines"
-date: "2024-06-27T13:43:00.000Z"
+  lastEditedTime: "2024-07-02T15:55:00.000Z"
+  propFilepath: "docs/Guides/intro to C++/include defines.md"
+title: "include defines"
+date: "2024-07-02T15:55:00.000Z"
 description: ""
 tags:
   - "Onboarding"

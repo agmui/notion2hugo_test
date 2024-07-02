@@ -2,10 +2,10 @@
 sys:
   pageId: "24f83f25-d723-4902-946e-03b6186da61e"
   createdTime: "2024-06-25T02:30:00.000Z"
-  lastEditedTime: "2024-06-27T14:55:00.000Z"
+  lastEditedTime: "2024-07-02T15:54:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Structs.md"
 title: "Structs"
-date: "2024-06-27T14:55:00.000Z"
+date: "2024-07-02T15:54:00.000Z"
 description: ""
 tags:
   - "Onboarding"

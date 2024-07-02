@@ -2,10 +2,10 @@
 sys:
   pageId: "2c186972-738f-45b3-8010-c79e039b1b58"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-06-27T12:58:00.000Z"
+  lastEditedTime: "2024-07-02T15:54:00.000Z"
   propFilepath: "docs/Guides/intro to C++/C++_basics.md"
 title: "C++_basics"
-date: "2024-06-27T12:58:00.000Z"
+date: "2024-07-02T15:54:00.000Z"
 description: ""
 tags:
   - "Onboarding"

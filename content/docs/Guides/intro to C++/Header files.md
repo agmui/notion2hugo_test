@@ -2,10 +2,10 @@
 sys:
   pageId: "790d67e8-cdf4-4955-a0c2-ca740556451a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-06-27T13:56:00.000Z"
+  lastEditedTime: "2024-07-02T15:54:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Header files.md"
 title: "Header files"
-date: "2024-06-27T13:56:00.000Z"
+date: "2024-07-02T15:54:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -151,6 +151,6 @@ int main() {
 
 ```
 
-![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240627%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240627T170206Z&X-Amz-Expires=3600&X-Amz-Signature=b3d4fe98c9c1682c53fb85c85e28dbea2ec0b6d48daf84ee523ea321de8cf4ff&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240702%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240702T155724Z&X-Amz-Expires=3600&X-Amz-Signature=953dc8af23c920fb137c471a5599c79e1f3acf560595367ce63d488f2dae9a1e&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### Note: `.h` == `.hpp` (these are the same)
