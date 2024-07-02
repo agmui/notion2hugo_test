@@ -52,7 +52,7 @@ const customTransformerCallback = (n2m) => {
 module.exports = {
   directory: "content", //"../../notion2hugo_test/content",
   //"content_notion",
-  concurrency: 1, // TODO: try grearter than 1
+  concurrency: 5, // TODO: try grearter than 1
 
   // saveAwsImageDirectory: null,
   saveAwsImageDirectory: "tmp/downloads",
