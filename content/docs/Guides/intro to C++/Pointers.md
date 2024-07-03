@@ -2,10 +2,10 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-03T15:45:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-03T15:45:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -152,4 +152,4 @@ it makes sense of what is stored in array.
 
 ### TODO: Arrays(and getting array length)
 
-# TODO: make activity or something
+# TODO: make activity or something and use EDGE
