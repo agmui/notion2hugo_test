@@ -2,10 +2,10 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-03T15:45:00.000Z"
+  lastEditedTime: "2024-07-03T22:18:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-07-03T15:45:00.000Z"
+date: "2024-07-03T22:18:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -149,6 +149,10 @@ the computer will think the 1 is a char which s BADDDD
 essentially the type gives the pointer “context”
 
 it makes sense of what is stored in array.
+
+Like how units next to a number give it context types next to some binary give it context
+
+You can interpret 5 meters as 5 deg C which might not make sense just like how you can interpret an int 5 as a char 5 which.
 
 ### TODO: Arrays(and getting array length)
 
