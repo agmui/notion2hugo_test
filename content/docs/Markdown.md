@@ -111,7 +111,7 @@ $\KaTeX$
 
 ### Internal
 
-![photo-1470225620780-dba8ba36b745.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6942fdc2-293f-402d-b35d-ff8c4c74bc98/photo-1470225620780-dba8ba36b745.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240706T190114Z&X-Amz-Expires=3600&X-Amz-Signature=b4b40f9b99baf7bf1dcb37b61ee4bd3b70dafc003f3548fb187569836faa0c02&X-Amz-SignedHeaders=host&x-id=GetObject)
+![photo-1470225620780-dba8ba36b745.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6942fdc2-293f-402d-b35d-ff8c4c74bc98/photo-1470225620780-dba8ba36b745.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240706T200147Z&X-Amz-Expires=3600&X-Amz-Signature=e94478f6c2b402189d1f6764b97eef1a08f463412476d8a2493bff8d98217048&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### External
 
@@ -153,11 +153,11 @@ int main() {
 
 ## PDF
 
-[trees-that-grow.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4a0c96da-8fad-4cea-9991-f3da89f3e2c8/trees-that-grow.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240706T190114Z&X-Amz-Expires=3600&X-Amz-Signature=f42e8f7e3e5e547242b76a3c9cfbd67e81643a04f7204be0568567142e6929cf&X-Amz-SignedHeaders=host&x-id=GetObject)
+[trees-that-grow.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4a0c96da-8fad-4cea-9991-f3da89f3e2c8/trees-that-grow.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240706T200147Z&X-Amz-Expires=3600&X-Amz-Signature=d2ced501e30fe1f48eb242667ee6d1497748eb964b77948079ac99d0414e3aaa&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## File
 
-[Living-Guide.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ce9c6086-f3d8-448a-b754-9bf37f0a8bd5/Living-Guide.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240706T190114Z&X-Amz-Expires=3600&X-Amz-Signature=48eedbc12ba80901ec03e2068ea4ae094889f9def758644eeaa03902f3aace0e&X-Amz-SignedHeaders=host&x-id=GetObject)
+[Living-Guide.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ce9c6086-f3d8-448a-b754-9bf37f0a8bd5/Living-Guide.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240706%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240706T200147Z&X-Amz-Expires=3600&X-Amz-Signature=19d7416059423fefbb6d003e62b77f9580a349d52077a7b2d4f9541bc27525dd&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ---
 
