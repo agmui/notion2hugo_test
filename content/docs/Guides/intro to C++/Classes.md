@@ -2,10 +2,10 @@
 sys:
   pageId: "2329c1cd-96c8-4fd3-a4f3-9920d69d1c8a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-08T18:58:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Classes.md"
 title: "Classes"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-08T18:58:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -176,3 +176,5 @@ int main()
 }
 
 ```
+
+## TODO: explain → arrow syntax
