@@ -2,10 +2,10 @@
 sys:
   pageId: "cbb61f02-1c1c-48b6-9015-9a3b096c1017"
   createdTime: "2024-06-25T02:33:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-08T19:27:00.000Z"
   propFilepath: "docs/Guides/intro to C++/misc TODO:.md"
 title: "misc TODO:"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-08T19:27:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -82,8 +82,9 @@ In taproot the options are listed here
 
 {{< table "table-striped table-hover table-responsive" >}}
 
-| Test     | ENV_UNIT_TESTS, PLATFORM_HOSTED, RUN_WITH_PROFILING |
+| Name     | variables                                           |
 | -------- | --------------------------------------------------- |
+| Test     | ENV_UNIT_TESTS, PLATFORM_HOSTED, RUN_WITH_PROFILING |
 | Sim      | PLATFORM_HOSTED, RUN_WITH_PROFILING                 |
 | Hardware | N/A                                                 |
 
@@ -91,8 +92,8 @@ In taproot the options are listed here
 
 We in <u>Hardware</u> mode so in the `#ifdef` block line 30 will not be included when compiling 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240708%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240708T190059Z&X-Amz-Expires=3600&X-Amz-Signature=58131f30c72e60365852a8319f0d5caeb559ce49f2d3725a477643fec866350e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240708%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240708T200757Z&X-Amz-Expires=3600&X-Amz-Signature=c64ef1d4df56b4789ca28c4eeb1c549ea5daa75124403b4635b9d5a67db0706e&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Here you see we are in <u>Test</u> mode so ENV_UNIT_TESTS is turned on. So line 30 will be included
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240708%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240708T190059Z&X-Amz-Expires=3600&X-Amz-Signature=b9b4dcc356f15279139ea3319d1f0a1a96090339a80f123f9e904d3c5e59127b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240708%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240708T200757Z&X-Amz-Expires=3600&X-Amz-Signature=ef99060dc92f8d1b16adb214c8e42aac0f19c1d59044b1c12cea78a5d34e1271&X-Amz-SignedHeaders=host&x-id=GetObject)

@@ -2,10 +2,10 @@
 sys:
   pageId: "24f83f25-d723-4902-946e-03b6186da61e"
   createdTime: "2024-06-25T02:30:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-08T19:50:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Structs.md"
 title: "Structs"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-08T19:50:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -36,7 +36,7 @@ struct person {
 
 int main(){
     char name[5] = "asdf";
-		struct person p = {name,0,0}; // initialize a struct
+		struct person p = {name,1,2}; // initialize a struct
     printf("%s\n", p.name);
 }
 ```
@@ -57,6 +57,7 @@ p.height = 2;
 ```cpp
 int main(){
     char name[5] = "asdf";
+    
 		struct person p = {name,0,0};
 		struct person* p_ptr = &p;
 		printf("%s\n", p_ptr->p);
@@ -67,3 +68,5 @@ int main(){
       <summary>Note:</summary>
       We use the `->` arrow syntax like in classes when struct is a pointer because all a class is is just a struct with some methods bundled in. This is the reason why places like java and python use `this` and `self`. They can be thought of as structs.
   </details>
+
+## TODO: Explain how classes == structs 

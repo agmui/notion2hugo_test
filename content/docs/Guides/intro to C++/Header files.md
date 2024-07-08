@@ -2,10 +2,10 @@
 sys:
   pageId: "790d67e8-cdf4-4955-a0c2-ca740556451a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-08T19:15:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Header files.md"
 title: "Header files"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-08T19:15:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -54,13 +54,11 @@ int main(){
 
 ## Classes in header files example:
 
+## TODO explain y classes have a :: in .cpp file
+
 Ilk.h:
 
 ```cpp
-#include <iostream>
-#include <string>
-
-using namespace std;
 
 class Ilk
 {
@@ -80,11 +78,8 @@ public:
 Ilk.cpp:
 
 ```cpp
-#include <iostream>
-#include <string>
 #include "Ilk.h"
 
-using namespace std;
 
 int Ilk::private_func() {
     return 69;
@@ -96,8 +91,8 @@ Ilk::Ilk(int milk) {
 Ilk::~Ilk() {}
 
 void Ilk::drink(int galOfPilk) {
-    printf("drinking %dL of PILK\\n", galOfPilk);
-    printf("%d\\n", this->private_func());
+    printf("drinking %dL of PILK\n", galOfPilk);
+    printf("%d\n", this->private_func());
 }
 int Ilk::getMilk() {
     return this->milk;
@@ -108,20 +103,17 @@ int Ilk::getMilk() {
 main.cpp:
 
 ```cpp
-#include <iostream>
-#include <string>
 #include "Ilk.h"
 
-using namespace std;
 
 int main() {
     Ilk *i = new Ilk(420);
-    printf("%d\\n",i->getMilk());
+    printf("%d\n",i->getMilk());
 }
 
 
 ```
 
-![ezgif.com-video-to-gif-converter2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240708%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240708T190057Z&X-Amz-Expires=3600&X-Amz-Signature=4057af61642b78c73024795454106fd1b30761fe0d0dc7f12393e806e4a530b1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![ezgif.com-video-to-gif-converter2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240708%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240708T200755Z&X-Amz-Expires=3600&X-Amz-Signature=13ee10f64eef7754abb7f41a49b2329db2c6acd1f906c3fa4df741c99916e2c4&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### Note: `.h` == `.hpp` (these are the same)
