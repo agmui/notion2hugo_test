@@ -2,15 +2,16 @@
 sys:
   pageId: "790d67e8-cdf4-4955-a0c2-ca740556451a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-07-08T19:15:00.000Z"
+  lastEditedTime: "2024-07-08T23:43:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Header files.md"
 title: "Header files"
-date: "2024-07-08T19:15:00.000Z"
+date: "2024-07-08T23:43:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 117
 toc: false
 icon: ""
 ---
@@ -114,6 +115,6 @@ int main() {
 
 ```
 
-![ezgif.com-video-to-gif-converter2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240708%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240708T230228Z&X-Amz-Expires=3600&X-Amz-Signature=b4612a989036e6462325d3be284cf744461c8b5a7a8f568242235f1dd69c99a8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![ezgif.com-video-to-gif-converter2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240709%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240709T002943Z&X-Amz-Expires=3600&X-Amz-Signature=4db715c28c162546724406204c341a41d98bee512ac81fb73dbea59f0d16ecf1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### Note: `.h` == `.hpp` (these are the same)

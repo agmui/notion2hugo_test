@@ -2,15 +2,16 @@
 sys:
   pageId: "097e6377-fc82-4107-944a-004e9e161ded"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-08T18:59:00.000Z"
+  lastEditedTime: "2024-07-08T23:43:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pass by ref.md"
 title: "Pass by ref"
-date: "2024-07-08T18:59:00.000Z"
+date: "2024-07-08T23:43:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 114
 toc: false
 icon: ""
 ---

@@ -2,15 +2,16 @@
 sys:
   pageId: "bf3df218-7a8a-40ea-948f-f7cebc4a46da"
   createdTime: "2024-06-25T02:27:00.000Z"
-  lastEditedTime: "2024-07-08T19:04:00.000Z"
+  lastEditedTime: "2024-07-08T23:43:00.000Z"
   propFilepath: "docs/Guides/intro to C++/include defines.md"
 title: "include defines"
-date: "2024-07-08T19:04:00.000Z"
+date: "2024-07-08T23:43:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 116
 toc: false
 icon: ""
 ---
@@ -24,7 +25,7 @@ like python or Java `import`
 ### Ilk.h:
 
 ```cpp
-class Ilk{
+class Milk{
     ...
 }
 
@@ -33,7 +34,7 @@ class Ilk{
 ### main.cpp
 
 ```cpp
-#include "Ilk.h" // like Ctrl+C and Ctrl+V
+#include "Milk.h" // like Ctrl+C and Ctrl+V
 
 int main(){
 
@@ -44,7 +45,7 @@ int main(){
 ## Result:
 
 ```cpp
-class Ilk{
+class Milk{
     ...
 }
 

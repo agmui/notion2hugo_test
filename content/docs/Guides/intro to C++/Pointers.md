@@ -2,15 +2,16 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-03T22:18:00.000Z"
+  lastEditedTime: "2024-07-08T23:42:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-07-03T22:18:00.000Z"
+date: "2024-07-08T23:42:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 112
 toc: false
 icon: ""
 ---
@@ -154,6 +155,10 @@ Like how units next to a number give it context types next to some binary give i
 
 You can interpret 5 meters as 5 deg C which might not make sense just like how you can interpret an int 5 as a char 5 which.
 
-### TODO: Arrays(and getting array length)
+## Practice:
 
-# TODO: make activity or something and use EDGE
+- do example of max of 2 `int*`: `max(int* a, int* b)`
+- basic function that mutates a variable
+- warmup.c (from os)
+- arraylist.c (from os)
+- getting length of a c array
