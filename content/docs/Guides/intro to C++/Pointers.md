@@ -2,10 +2,10 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-09T15:40:00.000Z"
+  lastEditedTime: "2024-07-10T00:10:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-07-09T15:40:00.000Z"
+date: "2024-07-10T00:10:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -16,7 +16,7 @@ toc: false
 icon: ""
 ---
 
-> NOTE: You will cover this in CSSE132 so this will just be a light overview
+> NOTE: You will cover this in CSSE132 or CSSE332 so this will just be a light overview
 
 > SECOND NOTE: a lot of the code here is written in pseudo code so it wont run
 
@@ -28,6 +28,8 @@ Now say I want to store a _“person object”_  where we store age, height, and
 
 Lets just simply put the three numbers right next to each other:
 `array = [``age,height,weight``,``age,height,weight``,``age,height,weight``,``age,height,weight``……]`
+
+TODO: add picture 
 
 If I were to get the 4th person in the list we would:
 
