@@ -6,8 +6,8 @@ hero:
   weight: 10
   template: hero
 
-  title: "Robomasters pico Docs" # 1
-  subtitle: A port of a Robomasters libraries (Taproot) onto the pi pico # 2
+  title: "Thronbots Docs" # 1
+  subtitle: Rose-hulman Robomasters Documentation page # 2
   info: "**Open Source** MIT Licensed." # 3
 
   backgroundImage: # 4
@@ -30,7 +30,7 @@ hero:
   cta2Button:
     icon: construction
     btnText: "Git repo"
-    url: "https://github.com/agmui/sample_rm_pico_app"
+    url: "https://github.com/orgs/Thornbots/repositories"
 
   badge: # 7
     text: v0.1.0
@@ -51,50 +51,67 @@ featureGrid:
   weight: 20
   template: feature grid
 
-  title: Why choose Lotus Docs?
+  title: Guides
   subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
 
   items:
-    - title: Fast
+    - title: Controls
+      icon: memory
+      description: Simple Taproot tutorial and basic C++ guide
+      ctaLink: # 6
+        text: learn more
+        url: docs/guides/
+
+    - title: ROS
+      icon: precision_manufacturing
+      description: Setup guide for how to set up ROS2 on the sentry
+      ctaLink: # 6
+        text: learn more
+        url: docs/guides/intro_to_ROS
+
+    - title: CV
+      icon: photo_camera
+      description: get started with environment setup for RHIT Vision team
+      ctaLink: # 6
+        text: learn more
+        url: docs/guides/intro_to_CV
+
+# Image Text
+imageText:
+  enable: true
+  weight: 30
+  template: image text
+
+  title: Customise The Lotus Docs Appearance # 1
+  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters. #2
+
+  list:
+    - text: Blazing fast page loads
       icon: speed
-      description: 4 x 100's score on Google Lighthouse by default. Lotus Docs removes unused CSS, prefetches asset links, and lazy loads content images.
 
-    - title: SEO Friendly
-      icon: trending_up
-      description: Data is automatically structured to be SEO friendly. Includes Meta tags, Opengraph, and Twitter cards. Choose the settings that best suit you.
+    - text: Sensible default SEO friendly settings
+      icon: area_chart
 
-    - title: Secure by default
-      icon: lock
-      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
+    - text: Designed to be accessible
+      icon: accessibility
+    
+  ctaButton:
+    text: Learn more
+    url: "/docs/"
 
-    - title: Optional Features
-      icon: settings
-      description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
+  image:
+      path: "images/templates/single"
+      filename: "google_lighthouse_circle_v1.0.svg"
+      alt: "Google LightHouse 100% Illustration" # Optional but recommended
 
-    - title: Deploy to Vercel
-      icon: change_history
-      description: Deploy to Vercel in seconds. Vercel Functions, Vercel Redirects/Rewrites, and Vercel Headers are all configurable for an enriched experience.
-
-    - title: Dark Mode
-      icon: dark_mode
-      description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
-
-    - title: Search by DocSearch
-      icon: search
-      description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
-
-    - title: Multilingual Support
-      icon: translate
-      description: Lotus Docs supports Hugo's Multilingual Mode. Create documentation in multiple languages side by side with i18n support.
-
-    - title: Bootstrap v5
-      icon: palette
-      description: Built on Bootstrap 5, Lotus Docs allows for a familiar, flexible, and intuitive developer experience. Easily customise your site via SCSS variables and files.
+  imgOrder:
+      desktop: 2
+      mobile: 1
 
 # Image compare
 imageCompare:
   enable: true
-  weight: 30
+  weight: 40
   template: image compare
 
   title: Customise The Lotus Docs Appearance

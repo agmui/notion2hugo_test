@@ -27,7 +27,7 @@ title = 'RHIT Robomasters Documention site'
         darkMode        = true                                # enable dark mode option? default false
         prism           = true                                # enable syntax highlighting via Prism
         # prismTheme = "lucario" # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
-        repoURL         = "https://github.com/agmui/rhit_docs.github.io" 
+        repoURL         = "https://github.com/orgs/Thornbots/repositories" 
 
         sidebarIcons    = true
         titleIcon       = false
