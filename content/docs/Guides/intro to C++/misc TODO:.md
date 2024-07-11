@@ -2,20 +2,21 @@
 sys:
   pageId: "cbb61f02-1c1c-48b6-9015-9a3b096c1017"
   createdTime: "2024-06-25T02:33:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-10T00:13:00.000Z"
   propFilepath: "docs/Guides/intro to C++/misc TODO:.md"
 title: "misc TODO:"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-10T00:13:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 120
 toc: false
 icon: ""
 ---
 
-### static_casts/ reinterpret_cast
+### static_casts/ reinterpret_cast TODO:
 
  
 
@@ -38,8 +39,9 @@ int main(){
 
 {{< table "table-striped table-hover table-responsive" >}}
 
-| integral       | u or U                                 | unsigned int                              |
+| Data type      | Suffix                                 | Meaning                                   |
 | -------------- | -------------------------------------- | ----------------------------------------- |
+| integral       | u or U                                 | unsigned int                              |
 | integral       | l or L                                 | long                                      |
 | integral       | ul, uL, Ul, UL, lu, lU, Lu, LU         | unsigned long                             |
 | integral       | ll or LL                               | long long                                 |
@@ -82,8 +84,9 @@ In taproot the options are listed here
 
 {{< table "table-striped table-hover table-responsive" >}}
 
-| Test     | ENV_UNIT_TESTS, PLATFORM_HOSTED, RUN_WITH_PROFILING |
+| Name     | variables                                           |
 | -------- | --------------------------------------------------- |
+| Test     | ENV_UNIT_TESTS, PLATFORM_HOSTED, RUN_WITH_PROFILING |
 | Sim      | PLATFORM_HOSTED, RUN_WITH_PROFILING                 |
 | Hardware | N/A                                                 |
 
@@ -91,8 +94,25 @@ In taproot the options are listed here
 
 We in <u>Hardware</u> mode so in the `#ifdef` block line 30 will not be included when compiling 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240702%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240702T192454Z&X-Amz-Expires=3600&X-Amz-Signature=31a92775c036d4c313231be0ab8dbb34bb41833c2785ef0d9f979425e61493ff&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240711%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240711T200054Z&X-Amz-Expires=3600&X-Amz-Signature=910a3b3778991d08596f2ddb4b0cfc50615e85935cba52fe530c603c5ce3f948&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Here you see we are in <u>Test</u> mode so ENV_UNIT_TESTS is turned on. So line 30 will be included
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240702%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240702T192454Z&X-Amz-Expires=3600&X-Amz-Signature=74c8629a0d73c30ff488145298d5eb338afcaa290eb7514e390947b4a7f370e6&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240711%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240711T200054Z&X-Amz-Expires=3600&X-Amz-Signature=2c1cd2b0b98f07a7d022758f0d62a38219e6bbaaf7eb286ed93a402868b851fc&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+## c++ practice
+
+Using everything you learned try do these:
+
+- simple link list class (try adding these features one by one)
+	- class field should have: size, capacity, list
+	- make const: `DEF_ARRAY_LIST_CAP 4`
+	- should use a template and namespace
+	- methods:
+		- constructor/deconstructor
+		- `get(int index)`
+		- `edit(int index, T val)`
+		- `double_size()`
+		- `append(T val)`
+		- `print()`
+	- If you want more you can write sample classes for stacks, queues, trees, etc.

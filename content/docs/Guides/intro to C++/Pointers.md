@@ -2,20 +2,21 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-10T00:10:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-10T00:10:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 112
 toc: false
 icon: ""
 ---
 
-> NOTE: You will cover this in CSSE132 so this will just be a light overview
+> NOTE: You will cover this in CSSE132 or CSSE332 so this will just be a light overview
 
 > SECOND NOTE: a lot of the code here is written in pseudo code so it wont run
 
@@ -27,6 +28,8 @@ Now say I want to store a _“person object”_  where we store age, height, and
 
 Lets just simply put the three numbers right next to each other:
 `array = [``age,height,weight``,``age,height,weight``,``age,height,weight``,``age,height,weight``……]`
+
+TODO: add picture 
 
 If I were to get the 4th person in the list we would:
 
@@ -150,6 +153,14 @@ essentially the type gives the pointer “context”
 
 it makes sense of what is stored in array.
 
-### TODO: Arrays(and getting array length)
+Like how units next to a number give it context types next to some binary give it context
 
-# TODO: make activity or something
+You can interpret 5 meters as 5 deg C which might not make sense just like how you can interpret an int 5 as a char 5 which.
+
+## Practice:
+
+- do example of max of 2 `int*`: `max(int* a, int* b)`
+- basic function that mutates a variable
+- warmup.c (from os)
+- arraylist.c (from os)
+- getting length of a c array

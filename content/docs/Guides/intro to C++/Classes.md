@@ -2,15 +2,16 @@
 sys:
   pageId: "2329c1cd-96c8-4fd3-a4f3-9920d69d1c8a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-08T23:43:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Classes.md"
 title: "Classes"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-08T23:43:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 113
 toc: false
 icon: ""
 ---
@@ -74,17 +75,17 @@ int main(){
 ## Adding methods
 
 ```cpp
-class Ilk {
+class Milk {
 private:
     int milk;
     int private_func() {
         return 69;
     }
 public:
-    Ilk(int milk): milk(milk) {
+    Milk(int milk): milk(milk) {
 
     }
-    ~Ilk() {} // deconstructor
+    ~Milk() {} // deconstructor
     void drink(int galOfPilk) {
         printf("drinking %dL of PILK\n", galOfPilk);
         printf("%d\n", this->private_func());
@@ -98,15 +99,15 @@ int main(){
 	Ilk i;
 	i.drink(1);
 	
-	Ilk* i = new Ilk();
+	Ilk* i = new Milk();
 	i->drink(1); // arrow syntax when i is a pointer
-	i->~Ilk();
+	i->~Milk();
 }
 ```
 
 <details>
       <summary>What is </summary>
-       `~Ilk()`is a [de-constructor](https://www.geeksforgeeks.org/destructors-c/#) (its basically like `free()` in c). Unlike Java or python, C++ is not garbage collected so when we make an object we have to also manually delete it. The computer does not magically make it go away when you are done with it.
+       `~Milk()`is a [de-constructor](https://www.geeksforgeeks.org/destructors-c/#) (its basically like `free()` in c). Unlike Java or python, C++ is not garbage collected so when we make an object we have to also manually delete it. The computer does not magically make it go away when you are done with it.
   </details>
 
 ## [Inheritance](https://www.geeksforgeeks.org/inheritance-in-c/)
@@ -129,7 +130,7 @@ All together
 
 using namespace std;
 
-class Ilk
+class Milk
 {
 private:
     int milk;
@@ -137,9 +138,9 @@ private:
         return 69;
     }
 public:
-    Ilk(int milk): milk(milk) {
+    Milk(int milk): milk(milk) {
     }
-    ~Ilk() {}
+    ~Milk() {}
     void drink(int galOfPilk) {
         printf("drinking %dL of PILK\n", galOfPilk);
         printf("%d\n", this->private_func());
@@ -148,7 +149,7 @@ public:
         return this->milk;
     }
 };
-class Pilk : public Ilk // inheritance
+class Pilk : public Milk // inheritance
 {
 private:
     string cola;
@@ -176,3 +177,5 @@ int main()
 }
 
 ```
+
+## TODO: explain → arrow syntax

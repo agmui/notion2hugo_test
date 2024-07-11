@@ -2,15 +2,16 @@
 sys:
   pageId: "097e6377-fc82-4107-944a-004e9e161ded"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-02T19:23:00.000Z"
+  lastEditedTime: "2024-07-08T23:43:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pass by ref.md"
 title: "Pass by ref"
-date: "2024-07-02T19:23:00.000Z"
+date: "2024-07-08T23:43:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 114
 toc: false
 icon: ""
 ---
@@ -27,7 +28,7 @@ void height_times_weight(Person* person_ptr){
 
 
 int main(){
-	Person person = Person(1,2,3);
+	Person person(1,2,3);
 	height_times_weight(&person);
 }
 ```
@@ -45,6 +46,8 @@ int main(){
 	height_times_weight(person);
 }
 ```
+
+**The two examples do exactly the same thing**
 
 Think of the `Person &person` in `height_times_weigh()` as automatically putting a `&` whenever we call it like how it is above.
 
