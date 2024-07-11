@@ -18,10 +18,23 @@ title = 'RHIT Robomasters Documention site'
     url = "/docs/"
     identifier = "docs"
     weight = 10
+[[menu.primary]]
+    name  = "Guides"
+    url = "/docs/guides"
+    identifier = "guides"
+    weight = 20
+
+
+[[menu.primary]]
+    name  = "Discord"
+    url = "https://discord.gg/fTEvv2aS"
+    identifier = "discord"
+    weight = 30
 
 [params]
     [params.social]
-        github          = "agmui/sample_rm_pico_app"
+        github          = "orgs/Thornbots/repositories"
+        # instagram = "colinwilson"      # instagram.com/YOUR_INSTAGRAM_ID
     [params.docs]
         themeColor      = "cardinal"
         darkMode        = true                                # enable dark mode option? default false
