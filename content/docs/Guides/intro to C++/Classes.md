@@ -2,10 +2,10 @@
 sys:
   pageId: "2329c1cd-96c8-4fd3-a4f3-9920d69d1c8a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-07-08T23:43:00.000Z"
+  lastEditedTime: "2024-07-12T01:12:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Classes.md"
 title: "Classes"
-date: "2024-07-08T23:43:00.000Z"
+date: "2024-07-12T01:12:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -15,39 +15,6 @@ weight: 113
 toc: false
 icon: ""
 ---
-
-For constructors there are 2 ways of doing it
-
-```cpp
-class Person{
-	private:
-		int age;
-		int height;
-		int weight;'
-	public:
-		Person(int age, int height, int weight){
-			this->age = age;
-			this-> height = height;
-			this->weight = weight;
-		}
-};
-```
-
-```cpp
-class Person{
-	private:
-		int age;
-		int height;
-		int weight;
-	public:
-		Person(int age, int height, int weight):age(age),height(height),weight(weight)
-		{
-			...
-		}
-};
-```
-
-We generally use the second form because it is shorter
 
 ### Creating objects
 
@@ -71,6 +38,47 @@ int main(){
 ```
 
 > Note: you will learn what stack and heap are in CSSE132 but for now we generally use stack allocated in Robomasters
+
+## Constructors
+
+For constructors there are 2 ways of doing it
+
+```cpp
+class Person{
+	private:
+		int age;
+		int height;
+		int weight;
+		MyClass myClass;
+	public:
+		Person(int age, int height, int weight){
+			this->age = age;
+			this-> height = height;
+			this->weight = weight;
+			this->myClass(69);
+		}
+};
+```
+
+ _constructor initializer list:_
+
+```cpp
+class Person{
+	private:
+		int age;
+		int height;
+		int weight;
+	public:
+		Person(int age, int height, int weight):age(age),height(height),weight(weight), myClass(69)
+		{
+			...
+		}
+};
+```
+
+We generally use the second form because
+
+## NOTE: YOU CANT CALL CONSTRUCTORS WHEN DECLARED!!!
 
 ## Adding methods
 
