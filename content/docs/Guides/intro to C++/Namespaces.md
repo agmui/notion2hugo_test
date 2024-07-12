@@ -2,10 +2,10 @@
 sys:
   pageId: "2801882c-8e23-4625-934c-582fcd6070ec"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-07-10T00:11:00.000Z"
+  lastEditedTime: "2024-07-12T15:57:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Namespaces.md"
 title: "Namespaces"
-date: "2024-07-10T00:11:00.000Z"
+date: "2024-07-12T15:57:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -16,9 +16,9 @@ toc: false
 icon: ""
 ---
 
-Say you and your partner are working on a project and you each have your own folder of classes. Then when you try to put all your code together for a test you find that some of your class names are the same.
+Say you and your partner are working on a project and you each have your folder of classes. Then when you try to put all your code together for a test you find that some of your class names are the same.
 
-This often happens when working with big project/libraries 
+This often happens when working with big projects/libraries 
 
 ### Solution:
 
@@ -46,7 +46,7 @@ namespace AnthonyCode{
 </div>
 <div>
 
-some one else's code
+someone else's code
 
 ```cpp
 namespace BingusCode{
@@ -66,7 +66,7 @@ int main(){
 }
 ```
 
-### Think of namespaces as if you have manually added to the front of you class name
+### Think of namespaces as if you have manually added to the front of your class name
 
 <div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
 <div>
@@ -83,7 +83,7 @@ class AnthonyCode_Pilk{
 </div>
 <div>
 
-some one else's code
+someone else's code
 
 ```cpp
 class BingusCode_Pilk{
@@ -120,7 +120,7 @@ namespace AnthonyCode{
 ```cpp
 namespace AnthonyCode{
 	int main(){
-		Pilk p(); // Note you dont need the AnthonyCode:: anymore
+		Pilk p(); // Note you don't need the AnthonyCode:: anymore
 	}
 }
 ```
@@ -131,7 +131,7 @@ namespace AnthonyCode{
 using namespace AnthonyCode;
 
 int main(){
-	Pilk p(); // Note you dont need the AnthonyCode:: anymore
+	Pilk p(); // Note you don't need the AnthonyCode:: anymore
 }
 
 ```

@@ -2,10 +2,10 @@
 sys:
   pageId: "2329c1cd-96c8-4fd3-a4f3-9920d69d1c8a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-07-12T01:12:00.000Z"
+  lastEditedTime: "2024-07-12T15:56:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Classes.md"
 title: "Classes"
-date: "2024-07-12T01:12:00.000Z"
+date: "2024-07-12T15:56:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -16,71 +16,7 @@ toc: false
 icon: ""
 ---
 
-### Creating objects
-
-```cpp
-int main(){
-	Person* p = new Person(1,2,3); // heap allocated
-	Person p2(1,2,3);      // stack allocated
-}
-```
-
-```cpp
-class A{
-public:
-	A(){
-		...
-	}
-};
-int main(){
-	A a; // Note: if your constructor does not take any arguments
-}
-```
-
-> Note: you will learn what stack and heap are in CSSE132 but for now we generally use stack allocated in Robomasters
-
-## Constructors
-
-For constructors there are 2 ways of doing it
-
-```cpp
-class Person{
-	private:
-		int age;
-		int height;
-		int weight;
-		MyClass myClass;
-	public:
-		Person(int age, int height, int weight){
-			this->age = age;
-			this-> height = height;
-			this->weight = weight;
-			this->myClass(69);
-		}
-};
-```
-
- _constructor initializer list:_
-
-```cpp
-class Person{
-	private:
-		int age;
-		int height;
-		int weight;
-	public:
-		Person(int age, int height, int weight):age(age),height(height),weight(weight), myClass(69)
-		{
-			...
-		}
-};
-```
-
-We generally use the second form because
-
-## NOTE: YOU CANT CALL CONSTRUCTORS WHEN DECLARED!!!
-
-## Adding methods
+## basic class template
 
 ```cpp
 class Milk {
@@ -129,6 +65,70 @@ class B: public A{
 	...
 };
 ```
+
+### Creating objects
+
+```cpp
+int main(){
+	Person* p = new Person(1,2,3); // heap allocated
+	Person p2(1,2,3);      // stack allocated
+}
+```
+
+```cpp
+class A{
+public:
+	A(){
+		...
+	}
+};
+int main(){
+	A a; // Note: if your constructor does not take any arguments
+}
+```
+
+> Note: you will learn what stack and heap are in CSSE132 but for now we generally use stack allocated in Robomasters
+
+## Constructors
+
+For constructors, there are 2 ways of doing it
+
+```cpp
+class Person{
+	private:
+		int age;
+		int height;
+		int weight;
+		MyClass myClass;
+	public:
+		Person(int age, int height, int weight){
+			this->age = age;
+			this-> height = height;
+			this->weight = weight;
+			this->myClass(69);
+		}
+};
+```
+
+ _constructor initializer list:_
+
+```cpp
+class Person{
+	private:
+		int age;
+		int height;
+		int weight;
+	public:
+		Person(int age, int height, int weight):age(age),height(height),weight(weight), myClass(69)
+		{
+			...
+		}
+};
+```
+
+We generally use the second form because
+
+## NOTE: YOU CANT CALL CONSTRUCTORS WHEN DECLARED!!!
 
 All together
 
