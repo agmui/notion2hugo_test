@@ -94,11 +94,11 @@ In Taproot the options are listed here
 
 We in <u>Hardware</u> mode so in the `#ifdef` block line 30 will not be included when compiling 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240728T080751Z&X-Amz-Expires=3600&X-Amz-Signature=29b3989325142f20ed28fe502b893097bf277dcf71674f3b16f19350147345e8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240728T090327Z&X-Amz-Expires=3600&X-Amz-Signature=e1f101cff3a73324c166564976b6c152fdd65c24d306da524235440ee9013407&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Here you see we are in <u>Test</u> mode so ENV_UNIT_TESTS is turned on. So line 30 will be included
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240728T080751Z&X-Amz-Expires=3600&X-Amz-Signature=501d58abfe6a6f3ad5023102f823585cb1a1f6d0b4967d196b4aaee21ccf4baf&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240728%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240728T090326Z&X-Amz-Expires=3600&X-Amz-Signature=ddd9390ba13ba059a985b91e850b95eefd3c2db3fc5bc56b4ce072f628face60&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## c++ practice
 
