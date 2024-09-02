@@ -2,16 +2,16 @@
 sys:
   pageId: "11fdd27f-2ae6-4e1f-90d7-c92585bed951"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-02T10:37:00.000Z"
+  lastEditedTime: "2024-09-02T11:57:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Servos.md"
 title: "Servos"
-date: "2024-09-02T10:37:00.000Z"
+date: "2024-09-02T11:57:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
-weight: 115
+weight: 129
 toc: false
 icon: ""
 ---

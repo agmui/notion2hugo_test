@@ -2,14 +2,15 @@
 sys:
   pageId: "17ed3673-5e94-44cf-b817-f54bbaa03c06"
   createdTime: "2024-09-01T00:08:00.000Z"
-  lastEditedTime: "2024-09-02T10:39:00.000Z"
+  lastEditedTime: "2024-09-02T11:54:00.000Z"
   propFilepath: "docs/Guides/intro_to_CV/CV_Setup.md"
 title: "CV_Setup"
-date: "2024-09-02T10:39:00.000Z"
+date: "2024-09-02T11:54:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
 draft: false
+weight: 160
 toc: false
 icon: ""
 ---
@@ -25,7 +26,7 @@ icon: ""
 - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 - Python Extension
 
-	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d82b6650-a5e4-4d3c-b8c9-93d817dae00e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T113642Z&X-Amz-Expires=3600&X-Amz-Signature=d367630bca6dfdd382ceace3edd36cdb91814076b7ef0bbca5dd0a76106224d5&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d82b6650-a5e4-4d3c-b8c9-93d817dae00e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T120003Z&X-Amz-Expires=3600&X-Amz-Signature=038a5cd842eaef53f82cdde2b24db11ae62f969449f2e6edf50ebebbc3351863&X-Amz-SignedHeaders=host&x-id=GetObject)
 - Get people
 - 
 
@@ -68,6 +69,6 @@ code .
 
 # Congrats! You did it!
 
-![e1bfe78d4c6455985cebb9d6a247088b.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/7d1ce04e-65d6-40c8-814d-754280e9515a/e1bfe78d4c6455985cebb9d6a247088b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T113641Z&X-Amz-Expires=3600&X-Amz-Signature=0f36a55b28e290058bc5d91b38dc0c4ec1a7556f535f827d26fb5cc3bc4779a3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![e1bfe78d4c6455985cebb9d6a247088b.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/7d1ce04e-65d6-40c8-814d-754280e9515a/e1bfe78d4c6455985cebb9d6a247088b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T120001Z&X-Amz-Expires=3600&X-Amz-Signature=1d7e80da10252f14e5720fca339b7ff33c12db125928f1242b90502c41212531&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 enjoy some pilk!!

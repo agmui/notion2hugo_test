@@ -2,10 +2,10 @@
 sys:
   pageId: "ac09983c-631e-4449-8aea-3a08ad94f09c"
   createdTime: "2024-07-10T00:15:00.000Z"
-  lastEditedTime: "2024-09-02T10:38:00.000Z"
+  lastEditedTime: "2024-09-02T11:52:00.000Z"
   propFilepath: "docs/Guides/How to J-Link.md"
 title: "How to J-Link"
-date: "2024-09-02T10:38:00.000Z"
+date: "2024-09-02T11:52:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"

@@ -2,15 +2,16 @@
 sys:
   pageId: "dc03b680-5e9e-4779-a140-dd2523ca6202"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-02T10:36:00.000Z"
+  lastEditedTime: "2024-09-02T11:56:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Blink_Led.md"
 title: "Blink_Led"
-date: "2024-09-02T10:36:00.000Z"
+date: "2024-09-02T11:56:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
+weight: 122
 toc: false
 icon: ""
 ---
@@ -20,12 +21,12 @@ icon: ""
 <div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
 <div>
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/72690bef-2855-4fb7-bc56-e952c6e1f269/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T113629Z&X-Amz-Expires=3600&X-Amz-Signature=cee5300755ca333e3654e9e112d34e94ab4979ef14e3a34d65734fe1e48a3d08&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/72690bef-2855-4fb7-bc56-e952c6e1f269/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T115942Z&X-Amz-Expires=3600&X-Amz-Signature=f9030141cb18414e1b64a80f231279d1b1dfa8f283ab39c2350858a90127a84f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 <div>
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/87421930-1007-4f71-86ec-25221b515fdd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T113629Z&X-Amz-Expires=3600&X-Amz-Signature=9c0055f288cb30d72e6fa76a2ebce52d222ded7f920b31566c857a873bd970f2&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/87421930-1007-4f71-86ec-25221b515fdd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T115943Z&X-Amz-Expires=3600&X-Amz-Signature=a79c05cfea7ec521951b64bdeb3c8d80dc3060f62007f6c173e26f7f2d53110c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 </div>

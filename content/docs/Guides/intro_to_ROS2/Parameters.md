@@ -2,14 +2,15 @@
 sys:
   pageId: "43f56b25-3325-48d7-83c7-092220799f37"
   createdTime: "2024-08-21T00:39:00.000Z"
-  lastEditedTime: "2024-09-02T10:38:00.000Z"
+  lastEditedTime: "2024-09-02T11:54:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/Parameters.md"
 title: "Parameters"
-date: "2024-09-02T10:38:00.000Z"
+date: "2024-09-02T11:54:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
 draft: false
+weight: 143
 toc: false
 icon: ""
 ---
@@ -103,6 +104,6 @@ rclpy.shutdown()
 
 To run:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/151b96b5-c251-459e-ab62-15a7f923023a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T113641Z&X-Amz-Expires=3600&X-Amz-Signature=c9c074e66d33f812e3d46b386e079bfcc4fee9554e7a4b16cc208b399b75a2d8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/151b96b5-c251-459e-ab62-15a7f923023a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240902T115953Z&X-Amz-Expires=3600&X-Amz-Signature=7fa02e276ebb5fbdfe92ebb4a27b5748444359d55666c9be11cc145b999d2668&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `ros2 param set <node_name> <parameter_name> <value>`
