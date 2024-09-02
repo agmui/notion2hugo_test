@@ -2,10 +2,10 @@
 sys:
   pageId: "2329c1cd-96c8-4fd3-a4f3-9920d69d1c8a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-07-12T15:56:00.000Z"
+  lastEditedTime: "2024-08-22T21:06:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Classes.md"
 title: "Classes"
-date: "2024-07-12T15:56:00.000Z"
+date: "2024-08-22T21:06:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -31,7 +31,7 @@ public:
     }
     ~Milk() {} // deconstructor
     void drink(int galOfPilk) {
-        printf("drinking %dL of PILK\n", galOfPilk);
+        printf("drinking %dL of Milk\n", galOfPilk);
         printf("%d\n", this->private_func());
     }
     int getMilk() {
@@ -187,3 +187,7 @@ int main()
 ```
 
 ## TODO: explain → arrow syntax
+
+do small activities:
+
+- motor wrapper

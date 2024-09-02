@@ -2,10 +2,10 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-12T15:55:00.000Z"
+  lastEditedTime: "2024-08-22T20:52:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-07-12T15:55:00.000Z"
+date: "2024-08-22T20:52:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -103,6 +103,7 @@ Person person = {1,2,3};
 // array = [..., 1,2,3, ...]
 
 Person* person_pointer = &person;
+// its like the indexOf function
 // &person will simply return the index in array where person is stored
 // like in the first example the 4th person was stored in array[9]
 // so &person would return 9
@@ -155,7 +156,9 @@ it makes sense of what is stored in array.
 
 Like how units next to a number give it context types next to some binary give it context
 
-You can interpret 5 meters as 5 degrees C which might not make sense just like how you can interpret an int 5 as a char 5.
+You can interpret 5 meters as 5 degrees C which might not make sense just like how you can interpret the int 65 as a character which would translate to the character `A`. ([Using an ASCII translation table](http://www.unit-conversion.info/texttools/ascii/)) ([Another table](https://www.asciitable.com/))
+
+	This is an artifact of how the data is stored in binary inside of memory. Computers do not know what an “A” or a “5” is, they only know what 1’s and 0’s are. So there are ways of storing different types of variables.  A five can be represented in binary as “0101”, but the character “A” is could be encoded as “01000001”
 
 ## Practice:
 
