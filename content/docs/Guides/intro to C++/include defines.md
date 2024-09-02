@@ -2,10 +2,10 @@
 sys:
   pageId: "bf3df218-7a8a-40ea-948f-f7cebc4a46da"
   createdTime: "2024-06-25T02:27:00.000Z"
-  lastEditedTime: "2024-07-08T23:43:00.000Z"
+  lastEditedTime: "2024-07-12T15:58:00.000Z"
   propFilepath: "docs/Guides/intro to C++/include defines.md"
 title: "include defines"
-date: "2024-07-08T23:43:00.000Z"
+date: "2024-07-12T15:58:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -145,7 +145,7 @@ How do we get around this problem?
 
 # Header guards
 
-for now don’t worry so much about what the code means. Just know wrapping our classes fixes the problem
+for now, don’t worry so much about what the code means. Just know wrapping our classes fixes the problem
 
 ```cpp
 #ifndef FILENAME_
@@ -219,7 +219,7 @@ int main(){
 ```
 
 <details>
-      <summary>step by step breakdown</summary>
+      <summary>Step-by-step breakdown</summary>
       the first line in main.cpp is `#include A.h` so we copy class A into main.cpp like before.
   </details>
 

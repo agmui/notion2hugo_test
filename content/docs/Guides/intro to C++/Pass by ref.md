@@ -2,10 +2,10 @@
 sys:
   pageId: "097e6377-fc82-4107-944a-004e9e161ded"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-08T23:43:00.000Z"
+  lastEditedTime: "2024-07-12T15:57:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pass by ref.md"
 title: "Pass by ref"
-date: "2024-07-08T23:43:00.000Z"
+date: "2024-07-12T15:57:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -16,7 +16,7 @@ toc: false
 icon: ""
 ---
 
-Say we had a Person object that has age, height, weight and pass it into `height_times_weight`:
+Say we had a Person object that has age, height, and weight and passes it into `height_times_weight`:
 
 ```cpp
 
@@ -33,7 +33,7 @@ int main(){
 }
 ```
 
-However In C++ we could also do this:
+However, In C++ we could also do this:
 
 ```cpp
 void height_times_weight(Person &person){
@@ -51,4 +51,4 @@ int main(){
 
 Think of the `Person &person` in `height_times_weigh()` as automatically putting a `&` whenever we call it like how it is above.
 
-This saves us from writing the `&` but also saves us from dereference it while in `height_times_weight`.
+This saves us from writing the `&` but also saves us from dereferencing it while in `height_times_weight`.

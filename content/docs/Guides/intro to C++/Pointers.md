@@ -2,10 +2,10 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-10T00:10:00.000Z"
+  lastEditedTime: "2024-07-12T15:55:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-07-10T00:10:00.000Z"
+date: "2024-07-12T15:55:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -41,7 +41,7 @@ weight = array[9+2]
 
 effectively the 4th person’s object lives at index 9
 
-Now for example if we have a function that multiplies a persons height and weight (bmi)
+Now for example if we have a function that multiplies a person's height and weight (BMI)
 
 ```cpp
 void height_times_weight(person){
@@ -54,9 +54,9 @@ to pass this _“person object”_ we could do one of two things
 - copy the 3 values (age, height, weight) into the function
 - just pass in the index, 9, the person is stored at
 
-For option 1 this might work sometimes but what if the person object had 100 things, or 1000, or even more!
+For Option 1 this might work sometimes but what if the person object had 100 things, or 1000, or even more!
 
-That would make our program very slow so it might be much easier to pass in a single value 9.
+That would make our program very slow, so passing in a single value 9 might be much easier.
 
 ```cpp
 array = [0,0,0,0……]
@@ -103,7 +103,7 @@ Person person = {1,2,3};
 // array = [..., 1,2,3, ...]
 
 Person* person_pointer = &person;
-// &person will simply returns the index in array where person is stored
+// &person will simply return the index in array where person is stored
 // like in the first example the 4th person was stored in array[9]
 // so &person would return 9
 ```
@@ -147,7 +147,7 @@ array = [... 1,2,3...]
 						 //hmmm... this "1" here must be a char
 ```
 
-the computer will think the 1 is a char which s BADDDD
+the computer will think the 1 is a char which is BADDDD
 
 essentially the type gives the pointer “context”
 
@@ -155,7 +155,7 @@ it makes sense of what is stored in array.
 
 Like how units next to a number give it context types next to some binary give it context
 
-You can interpret 5 meters as 5 deg C which might not make sense just like how you can interpret an int 5 as a char 5 which.
+You can interpret 5 meters as 5 degrees C which might not make sense just like how you can interpret an int 5 as a char 5.
 
 ## Practice:
 
