@@ -2,16 +2,16 @@
 sys:
   pageId: "b2ee05fb-e371-436a-9c42-fdfc687f0bf6"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-02T11:56:00.000Z"
+  lastEditedTime: "2024-09-02T12:56:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Hello_World.md"
 title: "Hello_World"
-date: "2024-09-02T11:56:00.000Z"
+date: "2024-09-02T12:56:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
-weight: 123
+weight: 124
 toc: false
 icon: ""
 ---

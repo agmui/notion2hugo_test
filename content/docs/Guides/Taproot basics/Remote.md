@@ -2,10 +2,10 @@
 sys:
   pageId: "1015b398-079b-4cdb-9788-d374ab94b798"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-02T11:57:00.000Z"
+  lastEditedTime: "2024-09-02T12:57:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Remote.md"
 title: "Remote"
-date: "2024-09-02T11:57:00.000Z"
+date: "2024-09-02T12:57:00.000Z"
 description: ""
 tags:
   - "Onboarding"

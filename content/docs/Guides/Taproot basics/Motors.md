@@ -2,16 +2,16 @@
 sys:
   pageId: "ae1a55fd-da77-4bb3-a3b8-4bd2b21b5269"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-02T11:57:00.000Z"
+  lastEditedTime: "2024-09-02T12:57:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Motors.md"
 title: "Motors"
-date: "2024-09-02T11:57:00.000Z"
+date: "2024-09-02T12:57:00.000Z"
 description: ""
 tags:
   - "Onboarding"
 author: "Overridden author"
 draft: false
-weight: 126
+weight: 127
 toc: false
 icon: ""
 ---
