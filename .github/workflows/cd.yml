@@ -62,7 +62,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: 'v0.120.4-f11bca5fec2ebb3a02727fb2a5cfb08da96fd9df+extended' # 'latest'
           extended: true
 
       - name: Setup Pages
