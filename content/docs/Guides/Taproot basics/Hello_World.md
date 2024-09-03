@@ -2,10 +2,10 @@
 sys:
   pageId: "b2ee05fb-e371-436a-9c42-fdfc687f0bf6"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-02T12:56:00.000Z"
+  lastEditedTime: "2024-09-03T17:01:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Hello_World.md"
 title: "Hello_World"
-date: "2024-09-02T12:56:00.000Z"
+date: "2024-09-03T17:01:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -16,12 +16,13 @@ toc: false
 icon: ""
 ---
 
+> Make sure you have the the tty to usb adapter connected to uart2 on the `type-c`
+
 imports all the libraries that will be used
 
 ```cpp
 #include <iostream>// allows printing
 #include <stdio.h>// allows da gud stuff ;)
-#include "pico/stdlib.h" // the pico-sdk lib
 
 ```
 
