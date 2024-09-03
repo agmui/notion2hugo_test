@@ -2,10 +2,10 @@
 sys:
   pageId: "b2ee05fb-e371-436a-9c42-fdfc687f0bf6"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-03T17:01:00.000Z"
+  lastEditedTime: "2024-09-03T17:59:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Hello_World.md"
 title: "Hello_World"
-date: "2024-09-03T17:01:00.000Z"
+date: "2024-09-03T17:59:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -16,95 +16,80 @@ toc: false
 icon: ""
 ---
 
-> Make sure you have the the tty to usb adapter connected to uart2 on the `type-c`
+> Make sure you have the the TTL to usb adapter connected to uart2 on the `type-c` 
+
+	[link_to_page](3b7f0872-f00d-41cf-857e-646938c49bd0)
 
 imports all the libraries that will be used
 
 ```cpp
-#include <iostream>// allows printing
-#include <stdio.h>// allows da gud stuff ;)
-
+#include "tap/board/board.hpp"
+#include "drivers_singleton.hpp"
+#include "tap/communication/serial/uart_terminal_device.hpp"// allows for printf
 ```
 
-Sets up the pico to be able to print
+use namespace `tap::communication::serial` for ease of use
 
 ```cpp
-stdio_init_all();
-
+using namespace tap::communication::serial;
 ```
 
-2 ways of Printing Hello world
+get drivers and initialize the type-c
 
 ```cpp
-std::cout << "hello world" << std::endl; // c++ style print
-printf("hello world\\n");//c style print
+    src::Drivers *drivers = src::DoNotUse_getDrivers();  // gets the driver object
+    Board::initialize();     // initialize the whole board
+```
 
+initialize the `UartTerimalDevice` object and `IOStream` object.
+
+These two objects are what allow us to print through `Uart2` on the type-c
+
+```cpp
+    UartTerminalDevice ter(drivers);
+    ter.initialize();
+    modm::IOStream s(ter);
+```
+
+print “Hello world” and sleep for 500ms
+
+```cpp
+s.printf("Hello world\n"); // print hello world
+modm::delay_ms(500);       // sleep for 500 ms
 ```
 
 ### Code:
 
 ```cpp
-#include <cmath>
-#include "stdio.h"
-// #include "/home/agmui/cs/Robomasters/MCBV2/MCB-project/taproot/modm/ext/printf/printf.h"
-#include "tap/communication/serial/uart_terminal_device.hpp"
-
-#include "drivers_singleton.hpp"
 #include "tap/board/board.hpp"
-#include "tap/communication/serial/uart.hpp"
-#include "tap/communication/gpio/leds.hpp"
+#include "drivers_singleton.hpp"
+#include "tap/communication/serial/uart_terminal_device.hpp"
 
 using namespace tap::communication::serial;
 
-static tap::arch::PeriodicMicroTimer RunTimer(
-1000000);  // Don't ask me why. This only works as a global. #Certified Taproot Moment
+int main(){
+    src::Drivers *drivers = src::DoNotUse_getDrivers();// gets the driver object
+    Board::initialize();     // intalize the whole board
 
-static constexpr enum tap::communication::serial::Uart::UartPort print_port = tap::communication::serial::Uart::UartPort::Uart1;
+    UartTerminalDevice ter(drivers);
+    ter.initialize();
+    modm::IOStream s(ter);
 
-int main()
-{
-src::Drivers* drivers = src::DoNotUse_getDrivers();
-
-Board::initialize();
-
-UartTerminalDevice ter(drivers);
-modm::IOStream s(ter);
-
-drivers->uart.init<print_port, 115200>();
-drivers->leds.init();
-
-while (1)
-{
-drivers->leds.set(tap::gpio::Leds::Blue, false);
-
-if (RunTimer.execute())
-{  // Calling this function every 10 us at max
-drivers->leds.set(tap::gpio::Leds::Green, true);
-
-// char buf[] = "hi\n";
-// char buf[256];
-float x = 1.0;
-// snprintf(buf, 13,"x: %f\n", x);
-// drivers->uart.write(print_port, reinterpret_cast<uint8_t*>(buf), strlen(buf));
-
-// ter.write("hi\n");
-s.printf("hi2 %f\n", x);
-
-
-
-
+    while(true){
+        s.printf("Hello world\n");
+        modm::delay_ms(500);
+    }
 }
-}
-return 0;
-}
-
 ```
 
-{{< alert context="info" text="to upload to the pico press `ctrl+shift+B`" />}}
+{{< alert context="info" text="to upload to the type-c press `ctrl+shift+B`" />}}
 
-TODO: talk about Wokwi
+click on `serial monitor` on the bottom bar
 
-## Common issues:
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/a42f36e7-f896-41d1-bc6a-3236301092f6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240903%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240903T180850Z&X-Amz-Expires=3600&X-Amz-Signature=23be8cc90e779b635fbbb311d2b8491014c4ffd6eb7be14fc739a98c13bea77a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-- 
-- 
+select the usb port the type-c is plugged in it should look like this:
+
+![serial_monitor.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240903%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240903T180850Z&X-Amz-Expires=3600&X-Amz-Signature=4a878d03199eead92c7b1328b9ed53c1c71977b4dd389aed71e08d7daed04b7d&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+then hit **Start Monitoring**

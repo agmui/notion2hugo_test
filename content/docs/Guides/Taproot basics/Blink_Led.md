@@ -2,10 +2,10 @@
 sys:
   pageId: "dc03b680-5e9e-4779-a140-dd2523ca6202"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-03T17:00:00.000Z"
+  lastEditedTime: "2024-09-03T17:09:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Blink_Led.md"
 title: "Blink_Led"
-date: "2024-09-03T17:00:00.000Z"
+date: "2024-09-03T17:09:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -21,12 +21,12 @@ icon: ""
 <div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
 <div>
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/72690bef-2855-4fb7-bc56-e952c6e1f269/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240903%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240903T170205Z&X-Amz-Expires=3600&X-Amz-Signature=243bd81fdbeba4f968b6fdde30fadc0019132f0a0dbe9ae77cba5647077a46c3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/72690bef-2855-4fb7-bc56-e952c6e1f269/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240903%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240903T180852Z&X-Amz-Expires=3600&X-Amz-Signature=ec4e4f5ad86afc3322886878e362b2040b44c2df9026754a99c903a8ccf4b670&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 <div>
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/87421930-1007-4f71-86ec-25221b515fdd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240903%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240903T170205Z&X-Amz-Expires=3600&X-Amz-Signature=540204c8381f207ba6362a2375d4c85a0d3f7b1e3f936917d9a610a431fa89b4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/87421930-1007-4f71-86ec-25221b515fdd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240903%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240903T180855Z&X-Amz-Expires=3600&X-Amz-Signature=93b411f8363f34c0b6d217d3375c4983751b955bbd15de9d2b804ab1d0576349&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 </div>
@@ -34,8 +34,8 @@ icon: ""
 imports all the libraries that will be used
 
 ```cpp
-#include "tap/board/board.hpp"
-#include "drivers_singleton.hpp"
+#include "tap/board/board.hpp"     // import board specific settings
+#include "drivers_singleton.hpp"   // import taproot
 ```
 
 get the drivers object
@@ -88,3 +88,5 @@ int main(){
     }
 }
 ```
+
+{{< alert context="info" text="to upload to the type-c press `ctrl+shift+B`" />}}

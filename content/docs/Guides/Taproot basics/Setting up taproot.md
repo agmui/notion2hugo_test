@@ -2,10 +2,10 @@
 sys:
   pageId: "3b7f0872-f00d-41cf-857e-646938c49bd0"
   createdTime: "2024-07-09T00:05:00.000Z"
-  lastEditedTime: "2024-09-02T12:56:00.000Z"
+  lastEditedTime: "2024-09-03T17:03:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Setting up taproot.md"
 title: "Setting up taproot"
-date: "2024-09-02T12:56:00.000Z"
+date: "2024-09-03T17:03:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -35,6 +35,8 @@ Wiring ST-link
       <summary>what is flashing?</summary>
       TODO:
   </details>
+
+## Setting up Printing(Serial)
 
 ## Debugging with st-link: 
 
