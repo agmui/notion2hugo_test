@@ -2,10 +2,10 @@
 sys:
   pageId: "ae1a55fd-da77-4bb3-a3b8-4bd2b21b5269"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-02T12:57:00.000Z"
+  lastEditedTime: "2024-09-03T23:01:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Motors.md"
 title: "Motors"
-date: "2024-09-02T12:57:00.000Z"
+date: "2024-09-03T23:01:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -16,11 +16,32 @@ toc: false
 icon: ""
 ---
 
-needed for [PID](https://www.youtube.com/watch?v=wkfEZmsQqiA)
+imports taproot [PID](https://www.youtube.com/watch?v=wkfEZmsQqiA) libraries
 
 ```cpp
-#include "rm_pico_dev/src/algorithms/smooth_pid.hpp"
+#include "tap/algorithms/smooth_pid.hpp"
+#include "tap/board/board.hpp"
+#include "drivers_singleton.hpp"
+```
 
+define constants for the motor to use
+
+```cpp
+static constexpr tap::motor::MotorId MOTOR_ID = tap::motor::MOTOR1;
+static constexpr tap::can::CanBus CAN_BUS = tap::can::CanBus::CAN_BUS1;
+static constexpr int DESIRED_RPM = 3000;
+```
+
+create a timer object and pid controller object
+
+```cpp
+// timer object
+tap::arch::PeriodicMilliTimer sendMotorTimeout(2);
+
+// PID algorithm
+// PID explained: <https://www.youtube.com/watch?v=wkfEZmsQqiA>
+static tap::algorithms::SmoothPidConfig pid_config_dt = {20, 0, 0, 0, 8000, 1, 0, 1, 0};
+tap::algorithms::SmoothPid pidController(pid_config_dt);
 ```
 
 Get drivers object (controls basically everything)
