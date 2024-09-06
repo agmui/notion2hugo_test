@@ -2,10 +2,10 @@
 sys:
   pageId: "ae1a55fd-da77-4bb3-a3b8-4bd2b21b5269"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-09-03T23:01:00.000Z"
+  lastEditedTime: "2024-09-03T23:13:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Motors.md"
 title: "Motors"
-date: "2024-09-03T23:01:00.000Z"
+date: "2024-09-03T23:13:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -44,71 +44,51 @@ static tap::algorithms::SmoothPidConfig pid_config_dt = {20, 0, 0, 0, 8000, 1, 0
 tap::algorithms::SmoothPid pidController(pid_config_dt);
 ```
 
-Get drivers object (controls basically everything)
+Get drivers and pass it into the motor object
 
 ```cpp
-pico::Drivers *drivers = new pico::Drivers();
+tap::Drivers *drivers = src::DoNotUse_getDrivers();
 
+// motor object
+tap::motor::DjiMotor motor(drivers, MOTOR_ID, CAN_BUS, false, "cool motor");
 ```
 
-# TODO: explain canbus
-
-creates motor object
+since we are using motors we also have to initialize `CANBUS` which is the primary way the type-c talks to the motors.
 
 ```cpp
-pico::motor::DjiMotor motor_one = pico::motor::DjiMotor(drivers, pico::motor::MotorId::MOTOR1, pico::can::PioNum::CAN_BUS0, true, "ID1", 0, 0);
+    Board::initialize();
 
+    drivers->can.initialize();          // init CanBus to talk to motor
+    motor.initialize();                 // init motor
 ```
 
-initialize [PID](https://www.youtube.com/watch?v=wkfEZmsQqiA) algorithm
+Then whenever the `sendMotorTimeout` expires we want to send a command to the the motors.
+
+This takes three steps:
+
+- calculating the error with the PID algorithm using `runControllerDerivationError`
+- set the motor object to go at the calculated output
+- send the message with `encodeAndSendCanData`
 
 ```cpp
-static pico::algorithms::SmoothPidConfig pid_conf_dt = {20, 0, 0, 0, 8000, 1, 0, 1, 0, 0, 0};
-pico::algorithms::SmoothPid pidController = pico::algorithms::SmoothPid(pid_conf_dt);
-
+        if (sendMotorTimeout.execute())
+        {
+            // do the pid algorithm
+            pidController.runControllerDerivateError(DESIRED_RPM - motor.getShaftRPM(), 1); 
+            // set up msg so its ready to be sent
+            motor.setDesiredOutput(static_cast<int32_t>(pidController.getOutput()));
+            // send all msg to the motors
+            drivers->djiMotorTxHandler.encodeAndSendCanData();                                            
+        }
 ```
 
-initialize CanBus to send motor information
+finally, outside of the timer, we have to read the position data coming from the motors continuously.
+
+we do this with `pollCanData`
 
 ```cpp
-drivers->can.initialize();
-
-```
-
-adds motor_one to `motorHandler` class
-
-```cpp
-motor_one.initialize();
-
-
-```
-
-checks to see if a message is waiting
-
-```cpp
-drivers->motorHandler.pollCanData();
-
-```
-
-do the pid algorithm
-
-```cpp
-pidController.runControllerDerivateError(0 - motor_one.getShaftRPM(), 1);
-
-```
-
-set up msg so its ready to be sent
-
-```cpp
-motor_one.setDesiredOutput(static_cast<int32_t>(pidController.getOutput()));
-
-```
-
-send all msg to the motors
-
-```cpp
-drivers->motorHandler.encodeAndSendCanData();
-
+        drivers->canRxHandler.pollCanData();                                                            // checks to see if a msg is waiting
+        modm::delay_us(10);
 ```
 
 ### Code
@@ -147,20 +127,17 @@ int main()
     {
         if (sendMotorTimeout.execute())
         {
-            pidController.runControllerDerivateError(DESIRED_RPM - motor.getShaftRPM(), 1);             // do the pid algorithm
-            motor.setDesiredOutput(static_cast<int32_t>(pidController.getOutput()));                    // set up msg so its ready to be sent
-            drivers->djiMotorTxHandler.encodeAndSendCanData();                                            // send all msg to the motors
+            // do the pid algorithm
+            pidController.runControllerDerivateError(DESIRED_RPM - motor.getShaftRPM(), 1);  
+            // set up msg so its ready to be sent
+            motor.setDesiredOutput(static_cast<int32_t>(pidController.getOutput()));
+            // send all msg to the motors
+            drivers->djiMotorTxHandler.encodeAndSendCanData();
         }
 
-        drivers->canRxHandler.pollCanData();                                                            // checks to see if a msg is waiting
+        drivers->canRxHandler.pollCanData();   // checks to see if a msg is waiting
         modm::delay_us(10);
     }
-    return 0;
+
 }
-
-
-
-
-
-
 ```
