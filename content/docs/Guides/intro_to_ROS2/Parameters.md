@@ -105,6 +105,6 @@ rclpy.shutdown()
 
 To run:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/151b96b5-c251-459e-ab62-15a7f923023a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240909%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240909T050821Z&X-Amz-Expires=3600&X-Amz-Signature=f0d806f2fb4ab0c5aa1e415ebe7c7ee546861428a13a411f00ba8bbb5a4b9755&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/151b96b5-c251-459e-ab62-15a7f923023a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240909%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240909T061119Z&X-Amz-Expires=3600&X-Amz-Signature=d4773a17066b2822c658d60d131cf2a9e4035ab30d138f6aa4359f731758fcf9&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `ros2 param set <node_name> <parameter_name> <value>`
