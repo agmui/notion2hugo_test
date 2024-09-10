@@ -40,7 +40,7 @@ First, we need to create a ROS workspace.
 
 We do this by making 2 folders one inside another. I am calling my workspace `ros_ws` and the folder inside it `src`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/70706947-fd18-4537-a67b-e12946812d31/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T070821Z&X-Amz-Expires=3600&X-Amz-Signature=f131c6f64d43d15aa516587f0a87c1676b5fa66689ff2b9b1a814c7ca033b4be&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/70706947-fd18-4537-a67b-e12946812d31/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T080947Z&X-Amz-Expires=3600&X-Amz-Signature=1409080a6a9cb0815652b5a0282ecccf190e8b1baef45690a43dfd1bf74e22b2&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Then inside this `src` folder is where we put all of our packages.
 
@@ -88,7 +88,7 @@ ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name my_no
 
 a bunch of text should have been printed out but the result should look something like this:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/e6cf1e3f-8512-4a3e-b131-079f800bf3e8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T070821Z&X-Amz-Expires=3600&X-Amz-Signature=0d3a22a7971b6538779a8754ab3a6da70c259dfdf87ac2e75f9d78429d35c774&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/e6cf1e3f-8512-4a3e-b131-079f800bf3e8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T080947Z&X-Amz-Expires=3600&X-Amz-Signature=0ee5697e5d8ec8aad5332fb37ee43acce95a4f3970c1c1471a9d59c4e5880d1c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # What’s inside a python package
 
@@ -101,17 +101,17 @@ a bunch of text should have been printed out but the result should look somethin
 
 Let's move all of our code into the `my_package/my_package` folder (this is next to the `my_node.py` file)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9ce58f11-0da9-4d3e-b86d-506a9685d378/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T070821Z&X-Amz-Expires=3600&X-Amz-Signature=9cc48c7af513eeaf3bc36226d4e44f6184a7d8f5356cbbc37272131fc8b9b6b0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9ce58f11-0da9-4d3e-b86d-506a9685d378/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T080947Z&X-Amz-Expires=3600&X-Amz-Signature=784fe20c4d778c846132deb2971f5d279356720b7c397622ba63542ca0e82008&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 To register all the new files we added open `setup.py` and put in the following:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1cd7c262-4cae-4496-9d75-c178537d24a2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T070821Z&X-Amz-Expires=3600&X-Amz-Signature=19e6aa337278643a454ae7675870786895131ac774160cd26789e36c883dd273&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1cd7c262-4cae-4496-9d75-c178537d24a2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T080947Z&X-Amz-Expires=3600&X-Amz-Signature=0916e5a628671894bfc8d27f9c828c91a4b06cf859902f4ab65a4d8af88117a1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Now back in the command line **make sure you are in the** **`ros_ws`** **folder!!!**
 
 let's build our package with `colcon build --symlink-install`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/2f2a0d27-b173-48fd-b189-5f5c0ce65619/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T070821Z&X-Amz-Expires=3600&X-Amz-Signature=8d609e55ff943499a7a1c5780a3b6da8521d8234041c9ccdf200db222fad1474&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/2f2a0d27-b173-48fd-b189-5f5c0ce65619/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T080947Z&X-Amz-Expires=3600&X-Amz-Signature=b6847b6a1f73f138a48b19da80f0e059dc07dc9cc0caf52edf590a5617c25421&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 <details>
 
@@ -129,11 +129,11 @@ From now on whenever you open a new terminal you must run `source install/setup.
 
 Then to run say our `publisher.py` file we do `ros2 run <package name> <file_name>`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4f4b1219-3a44-4632-aa0a-ce3471699f59/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T070821Z&X-Amz-Expires=3600&X-Amz-Signature=cc4378f8ca75c937c5f8c777e4217b9aa916fae00139becbe9bec9f4c9b55d7f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4f4b1219-3a44-4632-aa0a-ce3471699f59/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T080947Z&X-Amz-Expires=3600&X-Amz-Signature=247655445aaac5c1d38a3d82d2c019422940d0741299c5394a507bf7b2846f36&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 **remember to run** **`source install/setup.sh`** **for the subscriber!!!**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/02121119-dad4-49ec-8356-c956108b4243/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T070821Z&X-Amz-Expires=3600&X-Amz-Signature=2e154d83de887c2f98279a05ed3db1891d1bd72e00763ae00c26dfdaa6be6a37&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/02121119-dad4-49ec-8356-c956108b4243/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240910%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240910T080948Z&X-Amz-Expires=3600&X-Amz-Signature=befc8cbc4c984e406f10ebfdebae5782b07292701c47a31a07444a0d73504c72&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 and congrats you have successfully setup your own `ROS` package.
 
