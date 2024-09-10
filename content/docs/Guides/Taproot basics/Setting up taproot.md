@@ -16,7 +16,7 @@ toc: false
 icon: ""
 ---
 
-### Offical setup guide: 
+### Offical setup guide: [https://gitlab.com/aruw/controls/taproot#development-guide](https://gitlab.com/aruw/controls/taproot#development-guide)
 
 A guide made by a rose student:  [https://docs.google.com/presentation/d/1WCKfnT1pG3GdZT9Rh7dKZLlVS0-GOQzeXyLNWM2VdPk/edit?usp=sharing](https://docs.google.com/presentation/d/1WCKfnT1pG3GdZT9Rh7dKZLlVS0-GOQzeXyLNWM2VdPk/edit?usp=sharing)
 
@@ -38,13 +38,13 @@ Wiring ST-link
 
 ## Setting up Printing(Serial)
 
-## Debugging with st-link: 
+## Debugging with st-link: [https://gitlab.com/aruw/controls/taproot/-/wikis/Debugging-With-STLink](https://gitlab.com/aruw/controls/taproot/-/wikis/Debugging-With-STLink)
 
 TLDR;
 
 TODO:
 
-## Debugging with J-link: 
+## Debugging with J-link: [https://gitlab.com/aruw/controls/taproot/-/wikis/Debugging-With-JLink](https://gitlab.com/aruw/controls/taproot/-/wikis/Debugging-With-JLink)
 
 TLDR;
 

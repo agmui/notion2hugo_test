@@ -16,6 +16,10 @@ toc: false
 icon: ""
 ---
 
+[https://www.learncpp.com/cpp-tutorial/function-templates/](https://www.learncpp.com/cpp-tutorial/function-templates/)
+
+[https://www.geeksforgeeks.org/templates-cpp/](https://www.geeksforgeeks.org/templates-cpp/)
+
 ```cpp
 template <typename T>
 class Array {
