@@ -1,7 +1,7 @@
 # rhit_docs
 Documentation repo for RHIT robomasters team 
 
-link: https://agmui.github.io/rhit_docs.github.io/docs/
+link: [https://agmui.github.io/rhit_docs.github.io/docs/](https://agmui.github.io/notion2hugo_test/)
 
 ## when setting up
 you may need to run this command after getting everything to work:
