@@ -2,10 +2,10 @@
 sys:
   pageId: "17ed3673-5e94-44cf-b817-f54bbaa03c06"
   createdTime: "2024-09-01T00:08:00.000Z"
-  lastEditedTime: "2024-09-13T16:04:00.000Z"
+  lastEditedTime: "2024-09-14T02:28:00.000Z"
   propFilepath: "docs/Guides/intro_to_CV/CV_Setup.md"
 title: "CV_Setup"
-date: "2024-09-13T16:04:00.000Z"
+date: "2024-09-14T02:28:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -20,6 +20,8 @@ icon: ""
 
 ## enable virtualization
 
+# INSTALL Python 3.10
+
 [embed](https://www.rose-hulman.edu/class/csse/csse132/2425a/labs/prelab1-wsl2.html)
 
 # VSCode install
@@ -27,7 +29,7 @@ icon: ""
 - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 - Python Extension
 
-	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d82b6650-a5e4-4d3c-b8c9-93d817dae00e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240914T020404Z&X-Amz-Expires=3600&X-Amz-Signature=73b228a7540d86a931aa172a4b25aa81c94f15825ed0f494125a4f92f36fd23e&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d82b6650-a5e4-4d3c-b8c9-93d817dae00e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240914T030839Z&X-Amz-Expires=3600&X-Amz-Signature=f8b10187b71d08906d524abdae63ebd09cca51aeef1d04b7308fb9dca23e92ab&X-Amz-SignedHeaders=host&x-id=GetObject)
 - Get people
 - 
 
@@ -42,7 +44,7 @@ git clone https://github.com/Thornbots/CV.git
 ## install python
 
 ```bash
-sudo apt install python3.8
+sudo apt install python3.10
 ```
 
 ## installing `requirements.txt` packages
@@ -70,6 +72,6 @@ code .
 
 # Congrats! You did it!
 
-![e1bfe78d4c6455985cebb9d6a247088b.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/7d1ce04e-65d6-40c8-814d-754280e9515a/e1bfe78d4c6455985cebb9d6a247088b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240914T020403Z&X-Amz-Expires=3600&X-Amz-Signature=c38406fb452d84a5e78e33cae1a1a89970eb77a597ee0b0264fc7eaaf869cc48&X-Amz-SignedHeaders=host&x-id=GetObject)
+![e1bfe78d4c6455985cebb9d6a247088b.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/7d1ce04e-65d6-40c8-814d-754280e9515a/e1bfe78d4c6455985cebb9d6a247088b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240914T030839Z&X-Amz-Expires=3600&X-Amz-Signature=e2a8f66b1390cfd6e8f7945f83ba78c4dda20ce7969bf1071996de602e6c5a88&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 enjoy some pilk!!
