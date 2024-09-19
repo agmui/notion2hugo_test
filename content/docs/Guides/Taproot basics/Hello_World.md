@@ -86,10 +86,10 @@ int main(){
 
 click on `serial monitor` on the bottom bar
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/a42f36e7-f896-41d1-bc6a-3236301092f6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240919T100737Z&X-Amz-Expires=3600&X-Amz-Signature=39bd20e391b5a9ee3970976d314a0ac9253d37e6ab1c9f5d49c3d054db3039f9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/a42f36e7-f896-41d1-bc6a-3236301092f6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240919T110147Z&X-Amz-Expires=3600&X-Amz-Signature=1bf98a4c36982d0160ea457ed3a5972b4178a095f40d76da048ac3e197a7fffa&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 select the usb port the type-c is plugged in it should look like this:
 
-![serial_monitor.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240919T100737Z&X-Amz-Expires=3600&X-Amz-Signature=50fa94f2fd7ecf28ab81829b140054957344634d9f86586a545496a027eac2b8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![serial_monitor.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240919T110147Z&X-Amz-Expires=3600&X-Amz-Signature=e4b60555e727db1217174aa8eb6dd55252beebd8fdfce560c551ddad3f2cf39a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 then hit **Start Monitoring**
