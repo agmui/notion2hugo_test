@@ -2,10 +2,10 @@
 sys:
   pageId: "d6173c25-76d1-4038-abd3-af075abdb629"
   createdTime: "2024-08-21T00:28:00.000Z"
-  lastEditedTime: "2024-09-02T12:58:00.000Z"
+  lastEditedTime: "2024-09-22T21:34:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/Launch files.md"
 title: "Launch files"
-date: "2024-09-02T12:58:00.000Z"
+date: "2024-09-22T21:34:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -22,7 +22,7 @@ This is where `ROS` launch files come in.
 
 `ROS` launch files are files where multiple nodes can be launched from all stored in one place.
 
-First, create a folder called `launch` in the `src` folder and inside launch create a file called `python_params_launch.py` 
+First, create a folder called `launch` in the root folder of the package and inside launch create a file called `python_params_launch.py` 
 
 inside we first import the `ROS` libraries
 
@@ -84,7 +84,7 @@ def generate_launch_description():
 
 To register the launch file we have to go into `setup.py` and add in 3 different lines shown below:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f50aa845-71da-468c-a148-4c842d13c8df/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240922%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240922T210235Z&X-Amz-Expires=3600&X-Amz-Signature=c04f22f50e95ae0ef9d24534b52f575d37c865d1c72c95af1ef65f23a005099b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f50aa845-71da-468c-a148-4c842d13c8df/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240922%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240922T220155Z&X-Amz-Expires=3600&X-Amz-Signature=f218d17a2675de3e0a304d3be109b44306b075cdd1fe94ba3914ea2078f53fbc&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 then build the workspace:
 
@@ -94,7 +94,7 @@ colcon build --symlink-install
 
 and run the launch file with `ros2 launch <package name> <launch file name>`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9ca5992d-b0af-43b9-a7b6-f5d141ad4cc0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240922%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240922T210235Z&X-Amz-Expires=3600&X-Amz-Signature=98143b33d7084880c4d63f9ac3d39eabd99f904341acbc1807db1927398beb1f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9ca5992d-b0af-43b9-a7b6-f5d141ad4cc0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240922%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240922T220155Z&X-Amz-Expires=3600&X-Amz-Signature=f9dbceec9873d58d70ceef25c975dd8d70e04b5454a26b5a1e9a7f2a977d18f6&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # Launch arguments
 
@@ -138,7 +138,7 @@ now we can simply change the parameter in `python_params_launch.py` by running
 ros2 launch my_package python_params_launch.py some_arg:=hi
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ae87690b-dcdf-4588-b5aa-960c40cc8416/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240922%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240922T210235Z&X-Amz-Expires=3600&X-Amz-Signature=0c5e8533087d76b16c81d8a2f2ba71c8b2e16d4ce762feb91168f3e8ea71d5b0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ae87690b-dcdf-4588-b5aa-960c40cc8416/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240922%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240922T220155Z&X-Amz-Expires=3600&X-Amz-Signature=2fa01aca4874f980f7a244e14cc3d051ff507c9159722d744697832696e6cf9d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # Exercise!! ( _hlep me_ )
 
