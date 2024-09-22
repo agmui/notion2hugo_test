@@ -2,10 +2,10 @@
 sys:
   pageId: "52c4056b-e3ee-4b5c-a521-c7ea915d2f9a"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-08-22T20:52:00.000Z"
+  lastEditedTime: "2024-09-22T22:54:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pointers.md"
 title: "Pointers"
-date: "2024-08-22T20:52:00.000Z"
+date: "2024-09-22T22:54:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -162,7 +162,8 @@ You can interpret 5 meters as 5 degrees C which might not make sense just like h
 
 ## Practice:
 
-- do example of max of 2 `int*`: `max(int* a, int* b)`
+- do example of max of 2 `int* max(int* a, int* b)`
+- `int add(int* a, int* b)`
 - basic function that mutates a variable
 - warmup.c (from os)
 - arraylist.c (from os)
