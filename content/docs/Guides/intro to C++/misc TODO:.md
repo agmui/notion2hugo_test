@@ -2,10 +2,10 @@
 sys:
   pageId: "cbb61f02-1c1c-48b6-9015-9a3b096c1017"
   createdTime: "2024-06-25T02:33:00.000Z"
-  lastEditedTime: "2024-08-22T21:23:00.000Z"
+  lastEditedTime: "2024-09-29T19:42:00.000Z"
   propFilepath: "docs/Guides/intro to C++/misc TODO:.md"
 title: "misc TODO:"
-date: "2024-08-22T21:23:00.000Z"
+date: "2024-09-29T19:42:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -94,25 +94,23 @@ In Taproot the options are listed here
 
 We in <u>Hardware</u> mode so in the `#ifdef` block line 30 will not be included when compiling 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240929T190131Z&X-Amz-Expires=3600&X-Amz-Signature=ef97162154acf2178adb8a3a777b712b7ea2eead98ddd5fa9fbcff3d65b3186e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240929T200722Z&X-Amz-Expires=3600&X-Amz-Signature=4566eec1f5aa4d8c292472bde6723be982dd11966ae652c073678c4f9f742f41&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Here you see we are in <u>Test</u> mode so ENV_UNIT_TESTS is turned on. So line 30 will be included
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240929T190131Z&X-Amz-Expires=3600&X-Amz-Signature=f72bd90bf1a08339b6b9f31ae28a2f4d0449cc9e0229446169152e3096977057&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240929T200722Z&X-Amz-Expires=3600&X-Amz-Signature=96267d0fb66696f9bc67bb56d9e8f572d213495cb4f8231dd25dd582e3721172&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## c++ practice
 
 Using everything you learned try to do these:
 
 - simple link list class (try adding these features one by one)
-	- class field should have: size, capacity, list
-	- make const: `DEF_ARRAY_LIST_CAP 4`
+	- class field should have: size
 	- should use a template and namespace
 	- methods:
 		- constructor/deconstructor
 		- `get(int index)`
 		- `edit(int index, T val)`
-		- `double_size()`
 		- `append(T val)`
 		- `print()`
 	- If you want more you can write sample classes for stacks, queues, trees, etc.
