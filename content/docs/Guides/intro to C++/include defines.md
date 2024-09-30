@@ -2,10 +2,10 @@
 sys:
   pageId: "bf3df218-7a8a-40ea-948f-f7cebc4a46da"
   createdTime: "2024-06-25T02:27:00.000Z"
-  lastEditedTime: "2024-07-12T15:58:00.000Z"
+  lastEditedTime: "2024-09-30T17:09:00.000Z"
   propFilepath: "docs/Guides/intro to C++/include defines.md"
 title: "include defines"
-date: "2024-07-12T15:58:00.000Z"
+date: "2024-09-30T17:09:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -194,7 +194,7 @@ class A{
 #ifndef B_H_
 #define B_H_
 
-#include A.H
+#include A.h
 
 class B{
 	...

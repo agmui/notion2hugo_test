@@ -2,10 +2,10 @@
 sys:
   pageId: "cbb61f02-1c1c-48b6-9015-9a3b096c1017"
   createdTime: "2024-06-25T02:33:00.000Z"
-  lastEditedTime: "2024-09-30T14:31:00.000Z"
+  lastEditedTime: "2024-09-30T17:08:00.000Z"
   propFilepath: "docs/Guides/intro to C++/misc TODO:.md"
 title: "misc TODO:"
-date: "2024-09-30T14:31:00.000Z"
+date: "2024-09-30T17:08:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -94,11 +94,11 @@ In Taproot the options are listed here
 
 We in <u>Hardware</u> mode so in the `#ifdef` block line 30 will not be included when compiling 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240930T170701Z&X-Amz-Expires=3600&X-Amz-Signature=3c6feda6a6d6ca43c45b5a07be0cd9bec8df6f0c9801ee2854d3ba6f628e1a59&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d831920-88ea-4062-b3da-13b04e943655/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240930T181007Z&X-Amz-Expires=3600&X-Amz-Signature=7314d501e619e52b33211c85a5d3c60093de5258e951f03e169bc38db570d566&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Here you see we are in <u>Test</u> mode so ENV_UNIT_TESTS is turned on. So line 30 will be included
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240930T170701Z&X-Amz-Expires=3600&X-Amz-Signature=7a07170d3ee744ff9604db308611398a5ddf80789cb079d5a9eb91624a7a6547&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1ffbf634-044e-43ca-b80b-a05a3405a032/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240930T181007Z&X-Amz-Expires=3600&X-Amz-Signature=cd5f4117715dd34cc6eab75db4d51b783ad61a19bd324b1c4b885b7b0dd85be1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## c++ practice
 
@@ -107,13 +107,14 @@ Using everything you learned try to do these:
 - simple ArrayList class (try adding these features one by one)
 	- class field should have: size, capacity
 	- should use a template and namespace
-	- Default size to 4
-	- Constructor should take an initial list or nothing and default to size 4
+	- Default size `#define size 4`
+	- Constructor should either take an list with values,
+	 or nothing and just create an empty array of default size.
 	- methods:
 		- constructor/deconstructor
 		- `get(int index)`
 		- `edit(int index, T val)`
-		- double()
+		- `double()` doubles the array
 		- `append(T val)`
 		- `print()`
 	- If you want more you can write sample classes for stacks, queues, trees, etc.
