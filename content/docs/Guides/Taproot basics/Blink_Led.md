@@ -2,10 +2,10 @@
 sys:
   pageId: "dc03b680-5e9e-4779-a140-dd2523ca6202"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-10-06T18:36:00.000Z"
+  lastEditedTime: "2024-10-06T19:34:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Blink_Led.md"
 title: "Blink_Led"
-date: "2024-10-06T18:36:00.000Z"
+date: "2024-10-06T19:34:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -21,12 +21,12 @@ icon: ""
 <div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
 <div>
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/72690bef-2855-4fb7-bc56-e952c6e1f269/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241006T190113Z&X-Amz-Expires=3600&X-Amz-Signature=6c2fb3f5eb0476bd5c4f28e3c56873f46096aba75a7e90af126beaa540079dd9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/72690bef-2855-4fb7-bc56-e952c6e1f269/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241006T200722Z&X-Amz-Expires=3600&X-Amz-Signature=88892fe9a1e94d23e496e0e400d852d92c0ae2c67afbbb66344a134b8e49469d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 <div>
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/87421930-1007-4f71-86ec-25221b515fdd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241006T190114Z&X-Amz-Expires=3600&X-Amz-Signature=1c07fbf05df4ea486f7fd4843fa3df1546b134986a472075e23926a59029735e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/87421930-1007-4f71-86ec-25221b515fdd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241006T200723Z&X-Amz-Expires=3600&X-Amz-Signature=8478d695aeb75d383cd3aca34f03bb70236e95c20f389cbf25b1bb93cd1015e7&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 </div>
