@@ -20,7 +20,7 @@ Publishers and Subscribers are good but what if you want a two-way style of comm
 
 Server and Clients are similar to Publisher and Subscribers where they have a `Service` and Nodes can communicate through those services.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8d328db1-6392-4c5f-9cd6-b1323b662127/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T031641Z&X-Amz-Expires=3600&X-Amz-Signature=6f0b76029726c4b124fd3b64165c82acb9a76a1b5dd0951b6eacd722c3e581c7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8d328db1-6392-4c5f-9cd6-b1323b662127/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T040939Z&X-Amz-Expires=3600&X-Amz-Signature=8abed9e447a4081675bda45f9f7c90d1000c6b3136e2466ead81a6853faae66f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ![Service-MultipleServiceClient.gif](https://docs.ros.org/en/humble/_images/Service-MultipleServiceClient.gif)
 
@@ -235,17 +235,17 @@ Now that we have created a Server and Client we can run them both to see them in
 
 In two different terminals run the Server first then the client
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6189b192-d86b-4219-a62b-5534bcdca7bf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T031641Z&X-Amz-Expires=3600&X-Amz-Signature=72df79a197007eeb97b0b2e12f3b44d1ad2c8d989a41ec57a41670103da78dd4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6189b192-d86b-4219-a62b-5534bcdca7bf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T040939Z&X-Amz-Expires=3600&X-Amz-Signature=686c60f3c41e43299e76a925c0e89155c61108723803b11e98ab06cdd3722c04&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/fa9516bb-acf5-4433-8387-74e413ced6fc/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T031641Z&X-Amz-Expires=3600&X-Amz-Signature=666afb030678dfdccbc49644cdda44d0d705c674fa4af8d84bf68b3ecaae8ca0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/fa9516bb-acf5-4433-8387-74e413ced6fc/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T040939Z&X-Amz-Expires=3600&X-Amz-Signature=208f6ee8427bd58293a75d9b18c8a5c11958205f17d79f047317c0b943e14a15&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `rqt_graph`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d81c820a-4071-4b15-87b0-5f19204a6d04/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T031641Z&X-Amz-Expires=3600&X-Amz-Signature=7c98f5908b442cb8135124445ed6501ad7a61ca3b57625d042c0a793e9baabfc&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d81c820a-4071-4b15-87b0-5f19204a6d04/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T040939Z&X-Amz-Expires=3600&X-Amz-Signature=35e26ec48557ea199aed945de9cd9d34ff04a87383ef29e458f317d13bbbb734&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `ros2 service list`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/e3cccdf5-7b48-47b3-a691-d6d3ffcc58f4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T031641Z&X-Amz-Expires=3600&X-Amz-Signature=5798488f1fa1f56fb369402d0d872c145c850c9086022da811c89d74da7f9f72&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/e3cccdf5-7b48-47b3-a691-d6d3ffcc58f4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241008T040939Z&X-Amz-Expires=3600&X-Amz-Signature=7b61d1b9e5553a36289d744b1f41c39dbdc6d530c12145519ceb614e6e6695ea&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # More Exercises!!!! ( YAYYYY :D )
 
