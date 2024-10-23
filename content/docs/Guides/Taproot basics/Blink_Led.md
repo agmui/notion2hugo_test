@@ -21,12 +21,12 @@ icon: ""
 <div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
 <div>
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/72690bef-2855-4fb7-bc56-e952c6e1f269/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T140709Z&X-Amz-Expires=3600&X-Amz-Signature=8dbdf9b0e61d7c93632479cc34e0711efaf6cd9cc916b3ea73b7ad57565fca20&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/72690bef-2855-4fb7-bc56-e952c6e1f269/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T150734Z&X-Amz-Expires=3600&X-Amz-Signature=3a90e76312609bfea874f5fec90026a2cc0c0eb1c9dfcf607763ac43875cfa4a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 <div>
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/87421930-1007-4f71-86ec-25221b515fdd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T140709Z&X-Amz-Expires=3600&X-Amz-Signature=cb2daba1f4066f8ec46042b976292b15df4e97873a27ae8dcbcdbc19372a9aef&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/87421930-1007-4f71-86ec-25221b515fdd/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241023T150734Z&X-Amz-Expires=3600&X-Amz-Signature=910c99a92b9213b6ddbbf6d751af2eaeb5450d21dc742a56bf191639de79c65e&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 </div>
