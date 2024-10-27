@@ -2,10 +2,10 @@
 sys:
   pageId: "a06f37c0-01bd-4589-9d9c-9402834a307a"
   createdTime: "2024-04-16T17:21:00.000Z"
-  lastEditedTime: "2024-09-06T13:23:00.000Z"
+  lastEditedTime: "2024-10-27T23:00:00.000Z"
   propFilepath: "docs/Wiring/links.md"
 title: "links"
-date: "2024-09-06T13:23:00.000Z"
+date: "2024-10-27T23:00:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -21,7 +21,7 @@ TODO: explain CAN
 
 [type-c-pdf](https://rm-static.djicdn.com/tem/35228/RoboMaster%20Development%20Board%20Type%20C%20User%20Manual.pdf)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d29e717-3b43-4c2c-aaab-1a40c334c1d2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241027%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241027T220231Z&X-Amz-Expires=3600&X-Amz-Signature=baaf920cd23ded5f8372264db8db1e9a93e76f1ed84abe7a3fcf29281471d42a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d29e717-3b43-4c2c-aaab-1a40c334c1d2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241027%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241027T230757Z&X-Amz-Expires=3600&X-Amz-Signature=200df209663db25a0134ceeabe5b3545c0c8caabfd970a28fa5f3b6c2bef4cbd&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 [cables](https://www.robomaster.com/en-US/products/components/general/development-board)
 
@@ -55,3 +55,5 @@ reviver DR16](https://dl.djicdn.com/downloads/dt7/en/DT7&DR16_RC_System_User_Man
 [IMPORTANT](https://www.twitch.tv/videos/2100072393?t=02h12m03s)
 
 [old repo](https://gitlab.com/agmui/rhit-robomasters)
+
+[Taproot docs](https://aruw.gitlab.io/controls/taproot/api/classtap_1_1arch_1_1_periodic_timer.html)
