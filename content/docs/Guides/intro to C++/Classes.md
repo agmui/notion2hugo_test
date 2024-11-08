@@ -2,10 +2,10 @@
 sys:
   pageId: "2329c1cd-96c8-4fd3-a4f3-9920d69d1c8a"
   createdTime: "2024-06-25T02:29:00.000Z"
-  lastEditedTime: "2024-09-22T19:56:00.000Z"
+  lastEditedTime: "2024-11-08T18:33:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Classes.md"
 title: "Classes"
-date: "2024-09-22T19:56:00.000Z"
+date: "2024-11-08T18:33:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -88,6 +88,12 @@ int main(){
 ```
 
 > Note: you will learn what stack and heap are in CSSE132 but for now we generally use stack allocated in Robomasters
+
+Why use stack over heap?:
+
+This is what the `new` operator calls when ever it gets used.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8d467fe6-7dca-43b2-bf68-418ff08e35d9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241108T190154Z&X-Amz-Expires=3600&X-Amz-Signature=0cabc407dcc70e2e4e13303e6eb0cd1029790b4e9a2e7a819917502d5b3a6148&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Constructors
 
