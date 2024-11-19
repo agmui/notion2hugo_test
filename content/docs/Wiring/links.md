@@ -21,7 +21,7 @@ TODO: explain CAN
 
 [type-c-pdf](https://rm-static.djicdn.com/tem/35228/RoboMaster%20Development%20Board%20Type%20C%20User%20Manual.pdf)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d29e717-3b43-4c2c-aaab-1a40c334c1d2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241119T090829Z&X-Amz-Expires=3600&X-Amz-Signature=d286a6064f72fbce356c4e7f2c33f0cbec229cf44058f7ddc0879f39c8079a01&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0d29e717-3b43-4c2c-aaab-1a40c334c1d2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241119T100842Z&X-Amz-Expires=3600&X-Amz-Signature=41df489ea80885f976153e7dfe4823a0610b30fa3e973fedda1e04c414d7b3ae&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 [cables](https://www.robomaster.com/en-US/products/components/general/development-board)
 
