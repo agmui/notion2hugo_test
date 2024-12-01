@@ -39,7 +39,7 @@ jobs:
     steps:
       - name: Updateing Go version
         #uses: actions/checkout@v4
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
        # ==== GO VERSION ====
         with:
           go-version: '^1.21.4' # The Go version to download (if necessary) and use.
