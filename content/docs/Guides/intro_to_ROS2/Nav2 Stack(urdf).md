@@ -2,10 +2,10 @@
 sys:
   pageId: "d930549a-75a1-4e91-a7ca-cbf679347105"
   createdTime: "2024-09-20T17:07:00.000Z"
-  lastEditedTime: "2024-12-03T13:39:00.000Z"
+  lastEditedTime: "2024-12-03T18:47:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/Nav2 Stack(urdf).md"
 title: "Nav2 Stack(urdf)"
-date: "2024-12-03T13:39:00.000Z"
+date: "2024-12-03T18:47:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
@@ -33,15 +33,17 @@ create rviz and urdf folder and download the rviz and urdf file
 
 ### urdf file:
 
-[mbot_description.urdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3b2e2a2a-0671-42c6-9a27-600d8e1f6385/mbot_description.urdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T181000Z&X-Amz-Expires=3600&X-Amz-Signature=e23b0135a33693bf2ce23c9196154e4f5ec3be4a27859d1603a585ee026af434&X-Amz-SignedHeaders=host&x-id=GetObject)
+[mbot_description.urdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3b2e2a2a-0671-42c6-9a27-600d8e1f6385/mbot_description.urdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T190215Z&X-Amz-Expires=3600&X-Amz-Signature=31f67c92223c7801d77447ef31238dd79b5b9a804e2e5380d8bf7bab2fc77119&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## rviz file:
 
-[urdf_config.rviz](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/95f14cdf-7f28-453b-a602-b3b03506cf46/urdf_config.rviz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T181000Z&X-Amz-Expires=3600&X-Amz-Signature=ce0020e23d22aa4e5142f84c6e0b99aad66e791c9970829a1a16fd06d06a58c4&X-Amz-SignedHeaders=host&x-id=GetObject)
+[urdf_config.rviz](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/95f14cdf-7f28-453b-a602-b3b03506cf46/urdf_config.rviz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T190215Z&X-Amz-Expires=3600&X-Amz-Signature=9e46a038acc1568180dafa37fcb0d875f99962368050ab152b04f50ecc314471&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-## Launching
+## Core design
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/64f4a3b8-f3c0-4033-b559-14312f915650/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T181000Z&X-Amz-Expires=3600&X-Amz-Signature=b862bdf3ffe609b96c529c2ee460a4fa410844b515db25d6336570587e322982&X-Amz-SignedHeaders=host&x-id=GetObject)
+Just `robot_state_publisher` and `joint_state_publisher_gui` run the whole show
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/64f4a3b8-f3c0-4033-b559-14312f915650/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T190215Z&X-Amz-Expires=3600&X-Amz-Signature=3f3adb99a3417b14de674e9ebac28f4c0e0f56f3c441a17ff7836c52865ddca7&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 (From Articulated Robotics)
 
@@ -49,9 +51,18 @@ create rviz and urdf folder and download the rviz and urdf file
 
 **Nodes we are adding:**
 
-- robot_state_publisher_node
-- joint_state_publisher_node
-- joint_state_publisher_gui_node
+{{< table "table-striped table-hover table-responsive" >}}
+
+|   |   |
+| - | - |
+|   |   |
+|   |   |
+
+{{< /table >}}
+
+- robot_state_publisher_node (reads the URDF and publishes to `/robot_description` all non-fixed joints, static joints and links)
+- joint_state_publisher_node (finds all of the non-fixed joints and publishes to `/joint_states`)
+- joint_state_publisher_gui_node (the same as joint_state_publisher_node but with a gui on top)
 - rviz_node
 
 ## launch file
@@ -133,8 +144,8 @@ run:
 ros2 launch mbot_pkg display.launch.py
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/98177d9e-161f-4928-ab62-342d42c35cff/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T181000Z&X-Amz-Expires=3600&X-Amz-Signature=df6e6bca56432ee6e9a151ff5bdfab102755c66bd666a95dbdef18637d1ae3cd&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/98177d9e-161f-4928-ab62-342d42c35cff/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T190215Z&X-Amz-Expires=3600&X-Amz-Signature=9b5d3a48b9c4dee099af9500510f2dfcf6aad17788fb67393fdaef0bc61b8e5b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # Adding collision
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6c70e3ae-bba2-425a-8727-0c3370140bcf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T181000Z&X-Amz-Expires=3600&X-Amz-Signature=84d868b39ab5876eb976ba31ae2873cdbe6ccaa0e9fff9b2032079f1c28a3de0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6c70e3ae-bba2-425a-8727-0c3370140bcf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T190215Z&X-Amz-Expires=3600&X-Amz-Signature=263a7f9725ef867d31caf68946e558d35dc77caea3ffbca7c9d722c33b330a3a&X-Amz-SignedHeaders=host&x-id=GetObject)
