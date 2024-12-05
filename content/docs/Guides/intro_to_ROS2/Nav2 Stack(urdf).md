@@ -33,17 +33,17 @@ create rviz and urdf folder and download the rviz and urdf file
 
 ### urdf file:
 
-[mbot_description.urdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3b2e2a2a-0671-42c6-9a27-600d8e1f6385/mbot_description.urdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T100930Z&X-Amz-Expires=3600&X-Amz-Signature=d5c6cacd590ed88628446abb784d7456c6f7a71d3dcb8cab99134ba1fca5cc15&X-Amz-SignedHeaders=host&x-id=GetObject)
+[mbot_description.urdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3b2e2a2a-0671-42c6-9a27-600d8e1f6385/mbot_description.urdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T110732Z&X-Amz-Expires=3600&X-Amz-Signature=87fed5f2df76381775240e55f9b60b6b080836144a8a32efd0e7897b87a17e81&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## rviz file:
 
-[urdf_config.rviz](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/95f14cdf-7f28-453b-a602-b3b03506cf46/urdf_config.rviz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T100930Z&X-Amz-Expires=3600&X-Amz-Signature=dcc5f0518ac2fcf5cade76ddb7920e37376aa4590c90cde11005f677b5f72de9&X-Amz-SignedHeaders=host&x-id=GetObject)
+[urdf_config.rviz](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/95f14cdf-7f28-453b-a602-b3b03506cf46/urdf_config.rviz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T110732Z&X-Amz-Expires=3600&X-Amz-Signature=2620009b225df477b6793bd811dad093379b117656fc8aeaede00be2622a79de&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Core design
 
 Just `robot_state_publisher` and `joint_state_publisher_gui` run the whole show
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/64f4a3b8-f3c0-4033-b559-14312f915650/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T100930Z&X-Amz-Expires=3600&X-Amz-Signature=4a906a487115caf4cb9ca5d036d088f2faac76f80793237ee57aa8d5afe2e10f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/64f4a3b8-f3c0-4033-b559-14312f915650/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T110732Z&X-Amz-Expires=3600&X-Amz-Signature=684f06303299078e80e061ca7817fac9852d460d3310010afe0212b5b44e42e5&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 (From Articulated Robotics)
 
@@ -144,8 +144,8 @@ run:
 ros2 launch mbot_pkg display.launch.py
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/98177d9e-161f-4928-ab62-342d42c35cff/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T100930Z&X-Amz-Expires=3600&X-Amz-Signature=32b36ac36c6992b7dd4fb679d0220645f9a58de852586426af15026f138d9520&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/98177d9e-161f-4928-ab62-342d42c35cff/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T110732Z&X-Amz-Expires=3600&X-Amz-Signature=cf37eef2599008da7424fb130e83560d0249d0caddec424803bc7273c84d81fa&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # Adding collision
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6c70e3ae-bba2-425a-8727-0c3370140bcf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T100930Z&X-Amz-Expires=3600&X-Amz-Signature=d7a634f9dd67d03c4c216f5a5b1a134f30070addeab4fbe032dd0b7ae1869784&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6c70e3ae-bba2-425a-8727-0c3370140bcf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T110732Z&X-Amz-Expires=3600&X-Amz-Signature=831250f6afca9f819762168dd5c42971e526f4b19edad606aab0b1aba923df93&X-Amz-SignedHeaders=host&x-id=GetObject)
