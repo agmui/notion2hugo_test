@@ -167,7 +167,7 @@ You can interpret 5 meters as 5 degrees C which might not make sense just like h
 - basic function that mutates a variable
 - what does this function do:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/bab24be3-c0b5-4cfd-bcef-10ef39280abe/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241206%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241206T220732Z&X-Amz-Expires=3600&X-Amz-Signature=ded77159cfda1fed363c396596c3e23fe4047c5c94affbb8af1266ae4736e35d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/bab24be3-c0b5-4cfd-bcef-10ef39280abe/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241206%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241206T230737Z&X-Amz-Expires=3600&X-Amz-Signature=770a094ae6dc9124df7a8ecdae7a831334a77b412d2bdcb5c4c57e17b39761d2&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 - warmup.c (from os)
 - arraylist.c (from os)
