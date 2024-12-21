@@ -87,11 +87,11 @@ cd sample_rm_pico_app
 Have vscode open this repo
 When first opining vscode should ask you to install the plugins
 
-![install_plugins.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/89bd30f0-1825-4e77-867b-0a41ce370880/install_plugins.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T080900Z&X-Amz-Expires=3600&X-Amz-Signature=84eb417336e9986fa8aae764553ae4ce36641dd153e958215159e3a24b850429&X-Amz-SignedHeaders=host&x-id=GetObject)
+![install_plugins.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/89bd30f0-1825-4e77-867b-0a41ce370880/install_plugins.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T090147Z&X-Amz-Expires=3600&X-Amz-Signature=efec1d096c1221b2115b83e8227b15dec2a837d0e8dc120e6b8096fc38d59789&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 If not just type `@recommended` here  
 
-![recommended.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/61e661e9-5d85-4dfc-be0d-8d2097a5e793/recommended.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T080900Z&X-Amz-Expires=3600&X-Amz-Signature=83f774a86df855ce903b1dd0cf0f5bacc68e3958e33c50a2a75711162e89246e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![recommended.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/61e661e9-5d85-4dfc-be0d-8d2097a5e793/recommended.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T090147Z&X-Amz-Expires=3600&X-Amz-Signature=73dbaa28642cd51ba2c47910de6a3101e5e3474d5db651736889118ec495b0a4&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Uploading
 
@@ -102,12 +102,12 @@ TODO:
 <div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
 <div>
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/210ecb78-1116-4d7b-b9b7-2292f66fa2c2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T080903Z&X-Amz-Expires=3600&X-Amz-Signature=f861d660f95cd97967563a019722e8615ff7d0a8ebb7626ea78b587fc5b1495f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/210ecb78-1116-4d7b-b9b7-2292f66fa2c2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T090149Z&X-Amz-Expires=3600&X-Amz-Signature=4405d497058c1a502c4a268323b266bbf2baf2718aa064c8bdf8506e9232a848&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 <div>
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/33a0fd0f-8ca6-4a86-8e09-26e95ded1fff/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T080903Z&X-Amz-Expires=3600&X-Amz-Signature=caf06e3908a2c4ddc669a7b28d6c5163521966b5f3cddc63354bea6c68bb4c56&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/33a0fd0f-8ca6-4a86-8e09-26e95ded1fff/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T090150Z&X-Amz-Expires=3600&X-Amz-Signature=262940382a23cb06ab28a25103124b6469ed3699040a08a04b1e3d1e8c37a3b5&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 </div>
@@ -120,7 +120,7 @@ press `CTRL + SHIFT + B`
 
 select the usb port the type-c is plugged in it should look like this:
 
-![serial_monitor.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T080900Z&X-Amz-Expires=3600&X-Amz-Signature=cb4af187928e0ee9e84c3734b7eb88e92e3fe34f265a897c5b17f12667dfa02e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![serial_monitor.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T090147Z&X-Amz-Expires=3600&X-Amz-Signature=3fa03e8e299244c45474923491e6bcad02a1dad7708d163139431086643a866f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 then hit **Start Monitoring**
 

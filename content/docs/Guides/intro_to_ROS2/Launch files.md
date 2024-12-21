@@ -84,7 +84,7 @@ def generate_launch_description():
 
 To register the launch file we have to go into `setup.py` and add in 3 different lines shown below:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f50aa845-71da-468c-a148-4c842d13c8df/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T080918Z&X-Amz-Expires=3600&X-Amz-Signature=aeaebf54a48859c375843f3b3de73c6eea03175563326c7671ad955471f1f8cc&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f50aa845-71da-468c-a148-4c842d13c8df/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T090208Z&X-Amz-Expires=3600&X-Amz-Signature=8e3ea2bdc838be5bcc07ba6144f2dc9fd0a5e7a5a469c62b4507ded2d2598a8e&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 then build the workspace:
 
@@ -94,7 +94,7 @@ colcon build --symlink-install
 
 and run the launch file with `ros2 launch <package name> <launch file name>`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9ca5992d-b0af-43b9-a7b6-f5d141ad4cc0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T080918Z&X-Amz-Expires=3600&X-Amz-Signature=ee45fa1498e0d2872f356195c780e77b199a97dcbb63e2fba178a0e7c32444e7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9ca5992d-b0af-43b9-a7b6-f5d141ad4cc0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T090208Z&X-Amz-Expires=3600&X-Amz-Signature=28dd7d7f0d257b9263326fb77a81bd91cc0d30409fe8076e2881a741c5d524de&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # Launch arguments
 
@@ -138,7 +138,7 @@ now we can simply change the parameter in `python_params_launch.py` by running
 ros2 launch my_package python_params_launch.py some_arg:=hi
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ae87690b-dcdf-4588-b5aa-960c40cc8416/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T080918Z&X-Amz-Expires=3600&X-Amz-Signature=e6f62a33fa4883c11a2ca7302de8f34576ffee4f33d6f1e8be765d7b3e528386&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ae87690b-dcdf-4588-b5aa-960c40cc8416/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241221%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241221T090208Z&X-Amz-Expires=3600&X-Amz-Signature=78e27cdf6117abba8f6253da00e77abbf05b58bd2b282f008fba9989547f9c19&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # Exercise!! ( _hlep me_ )
 
