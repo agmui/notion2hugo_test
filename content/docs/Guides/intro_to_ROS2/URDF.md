@@ -47,11 +47,11 @@ We have to call `joint_state_publisher` or `joint_state_publisher_gui` to give t
 
 ### broken:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/96a1d089-1f17-4dbf-8563-f2aef56a4d37/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241223T081133Z&X-Amz-Expires=3600&X-Amz-Signature=086646dd0bd423d9866cc453dde40b7b26f80821f594244552e6cd1c115e0f31&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/96a1d089-1f17-4dbf-8563-f2aef56a4d37/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241223T090841Z&X-Amz-Expires=3600&X-Amz-Signature=a1a60e3947f0966806abf52d81b45a3a5d7006d3330a30d09ba8862b582a7852&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### After running `joint_state_publisher` or `joint_state_publisher_gui`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/130c99c7-1b0b-4031-9953-844fc3950ff4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241223T081133Z&X-Amz-Expires=3600&X-Amz-Signature=38df72c91932571365903a6b6db19660c5b7c3a1642bc225a51ed3105d074170&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/130c99c7-1b0b-4031-9953-844fc3950ff4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241223%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241223T090841Z&X-Amz-Expires=3600&X-Amz-Signature=c5fb415f35dd0462348c83404d8443fb13d04dd5586ec9dcdfc83600bd3d4227&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Da return of Exercises!!
 
