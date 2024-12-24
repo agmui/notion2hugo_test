@@ -93,7 +93,7 @@ Why use stack over heap?:
 
 This is what the `new` operator calls when ever it gets used.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8d467fe6-7dca-43b2-bf68-418ff08e35d9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241224%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241224T121327Z&X-Amz-Expires=3600&X-Amz-Signature=dc3679439be60b5af66241a392d1f009f64ba4629488c89e0f8b19d6496ee4a6&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8d467fe6-7dca-43b2-bf68-418ff08e35d9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241224%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241224T131403Z&X-Amz-Expires=3600&X-Amz-Signature=4fc663942968bc0e593b1ebba6ebfc082dac48156861ebeafd2a8ef0d9a589ca&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Constructors
 
