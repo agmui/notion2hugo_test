@@ -115,6 +115,6 @@ int main() {
 
 ```
 
-![ezgif.com-video-to-gif-converter2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241231%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241231T220158Z&X-Amz-Expires=3600&X-Amz-Signature=a2e229d7850d5bccd5e7cf8776fb511beea780ba5eb2fa7a5795a122e24b5b22&X-Amz-SignedHeaders=host&x-id=GetObject)
+![ezgif.com-video-to-gif-converter2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241231%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241231T230703Z&X-Amz-Expires=3600&X-Amz-Signature=51132125c802e3fec1fad7c4ee96949e71ff273ea69a7e8a282442d005afe1b6&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### Note: `.h` == `.hpp` (these are the same)
