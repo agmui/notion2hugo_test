@@ -139,7 +139,7 @@ if __name__ == '__main__':
 
 run with: `python3 publisher.py` in the terminal
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9214accb-ad5b-44f1-a31c-b3167c59138b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T170201Z&X-Amz-Expires=3600&X-Amz-Signature=5477eb15ef3a40c3fa860f572a176fa813fc84fba7f2ac02e8f17e45757f0f77&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9214accb-ad5b-44f1-a31c-b3167c59138b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T180943Z&X-Amz-Expires=3600&X-Amz-Signature=05b4d5bbf74546a62a6b22f0208daab84f05cf32512c2ba2d6a4f31cd6e5895a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 To stop the programs do `ctrl+c`
 
@@ -183,31 +183,31 @@ if __name__ == '__main__':
 
 Then while running `python3` [`publisher.py`](http://publisher.py/)open a new terminal and run: `python3 subscriber.py` 
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/611fccf2-c738-4dbd-94e9-98f209092866/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T170201Z&X-Amz-Expires=3600&X-Amz-Signature=be7306b0ee3a9d274eb71c27b88b1680f7b79538b232c231cb4a9dc67f6a8b5c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/611fccf2-c738-4dbd-94e9-98f209092866/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T180943Z&X-Amz-Expires=3600&X-Amz-Signature=5be30660a07c2fe2ff9c15761cafe4b6b4dec2154b32a0cd65eabf62f9a6a013&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 If both of your nodes are running you will see that the publisher and subscriber are communicating
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/eea428b5-1cf0-43bb-a30b-81cbaf6c5c78/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T170201Z&X-Amz-Expires=3600&X-Amz-Signature=3abebb190c02ea4f948bb7c0f8198fd2d238c9354fb28ea6ee65251022bec865&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/eea428b5-1cf0-43bb-a30b-81cbaf6c5c78/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T180943Z&X-Amz-Expires=3600&X-Amz-Signature=e5943f4cc0c9ebb2819a18832008b87797590a7122854bcfcbfe127e765223fe&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 To view all the nodes run `rqt_graph` in a new terminal
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1d98e964-4318-4d62-b5c4-8c8f78368598/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T170201Z&X-Amz-Expires=3600&X-Amz-Signature=610111a01238d917edf629074af482ad587e7c96ee5d0d51de79cbfdd08f3540&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1d98e964-4318-4d62-b5c4-8c8f78368598/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T180943Z&X-Amz-Expires=3600&X-Amz-Signature=e00ac291080a02a56bc390438b8e42efe7850c6bebd402a1ef59dbde1182d184&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `ros2 node list`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/680ac8cf-e6d9-4164-9ece-5b9a6fccffee/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T170201Z&X-Amz-Expires=3600&X-Amz-Signature=88fa83be30e0d62fb488d7ca646bd4954a2a5d373e346f40747bbc52f329a511&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/680ac8cf-e6d9-4164-9ece-5b9a6fccffee/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T180943Z&X-Amz-Expires=3600&X-Amz-Signature=95ef5f88380f526ff77d9d98d212ed05d207bd5c901e9b15ccb46afebccc81e4&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `ros2 topic list`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/eee2ebe1-27ef-4a4a-96fb-2ca54126fb29/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T170201Z&X-Amz-Expires=3600&X-Amz-Signature=58f47f7ef64f1a57c72622cd86704d5cd5324c65895d83ca8a845d4f93bb39f7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/eee2ebe1-27ef-4a4a-96fb-2ca54126fb29/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T180943Z&X-Amz-Expires=3600&X-Amz-Signature=9f5a18b833dbb38d0946ff6a753ad36647ca00efe406012124c26eb1b7bb9f1d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `ros2 topic info /my_topic`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6288ef12-cb9e-406f-b9eb-65feed3a9011/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T170201Z&X-Amz-Expires=3600&X-Amz-Signature=17591a87bd117af1764a65a0d5c62176d2ecbcfccdb767e37d449782a72521fd&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6288ef12-cb9e-406f-b9eb-65feed3a9011/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T180943Z&X-Amz-Expires=3600&X-Amz-Signature=3cf1bd45acd4b48836277b8c1804b698d643df23f8420e6ac631834978282658&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `ros2 topic echo /my_topic`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0a6fcb4d-422d-4a6c-a803-749ef4adf2c6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T170201Z&X-Amz-Expires=3600&X-Amz-Signature=d310dcf82c1ca1c5406157996482defbc2551812d62656956fb3f6431efde495&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0a6fcb4d-422d-4a6c-a803-749ef4adf2c6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250105%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250105T180943Z&X-Amz-Expires=3600&X-Amz-Signature=4e936b2f045b795e774cc35450b1e527fe080b22c448e67fdce19f74473ecc2d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Log ROS Messages:
 
