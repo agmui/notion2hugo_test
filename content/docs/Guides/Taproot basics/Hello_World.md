@@ -86,13 +86,13 @@ int main(){
 
 click on `serial monitor` on the bottom bar
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/a42f36e7-f896-41d1-bc6a-3236301092f6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T100839Z&X-Amz-Expires=3600&X-Amz-Signature=1e1cffa8da1861c6704ce73d3d073ca61d8a33428bcdaead1ac9acfd7b864a2f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/a42f36e7-f896-41d1-bc6a-3236301092f6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T110259Z&X-Amz-Expires=3600&X-Amz-Signature=d8f8f3b68d9fd2fe786afc29ff186d0fbcef5672766526999b931da4dfd7dad2&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 select the usb port the type-c is plugged in it should look like this:
 
 > if you don’t see the TTL to USB device on windows you need to install the drivers for it.  
 > Follow the guide here to install the drivers: [https://www.pololu.com/docs/0j7/all](https://www.pololu.com/docs/0j7/all)
 
-![serial_monitor.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T100838Z&X-Amz-Expires=3600&X-Amz-Signature=a1edae3ac75ab986a6625fefd7c1b8b5709a91dc0b7826dbd52883b9e70011d8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![serial_monitor.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f03f4774-05d4-4393-b6a0-d5efb6d315ab/serial_monitor.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250107T110259Z&X-Amz-Expires=3600&X-Amz-Signature=cd897ff985c14b253a569fd0f60d1dbe8ab4e5c49db3b5f66c5de1d4f44c5d08&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 then hit **Start Monitoring**
