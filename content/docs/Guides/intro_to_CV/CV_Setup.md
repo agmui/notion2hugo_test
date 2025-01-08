@@ -29,7 +29,7 @@ icon: ""
 - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 - Python Extension
 
-	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d82b6650-a5e4-4d3c-b8c9-93d817dae00e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250108T070135Z&X-Amz-Expires=3600&X-Amz-Signature=28f89d1845d2f7ffff54346bc55ceccdf12b334428fcd9cb351b6250d68f086c&X-Amz-SignedHeaders=host&x-id=GetObject)
+	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d82b6650-a5e4-4d3c-b8c9-93d817dae00e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250108T081042Z&X-Amz-Expires=3600&X-Amz-Signature=2e0ab33962a7730db3c7fbc34b17fb87af4c3c4f888a805a8b9466967a9833b6&X-Amz-SignedHeaders=host&x-id=GetObject)
 - Get people
 - 
 
@@ -72,6 +72,6 @@ code .
 
 # Congrats! You did it!
 
-![e1bfe78d4c6455985cebb9d6a247088b.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/7d1ce04e-65d6-40c8-814d-754280e9515a/e1bfe78d4c6455985cebb9d6a247088b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250108T070134Z&X-Amz-Expires=3600&X-Amz-Signature=865f36c6f03f34625d83bb27375cbe23269dcc561c39bc99d1f39040d863c7c1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![e1bfe78d4c6455985cebb9d6a247088b.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/7d1ce04e-65d6-40c8-814d-754280e9515a/e1bfe78d4c6455985cebb9d6a247088b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250108T081041Z&X-Amz-Expires=3600&X-Amz-Signature=0831107e2fad238741891ed760826dca2736de034a20b3b9d315515c370fc294&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 enjoy some pilk!!
