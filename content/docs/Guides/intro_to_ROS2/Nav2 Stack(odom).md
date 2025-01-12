@@ -2,10 +2,10 @@
 sys:
   pageId: "107da3bc-6297-80e7-8a39-c258b8d1dbf6"
   createdTime: "2024-09-20T17:54:00.000Z"
-  lastEditedTime: "2025-01-12T19:17:00.000Z"
+  lastEditedTime: "2025-01-12T21:53:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/Nav2 Stack(odom).md"
 title: "Nav2 Stack(odom)"
-date: "2025-01-12T19:17:00.000Z"
+date: "2025-01-12T21:53:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
@@ -42,9 +42,9 @@ Good resource that explains ROS2 control: [https://articulaandtedrobotics.xyz/tu
 
 # Add control setting file in config folder
 
-[my_controllers.yaml](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/da95d5e0-f008-4e3a-a1cd-0c740c8ff277/my_controllers.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T210225Z&X-Amz-Expires=3600&X-Amz-Signature=8a212446c03ef8e4b7aaa59346835c864d1724920d4afbbfdf04680c762e627a&X-Amz-SignedHeaders=host&x-id=GetObject)
+[my_controllers.yaml](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/da95d5e0-f008-4e3a-a1cd-0c740c8ff277/my_controllers.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T220209Z&X-Amz-Expires=3600&X-Amz-Signature=73d04f4dd68e460f4a4782dcf92dee3b201c3c274e01ae12f215b813ff1a8bff&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d485e912-a5f4-482e-92e8-9708c840dd30/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T210225Z&X-Amz-Expires=3600&X-Amz-Signature=cd15d170ab2dba6b5f8cbe418a21d6659fcd20540f7ca5af0fd6665011da58e0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d485e912-a5f4-482e-92e8-9708c840dd30/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T220209Z&X-Amz-Expires=3600&X-Amz-Signature=ebb723cd14e8c35b2d593cfedfffa3fb47b58c5b269e3cbfc459a52e8db3b262&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # update setup.py and run
 
@@ -173,9 +173,9 @@ if you have a pi pico and RPLidar then this part applies to you
 
 # pi pico pkg
 
-[pi_pico_diff_pkg.zip](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/dba3c655-6db9-45f0-8b39-79ba373101c4/pi_pico_diff_pkg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T210225Z&X-Amz-Expires=3600&X-Amz-Signature=5beec58d013ab769dcf0131228fdd33b9b9b3e1949aa6489a15965b5f3324fb6&X-Amz-SignedHeaders=host&x-id=GetObject)
+[pi_pico_diff_pkg.zip](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/dba3c655-6db9-45f0-8b39-79ba373101c4/pi_pico_diff_pkg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T220209Z&X-Amz-Expires=3600&X-Amz-Signature=45ef8c6a5327fc0c0ff70fefe3e84c541578bb45935471d1f3b174f3e5bee6d6&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/acb6a1eb-87f5-4c84-bd8c-52a5ef6d85e1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T210225Z&X-Amz-Expires=3600&X-Amz-Signature=1a579d113e832b26539909e44042d23dd31b32a3a6f086b59981185cb0886b58&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/acb6a1eb-87f5-4c84-bd8c-52a5ef6d85e1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T220209Z&X-Amz-Expires=3600&X-Amz-Signature=dd9e61c845ba4cd40acc2f9d7b4a406d28551e1e1bb87fe55cb69ac12a1bdca0&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 run:
 
@@ -187,10 +187,6 @@ ros2 launch mbot_pkg display.launch.py
 Note: if your robot does not connect to your WSL go back to:
 
 [link_to_page](49e52dd2-b25e-4523-b600-0dfc5bc9e9f2)
-
-## localization: TODO:
-
-`sudo apt install ros-<ros2-distro>-robot-localization`
 
 # lidar
 
@@ -216,16 +212,7 @@ Note: if your robot does not connect to your WSL go back to:
                      'angle_compensate': True,
                      'scan_mode': 'Boost'}],
         output='screen')
-    # ros2 launch slam_toolbox online_async_launch.py
-    slam_toolbox_node = launch.actions.IncludeLaunchDescription(
-        launch.launch_description_sources.PythonLaunchDescriptionSource([
-            launch_ros.substitutions.FindPackageShare("slam_toolbox"), '/launch', '/online_async_launch.py'])
-    )
-    # ros2 launch nav2_bringup navigation_launch.py
-    nav2_bringup_node = launch.actions.IncludeLaunchDescription(
-        launch.launch_description_sources.PythonLaunchDescriptionSource([
-            launch_ros.substitutions.FindPackageShare("nav2_bringup"), '/launch', '/navigation_launch.py'])
-    )
+   
 
 ```
 
@@ -237,10 +224,32 @@ run guide: [https://github.com/robopeak/rplidar_ros/wiki](https://github.com/rob
 sudo chmod 777 /dev/ttyUSB0
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ff7c6a9e-0cea-4dbf-bc3e-00dfebfaaf7a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T210225Z&X-Amz-Expires=3600&X-Amz-Signature=4d6f25bcec089380cb66070dabac931efc4c466abeb0da18e343b121f0793385&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ff7c6a9e-0cea-4dbf-bc3e-00dfebfaaf7a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T220209Z&X-Amz-Expires=3600&X-Amz-Signature=0671df79b794d570cb6c96fdeb138a1965e92be416048ab5d00fdd752da372ca&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 to debug run:
 
 ```bash
 ros2 launch sllidar_ros2 view_sllidar_a1_launch.py
 ```
+
+## localization: TODO:
+
+```bash
+ # ros2 launch slam_toolbox online_async_launch.py
+    slam_toolbox_node = launch.actions.IncludeLaunchDescription(
+        launch.launch_description_sources.PythonLaunchDescriptionSource([
+            launch_ros.substitutions.FindPackageShare("slam_toolbox"), '/launch', '/online_async_launch.py'])
+    )
+    # ros2 launch nav2_bringup navigation_launch.py
+    nav2_bringup_node = launch.actions.IncludeLaunchDescription(
+        launch.launch_description_sources.PythonLaunchDescriptionSource([
+            launch_ros.substitutions.FindPackageShare("nav2_bringup"), '/launch', '/navigation_launch.py'])
+    )
+```
+
+```bash
+sudo apt install ros-<ros2-distro>-slam-toolbox
+sudo apt install ros-<ros2-distro>-nav2-bringup
+```
+
+`sudo apt install ros-<ros2-distro>-robot-localization`
