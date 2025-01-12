@@ -2,10 +2,10 @@
 sys:
   pageId: "d930549a-75a1-4e91-a7ca-cbf679347105"
   createdTime: "2024-09-20T17:07:00.000Z"
-  lastEditedTime: "2025-01-12T14:59:00.000Z"
+  lastEditedTime: "2025-01-12T15:54:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/Nav2 Stack(urdf).md"
 title: "Nav2 Stack(urdf)"
-date: "2025-01-12T14:59:00.000Z"
+date: "2025-01-12T15:54:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
@@ -23,39 +23,44 @@ Original guide for reference: [https://docs.visualnav2.org/cansetup_guides/urdf/
 ```bash
 mkdir -p mbot_ws/src
 cd mbot_ws/src
-ros2 pkg create --build-type ament_python --license Apache-2.0 my_package
+ros2 pkg create --build-type ament_python --license Apache-2.0 mbot_pkg 
 ```
 
-### building
+### building 
 
 ```bash
+cd ../../ # you should be in the mbot_ws folder after running this
 colcon build --symlink-install  
 source install/setup.bash
 ```
 
-TODO: explain map→odom→base_link→sensor…p
-
 ## Download
 
-create rviz and urdf folder and download the rviz and urdf file
+create rviz and urdf folder in `mbot_pkg` and download the rviz and urdf file:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/60e8d4f3-bb68-4928-b682-3519bd67f0c9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T160753Z&X-Amz-Expires=3600&X-Amz-Signature=708d1dbd33d920fb2be7346f825dc59e33c67aa87afdee897a194b5de805a8b1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### urdf file:
 
-[mbot_description.urdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3b2e2a2a-0671-42c6-9a27-600d8e1f6385/mbot_description.urdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T150231Z&X-Amz-Expires=3600&X-Amz-Signature=984e9ba1ccc105ec91ce110d8ba7654d6b88d6a92d57ce4f36b72bc68f480eb4&X-Amz-SignedHeaders=host&x-id=GetObject)
+[mbot_description.urdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3b2e2a2a-0671-42c6-9a27-600d8e1f6385/mbot_description.urdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T160753Z&X-Amz-Expires=3600&X-Amz-Signature=c2a7268827c73a4e945642e4940503ea208b5a1d932e794f8e9232498bac54d9&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-## rviz file:
+### rviz file:
 
-[urdf_config.rviz](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/95f14cdf-7f28-453b-a602-b3b03506cf46/urdf_config.rviz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T150231Z&X-Amz-Expires=3600&X-Amz-Signature=d9e09c9efdf99c7049bfed3c6333bf89096b15d12a2cf1a02e58060990d3af8c&X-Amz-SignedHeaders=host&x-id=GetObject)
+[urdf_config.rviz](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/883b4535-a297-4d3c-87a4-6a90962c0695/urdf_config.rviz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T160753Z&X-Amz-Expires=3600&X-Amz-Signature=203a16832f3af5605f56713b7e812bf23685b574ba3359298c931d434072285d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Core design
 
+TODO: explain map→odom→base_link→sensor…p
+
 Just `robot_state_publisher` and `joint_state_publisher_gui` run the whole show
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/64f4a3b8-f3c0-4033-b559-14312f915650/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T150231Z&X-Amz-Expires=3600&X-Amz-Signature=4287958938e3914b335de3c64053807be111da21cc30370dc26e456b6d91832e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/64f4a3b8-f3c0-4033-b559-14312f915650/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T160753Z&X-Amz-Expires=3600&X-Amz-Signature=8eb889ecd4623e67d1280533fd2c5ce563b9d110f149015a7d16b5912ccf9ca3&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 (From Articulated Robotics)
 
 # creating launch file
+
+make a launch folder called `display.launch.py`
 
 **Nodes we are adding:**
 
@@ -126,34 +131,40 @@ def generate_launch_description():
     ])
 ```
 
-## update `setup.py`
+## add new files to `setup.py` 
 
 ```python
 import os
 from glob import glob
-```
 
-```python
+from setuptools import find_packages, setup
+
+package_name = 'mbot_code'
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        **(os.path.join('share', package_name, 'urdf'), glob('urdf/*.urdf')),
+        (os.path.join('share', package_name, 'urdf'), glob('urdf/*.urdf')),
         (os.path.join('share', package_name, 'rviz'), glob('rviz/*.rviz*')),
-        (os.path.join('share', package_name), glob('launch/*launch.[pxy][yma]*')),**
-
+        (os.path.join('share', package_name), glob('launch/*launch.[pxy][yma]*')),
     ],
-
+    ...
 ```
 
 run:
 
 ```bash
+colcon build --symlink-install
 ros2 launch mbot_pkg display.launch.py
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/98177d9e-161f-4928-ab62-342d42c35cff/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T150231Z&X-Amz-Expires=3600&X-Amz-Signature=6bbf139c17a24a7b8b48a0760c63ae9fddafe95c1a7732e86d0182a7b7b3c133&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/98177d9e-161f-4928-ab62-342d42c35cff/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T160753Z&X-Amz-Expires=3600&X-Amz-Signature=09f6d36e3e70fd7d007fbefc836ced8b1efc53ec0a27779b8ee33427d991546c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # Adding collision
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6c70e3ae-bba2-425a-8727-0c3370140bcf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T150231Z&X-Amz-Expires=3600&X-Amz-Signature=b8684e17f82c04307749fb8663f607fbc51b7f15e4375df2135e631809ff5f10&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6c70e3ae-bba2-425a-8727-0c3370140bcf/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T160753Z&X-Amz-Expires=3600&X-Amz-Signature=f67d26526f3c6fcfd743d04859be94a47f29b74a65f04d479159004265a57ca5&X-Amz-SignedHeaders=host&x-id=GetObject)
