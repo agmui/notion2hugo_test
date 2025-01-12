@@ -2,10 +2,10 @@
 sys:
   pageId: "107da3bc-6297-80e7-8a39-c258b8d1dbf6"
   createdTime: "2024-09-20T17:54:00.000Z"
-  lastEditedTime: "2025-01-12T17:55:00.000Z"
+  lastEditedTime: "2025-01-12T18:53:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/Nav2 Stack(odom).md"
 title: "Nav2 Stack(odom)"
-date: "2025-01-12T17:55:00.000Z"
+date: "2025-01-12T18:53:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
@@ -42,9 +42,9 @@ Good resource that explains ROS2 control: [https://articulaandtedrobotics.xyz/tu
 
 # Add control setting file in config folder
 
-[my_controllers.yaml](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/da95d5e0-f008-4e3a-a1cd-0c740c8ff277/my_controllers.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T180933Z&X-Amz-Expires=3600&X-Amz-Signature=65bbccae97997c3f31f4ee1f11674588e114e8e4064053aacb68bd32114dafa8&X-Amz-SignedHeaders=host&x-id=GetObject)
+[my_controllers.yaml](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/da95d5e0-f008-4e3a-a1cd-0c740c8ff277/my_controllers.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T190133Z&X-Amz-Expires=3600&X-Amz-Signature=edf9195cf8187a34818465e3c574669b18eefa6a8740afad30a1e6366b3e91de&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d485e912-a5f4-482e-92e8-9708c840dd30/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T180933Z&X-Amz-Expires=3600&X-Amz-Signature=43ca3ce779e5156a7c4b3256b63cf6df9c6d237555ef4c03c923c435b9e4ed7c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d485e912-a5f4-482e-92e8-9708c840dd30/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T190133Z&X-Amz-Expires=3600&X-Amz-Signature=f047e4bf948d2fe2d00d3c8f6379d64b28cb7f5b7c134d1a432fe6adb497f402&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # update setup.py and run
 
@@ -132,6 +132,22 @@ def generate_launch_description():
         arguments=["diffbot_base_controller", "--param-file", robot_controllers],
     )
 
+    # Delay start of joint_state_broadcaster after `robot_controller`
+    # TODO(anyone): This is a workaround for flaky tests. Remove when fixed.
+    delay_joint_state_broadcaster_after_robot_controller_spawner = RegisterEventHandler(
+        event_handler=OnProcessExit(
+            target_action=robot_controller_spawner,
+            on_exit=[joint_state_broadcaster_spawner],
+        )
+    )
+    # Delay rviz start after `joint_state_broadcaster`
+    delay_rviz_after_joint_state_broadcaster_spawner = RegisterEventHandler(
+        event_handler=OnProcessExit(
+            target_action=joint_state_broadcaster_spawner,
+            on_exit=[rviz_node],
+        )
+    )
+
     return launch.LaunchDescription([
         #launch.actions.DeclareLaunchArgument(name='gui', default_value='True',
         #                                    description='Flag to enable joint_state_publisher_gui'),
@@ -144,7 +160,10 @@ def generate_launch_description():
         robot_state_publisher_node,
         control_node,
         robot_controller_spawner,
-        rviz_node
+        
+                delay_joint_state_broadcaster_after_robot_controller_spawner,
+        delay_rviz_after_joint_state_broadcaster_spawner,
+        #rviz_node
     ])
 ```
 
@@ -154,9 +173,9 @@ if you have a pi pico and RPLidar then this part applies to you
 
 # pi pico pkg
 
-[pi_pico_diff_pkg.zip](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/dba3c655-6db9-45f0-8b39-79ba373101c4/pi_pico_diff_pkg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T180933Z&X-Amz-Expires=3600&X-Amz-Signature=d7ecdbe07ad1a389ed283011744b4cac2c04f7ea8f0ce680a612a407c1bdb94d&X-Amz-SignedHeaders=host&x-id=GetObject)
+[pi_pico_diff_pkg.zip](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/dba3c655-6db9-45f0-8b39-79ba373101c4/pi_pico_diff_pkg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T190133Z&X-Amz-Expires=3600&X-Amz-Signature=88b3a35ccc07634bfd2409592a905ef69fe5c72baa8c1174b8c1c0381074070b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/acb6a1eb-87f5-4c84-bd8c-52a5ef6d85e1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T180933Z&X-Amz-Expires=3600&X-Amz-Signature=c27f5008e1163cdf8d91610489bd24c780b9051146610a86accb77eed4110add&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/acb6a1eb-87f5-4c84-bd8c-52a5ef6d85e1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T190133Z&X-Amz-Expires=3600&X-Amz-Signature=f142dc7c7e4c406a3aecd1d5b31d680860a86e5f2e6a5de22dba6465d454bccd&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 run:
 
@@ -174,3 +193,54 @@ Note: if your robot does not connect to your WSL go back to:
 `sudo apt install ros-<ros2-distro>-robot-localization`
 
 # lidar
+
+## update the urdf
+
+```bash
+
+```
+
+## update launch file
+
+```python
+
+    lidar_node = launch_ros.actions.Node(
+        package='sllidar_ros2',
+        executable='sllidar_node',
+        name='sllidar_node',
+        parameters=[{'channel_type': 'serial',
+                     'serial_port': '/dev/ttyUSB0',
+                     'serial_baudrate': 115200,
+                     'frame_id': 'lidar_link',#'laser',
+                     'inverted': False,
+                     'angle_compensate': True,
+                     'scan_mode': 'Boost'}],
+        output='screen')
+    # ros2 launch slam_toolbox online_async_launch.py
+    slam_toolbox_node = launch.actions.IncludeLaunchDescription(
+        launch.launch_description_sources.PythonLaunchDescriptionSource([
+            launch_ros.substitutions.FindPackageShare("slam_toolbox"), '/launch', '/online_async_launch.py'])
+    )
+    # ros2 launch nav2_bringup navigation_launch.py
+    nav2_bringup_node = launch.actions.IncludeLaunchDescription(
+        launch.launch_description_sources.PythonLaunchDescriptionSource([
+            launch_ros.substitutions.FindPackageShare("nav2_bringup"), '/launch', '/navigation_launch.py'])
+    )
+
+```
+
+package link: [https://github.com/Slamtec/sllidar_ros2](https://github.com/Slamtec/sllidar_ros2)
+
+run guide: [https://github.com/robopeak/rplidar_ros/wiki](https://github.com/robopeak/rplidar_ros/wiki)
+
+```bash
+sudo chmod 666 /dev/ttyUSB0
+```
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ff7c6a9e-0cea-4dbf-bc3e-00dfebfaaf7a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250112%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250112T190133Z&X-Amz-Expires=3600&X-Amz-Signature=dc733c91f024dfdd89fdc0bf7f579ded3d3510544399ed2fa43e9aa3514a0ed7&X-Amz-SignedHeaders=host&x-id=GetObject)
+
+to debug run:
+
+```bash
+ros2 launch sllidar_ros2 view_sllidar_a1_launch.py
+```

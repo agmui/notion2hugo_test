@@ -2,10 +2,10 @@
 sys:
   pageId: "179da3bc-6297-80f1-8809-cb37d88ed0cd"
   createdTime: "2025-01-12T14:56:00.000Z"
-  lastEditedTime: "2025-01-12T17:58:00.000Z"
+  lastEditedTime: "2025-01-12T18:36:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/ROS2 cheat sheet.md"
 title: "ROS2 cheat sheet"
-date: "2025-01-12T17:58:00.000Z"
+date: "2025-01-12T18:36:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
@@ -13,6 +13,14 @@ draft: false
 toc: false
 icon: ""
 ---
+
+```bash
+colcon build --symlink-install
+```
+
+```bash
+source install/setup.sh
+```
 
 ```bash
 ros2 launch <package_name> <launchfile>
@@ -24,5 +32,11 @@ ros2 launch <package_name> <launchfile>
 
 ```powershell
 usbipd list
+usbipd bind --busid <busid>
 usbipd attach --wsl --busid <busid>
+```
+
+```bash
+mkdir my_ws/src
+ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name my_node my_package
 ```
