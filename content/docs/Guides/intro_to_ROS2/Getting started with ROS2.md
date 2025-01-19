@@ -22,7 +22,7 @@ icon: ""
 
 [Install vscode](https://code.visualstudio.com/download) and download **Remote Development** plugin:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/efb52993-1881-4a40-b95e-6f020334f022/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=75a5b2f0f027a730cae52573b4fed106576284358c22d2307ee56259af4fb286&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/efb52993-1881-4a40-b95e-6f020334f022/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=ce7c0be577048b01d544d47471868631db73c3ed0003e89f4cc1a1dea0911af8&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ## Step 2:
 
@@ -30,35 +30,35 @@ Create a folder called `ros2_ws` somewhere on your computer and open that folder
 
 `ctrl+shift+p` and type: **Install Docker**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/2269dc0e-1cd5-47ff-bceb-c04ad9b2eab0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=40332bdab3f093c8174d8105b4b9a1b1ac9a31c8541d82a645f7b918c3605315&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/2269dc0e-1cd5-47ff-bceb-c04ad9b2eab0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=69d2f0994c946f7404dc6316423fe000a7c81825a354e6ac716a30de57f02669&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 The `Docker` install will take sometime and at the end it will ask you to restart
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ed233f78-be33-4b1f-b89c-9c346c0e961e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=7d9f16f2c5bcf49a21c8234a3c660a00b92950ee486288fbda37995b06a08e2e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ed233f78-be33-4b1f-b89c-9c346c0e961e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=cd8acbc14c284f1cb0aaede1a86e994cc7d575d0bef0f2928af0ae56eac3088f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Once you restart open `Docker` and finish the installation
 
 It will ask you to make an account but you can just press skip on the top right
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/21010ad9-1659-4fd9-9f59-9932a09b2a3d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=f5baa661a97415b5d9732a5cc90b739769f62779a36ed94cd7db8963397b5525&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/21010ad9-1659-4fd9-9f59-9932a09b2a3d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=202bf7fd3dca8924143312993b1078c6f51adc98dd5f18090b880e336c655d7c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Then reopen `vscode` and open the `ros2_ws` folder you just made
 
 press `ctrl+shift+p` and type: **reopen in container**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4e93b8c2-41ad-488c-8095-c74205196118/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=f5adbcae5f76676cd2dfac980ba99930ca56f2727e471254d131266d3f7c6104&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4e93b8c2-41ad-488c-8095-c74205196118/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=f7dd2b070aa8cad43a230a648226e984065c50813bb71aabd4a9ea5b0a322982&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Choose “Add configuration to workspace”
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9560b282-5060-4989-ba37-97e7b2c22476/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=9f9d72950258c2cdbbbe1522e86979135a2b4b6951cebf216229cd19b98d8ac2&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9560b282-5060-4989-ba37-97e7b2c22476/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=592a36b646091133f810a9c1b3bb125bdddde95eaee1e47af34dbe37c4d52d29&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/2ee63f81-886b-48e8-a553-dc6e5eac99e4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=8e04d0d7ed8efabb7432f5a1b430c3a6deb40966cd5e3352848dee4dd9c686ec&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/2ee63f81-886b-48e8-a553-dc6e5eac99e4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=83e735980cf2ca2184770e0c4d026eeb659abf9e55878340379c7bef1e26fe61&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ae1580b2-b048-407e-aed9-b584224a7a04/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=6560beb7b641085c6d7fd7eed2f939aa92075404db248977919bceafe9cb12ac&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ae1580b2-b048-407e-aed9-b584224a7a04/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=bb037450c295d481d76246100c25a77ad6dca1762e1c2ed7550a82832c59dc27&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/53255b28-f75e-430f-b9e3-c0ac8577e42b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=4baffa6c4a577b2e5a4ab0efc5ad76b160471e276e0272afdd06b5b1c1dee661&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/53255b28-f75e-430f-b9e3-c0ac8577e42b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=31812bd66810d4e4ffefd7b9df6a67fad9a2e89162806340a9e6282a7210404b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/7c562767-5af9-4ffb-97d1-327bcdf4ee00/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=40d4e5b00b16dc142b57f11e275d33be774c67349c1e41dcbd97dbf7ff383245&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/7c562767-5af9-4ffb-97d1-327bcdf4ee00/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=87c32665341dfb327c9a4f9f22d9ac21159618d19b1727909eed2d1a83b808b1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 `vscode` will now install `ROS2` onto your computer so this may take some time.
 
@@ -69,12 +69,12 @@ Once `ROS2` has installed inside your `dev-container` I recommend you install th
 <div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
 <div>
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3fc3d550-5a54-4ba1-ba6b-faa01cdb7369/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170121Z&X-Amz-Expires=3600&X-Amz-Signature=ba6798f6e17ba55598c9739acbcc65596b4014727f24ac7cf4d76c8ee8a9e034&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3fc3d550-5a54-4ba1-ba6b-faa01cdb7369/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180849Z&X-Amz-Expires=3600&X-Amz-Signature=8cf5a4d53bc2ba5a1072f5ec10ce2cf9d77ca55a7d9070b6c604f5358cccd7f1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 <div>
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d994cc66-13c2-4093-a5a3-f84cf4601a82/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170121Z&X-Amz-Expires=3600&X-Amz-Signature=a8a23c3aa914c971259094f644c64e39e6f96be81bd1d02c6c802ac69de916db&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d994cc66-13c2-4093-a5a3-f84cf4601a82/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180851Z&X-Amz-Expires=3600&X-Amz-Signature=5764216c64bb5d099714e4fe4e97a41f2d69864b73f818fe238b5a54bc0b7c97&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 </div>
 </div>
@@ -92,13 +92,13 @@ RUN sudo apt install -y python3-pip
 
 To test if everything installed correctly open a terminal with `ctrl+`` or pressing `ctrl+shift+p` and typing `toggle terminal`:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6a4943d8-b04e-4c02-9a58-775f3384d1a5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=5714bbbf1f15259a5994bbe761057bfc9b298532f4027a4d1535b01d4c266e94&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6a4943d8-b04e-4c02-9a58-775f3384d1a5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=bd8a66cc6cf1b829e5c27d55f56098ec30c9944b136a3dd4126629290ad7a18b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 then 
 
 Then type `lsb_release -a` and `echo $ROS_DISTRO` in the command prompt and you should get similar responses:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3e635dec-a805-4e85-8b9e-d000e5b71a4e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T170117Z&X-Amz-Expires=3600&X-Amz-Signature=1924b5f70cfc1f6a91d7f87ddf5ed2c64203019ac0b4a939022f9c76dde3bad9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3e635dec-a805-4e85-8b9e-d000e5b71a4e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250119T180847Z&X-Amz-Expires=3600&X-Amz-Signature=bd640e49f4b1f2440601a337de6d73c5f650ecf208447b7efd35476121350bd6&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Install:  to get windows to pass over
 
