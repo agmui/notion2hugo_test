@@ -42,9 +42,9 @@ Good resource that explains ROS2 control: [https://articulaandtedrobotics.xyz/tu
 
 # Add control setting file in config folder
 
-[my_controllers.yaml](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/da95d5e0-f008-4e3a-a1cd-0c740c8ff277/my_controllers.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T190131Z&X-Amz-Expires=3600&X-Amz-Signature=c8e1ec4634d9ee415f50ce00cc3e755fcc2f0953bae427af766aaae4ef18ba7d&X-Amz-SignedHeaders=host&x-id=GetObject)
+[my_controllers.yaml](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/da95d5e0-f008-4e3a-a1cd-0c740c8ff277/my_controllers.yaml?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T200710Z&X-Amz-Expires=3600&X-Amz-Signature=41cb881470902161a95ab578f3fadb5561bb8bf201135063614ea79246fc6203&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d485e912-a5f4-482e-92e8-9708c840dd30/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T190131Z&X-Amz-Expires=3600&X-Amz-Signature=4cc072ae033f36cca080c8204e603b8d297614e445e92848d1691b72a34364c5&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/d485e912-a5f4-482e-92e8-9708c840dd30/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T200710Z&X-Amz-Expires=3600&X-Amz-Signature=d594e26dd818df9ce5699edb6ff1fb723ae4bd687206e672653aff017474eaf1&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 # update setup.py and run
 
@@ -173,9 +173,9 @@ if you have a pi pico and RPLidar then this part applies to you
 
 # pi pico pkg
 
-[pi_pico_diff_pkg.zip](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/dba3c655-6db9-45f0-8b39-79ba373101c4/pi_pico_diff_pkg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T190131Z&X-Amz-Expires=3600&X-Amz-Signature=323ab93dac8bea8965e3a090a5eea881e22623718a633fd36262091b1d9f82f6&X-Amz-SignedHeaders=host&x-id=GetObject)
+[pi_pico_diff_pkg.zip](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/dba3c655-6db9-45f0-8b39-79ba373101c4/pi_pico_diff_pkg.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T200710Z&X-Amz-Expires=3600&X-Amz-Signature=6c2754d21089c9912710876a661e794e81d5c10f46b54b4bf9645c09499d4ce5&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/acb6a1eb-87f5-4c84-bd8c-52a5ef6d85e1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T190131Z&X-Amz-Expires=3600&X-Amz-Signature=1a7e8b97b956832ee1a6505857f6c6a0487ee0e9f9b97d58f4c7489478735e33&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/acb6a1eb-87f5-4c84-bd8c-52a5ef6d85e1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T200710Z&X-Amz-Expires=3600&X-Amz-Signature=1a1e275b115c714cf19d47a23d97b86cb5faed13abedd57ad53755881c753004&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 run:
 
@@ -224,7 +224,7 @@ run guide: [https://github.com/robopeak/rplidar_ros/wiki](https://github.com/rob
 sudo chmod 777 /dev/ttyUSB0
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ff7c6a9e-0cea-4dbf-bc3e-00dfebfaaf7a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T190131Z&X-Amz-Expires=3600&X-Amz-Signature=18a37371beacfaae79a07d60e4bbb15661a9b1f0cfc4d545e040be08fec253f5&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ff7c6a9e-0cea-4dbf-bc3e-00dfebfaaf7a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250125T200710Z&X-Amz-Expires=3600&X-Amz-Signature=aea1613a803ad74b3ff512864ea9da9df5e6c0a63985fa60551d31ca7bc9d0de&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 to debug run:
 
