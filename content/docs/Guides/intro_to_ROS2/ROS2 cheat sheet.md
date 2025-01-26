@@ -2,10 +2,10 @@
 sys:
   pageId: "179da3bc-6297-80f1-8809-cb37d88ed0cd"
   createdTime: "2025-01-12T14:56:00.000Z"
-  lastEditedTime: "2025-01-26T16:40:00.000Z"
+  lastEditedTime: "2025-01-26T19:00:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/ROS2 cheat sheet.md"
 title: "ROS2 cheat sheet"
-date: "2025-01-26T16:40:00.000Z"
+date: "2025-01-26T19:00:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
@@ -32,6 +32,12 @@ ros2 launch <package_name> <launchfile>
 
 ```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+```
+
+## ROS debug
+
+```c
+ros2 run rqt_tf_tree rqt_tf_tree
 ```
 
 # WSL specific
