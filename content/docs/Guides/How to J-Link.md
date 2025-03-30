@@ -2,10 +2,10 @@
 sys:
   pageId: "ac09983c-631e-4449-8aea-3a08ad94f09c"
   createdTime: "2024-07-10T00:15:00.000Z"
-  lastEditedTime: "2024-09-02T12:41:00.000Z"
+  lastEditedTime: "2025-03-30T18:50:00.000Z"
   propFilepath: "docs/Guides/How to J-Link.md"
 title: "How to J-Link"
-date: "2024-09-02T12:41:00.000Z"
+date: "2025-03-30T18:50:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -78,7 +78,7 @@ My shortcut looks like:
 - Now you need to tell it which board you are going to be using the J-Link on. Our dev boards are “STM32F427II”. So choose this device.
 
 	![image](https://lh7-us.googleusercontent.com/docsz/AD_4nXfenhfCaCvv4APRdbHxQhupWUwm5hBB_3y-ancgXkuRT4NKXvICg2kODaalz7rvSNabrWmS3W2Roo2czlRl-BPKfIPDm1lETjpjjHCd0rjyLDePBEIBSzKMy5di-O0W3manHehFSVYWvW7iNXHALsVTKO8d?key=ymcCSf3ZNgvislfKY7ymJA)
-- Now you need to specify which interface and how fast you want to talk to the dev board with. Choose “SWD” and any interface speed works. I just left it at the default 4 MHz.
+	1. Now you need to specify which interface and how fast you want to talk to the dev board with. Choose “SWD” and any interface speed works. I just left it at the default 4 MHz.
 
 	![image](https://lh7-us.googleusercontent.com/docsz/AD_4nXcA0RjJ6jm178yRUKllYdPl4Y82I86rcc3xS010pWkg_yB1o_a2PVhbc7Q4cq5Wv2xc94UMwE3DxD78V9N4r3MGHRxDp8KIdtqgdUPHQEQaBoMefkuNtAJLPrUWyNcCMd47mMlnGFAoUkCO8lMnBCRzQWIU?key=ymcCSf3ZNgvislfKY7ymJA)
 - Now we need to give it a file for Ozone to run off of. Similar to the file VSCode reads, but a little different as it needs to be compiled already. The following steps are taken directly from the previously mentioned tutorial.
