@@ -2,10 +2,10 @@
 sys:
   pageId: "ac09983c-631e-4449-8aea-3a08ad94f09c"
   createdTime: "2024-07-10T00:15:00.000Z"
-  lastEditedTime: "2025-03-30T18:50:00.000Z"
+  lastEditedTime: "2025-04-16T05:44:00.000Z"
   propFilepath: "docs/Guides/How to J-Link.md"
 title: "How to J-Link"
-date: "2025-03-30T18:50:00.000Z"
+date: "2025-04-16T05:44:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -89,6 +89,6 @@ My shortcut looks like:
 
 		![image](https://lh7-us.googleusercontent.com/docsz/AD_4nXeF0exOwsNLMRtfzus3d2eouwfjCLNbVZc08fmjbklZH-JGeXDvLwDRqtWHNaoywHEYNHrUdrrBcHvYQmxWnL9XaVEuUcBwmeS4gCAgmZrWdyXn2lf99kAfW8-wuK9qYbxEtvRJfU8cdq3guKKeFmduwxAl?key=ymcCSf3ZNgvislfKY7ymJA)
 
-You should now be set up to be able to live graph stuff! Go back to the beginning of this tutorial to see what to do next.
+	 xYou should now be set up to be able to live graph stuff! Go back to the beginning of this tutorial to see what to do next.
 
 If you get an error thats similar to “No probe connected via usb”, it is likely you just don’t have the driver for the J-Link. So you may need to go into the device manager, check this. Also go to where the program was installed, and under Segger/USBDriver run the driver installer.
