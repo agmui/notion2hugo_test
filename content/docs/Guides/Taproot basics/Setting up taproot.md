@@ -2,10 +2,10 @@
 sys:
   pageId: "3b7f0872-f00d-41cf-857e-646938c49bd0"
   createdTime: "2024-07-09T00:05:00.000Z"
-  lastEditedTime: "2024-09-03T17:03:00.000Z"
+  lastEditedTime: "2025-04-22T21:53:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/Setting up taproot.md"
 title: "Setting up taproot"
-date: "2024-09-03T17:03:00.000Z"
+date: "2025-04-22T21:53:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -49,3 +49,27 @@ TODO:
 TLDR;
 
 TODO:
+
+## Fixing some random Linux `No module named artifact` error:
+
+while inside MCBV2
+
+```shell
+pip3 install pipenv
+cd MCB-project
+pipenv install
+scons build
+```
+
+if you get this error:
+
+```text
+SConsEnvironmentError: No module named artifact:
+```
+
+run: (bc CRLF to LF, windows linux stuff)
+
+```shell
+rm -rf taproot
+lbuild build
+```
