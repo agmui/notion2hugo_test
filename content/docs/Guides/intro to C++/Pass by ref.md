@@ -2,10 +2,10 @@
 sys:
   pageId: "097e6377-fc82-4107-944a-004e9e161ded"
   createdTime: "2024-06-25T02:28:00.000Z"
-  lastEditedTime: "2024-07-12T15:57:00.000Z"
+  lastEditedTime: "2025-06-30T23:19:00.000Z"
   propFilepath: "docs/Guides/intro to C++/Pass by ref.md"
 title: "Pass by ref"
-date: "2024-07-12T15:57:00.000Z"
+date: "2025-06-30T23:19:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -15,6 +15,8 @@ weight: 114
 toc: false
 icon: ""
 ---
+
+#TODO: add note by default c++ does pass by value not pass by reference
 
 Say we had a Person object that has age, height, and weight and passes it into `height_times_weight`:
 
