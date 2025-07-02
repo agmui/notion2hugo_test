@@ -2,10 +2,10 @@
 sys:
   pageId: "e05fe590-97d1-47e6-a50e-32b5765fd116"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2025-07-01T16:58:00.000Z"
+  lastEditedTime: "2025-07-01T23:33:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/_index.md"
 title: "Taproot basics"
-date: "2025-07-01T16:58:00.000Z"
+date: "2025-07-01T23:33:00.000Z"
 description: ""
 tags:
   - "Onboarding"
