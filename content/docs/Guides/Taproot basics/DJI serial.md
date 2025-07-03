@@ -2,10 +2,10 @@
 sys:
   pageId: "7bcc958e-003c-4e25-bb33-06c403970c00"
   createdTime: "2024-06-24T23:53:00.000Z"
-  lastEditedTime: "2025-07-03T02:56:00.000Z"
+  lastEditedTime: "2025-07-03T05:46:00.000Z"
   propFilepath: "docs/Guides/Taproot basics/DJI serial.md"
 title: "DJI serial"
-date: "2025-07-03T02:56:00.000Z"
+date: "2025-07-03T05:46:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -92,7 +92,7 @@ Lets go though each field and explain them one by one:
 	- Checks if the `Frame Header` is “valid”
 	- NOTE: if `0xA5` (the start byte) is within in the body of the message the CRC check will make sure it is a valid frame alignment.
 
-	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1bb5fdbd-8147-48c6-8397-eabaad16fdc3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466S56BU7OG%2F20250703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250703T051341Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAQaCXVzLXdlc3QtMiJHMEUCIFlzjEHtlX8qV6K1Z47jCkOla%2Feq6XXkqV35GIqukxL8AiEAuzYc4NFy%2FI5oPx%2FFopZ8gwz8vPvlg8YdkxAcg93oYO0qiAQI%2Ff%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDCvt5FDuA1slAt50HSrcAxsPFvNoSY0wgyyouATdQ6U1voBS83Nt1ogtGUIWVLMJzAPoAyOY6umldGw7i6F7TGXnv7KxU1e4%2FMP2fPR%2Fi8EMSeJPrZi85vsimikkIp7fCIb2Jg1QGOWQjksxSNzgPsaIPG20v0%2B7gHtKEzAcCGhdS9IGg6ZorTEhi3JgUPVIn28Se8GIASaIhP0SW6nq8bYt6nG8WE%2FSTF3Q%2FTuwgwYE1Frv556DzIPKwi69LR%2BKWfLixW4iX3XV9fM6ahgWOnX%2FaLthZooohDOXEjeUHMQlXjrlazDtZ9QRXM990TA2jkEe3Edo3CxhoqsLlLDJpbj0bzSdmEJeqHPEf%2B7hRLGeu0QvegCtUUxDuTdWagt1GCzF1OhYbSYXnesLWYpQIe1FIiVhTzWO%2FGhYSCKcBd6juAvDIQFZcWlKm7iwuboERFtsQlUQBbke%2BpFexbXvIQdS9C95k2nSRNKBhTqPiDVT4LeBr87IltCWQQcPJ4qnFKHenhtZSOdVwYQVl5YnA1gvIFIiO0mrjNYgiv0zit%2BhrScg67HQbigGZwq2KUrgEXJkPN7mXDz7MpOnqbSlYDNpnBHUKCHYu%2FX0TWdM7nWWDh%2BfCQOCv4RCzyb94kKExaeKw9OgKuIVUrX9MK2HmMMGOqUBR0r8vQQPqq9E0AvRlQspZ8gaKNjosb%2BZ1lkgqG%2BX1eVO%2BTp9%2B9ANUGO9oUOn1NtPdql%2FtYgr4dFig%2BXTTOQUy%2BurTisWkyVUo0BHjP6KY4KDLv9ZiCgT5tgRlgmYLDmUyzIiro8fqnpp3gIr4VAwMqLbFWm%2FjAbnpsYAqlgHaNKZFFjauCSuFntwp0RF64wPkbya4yXTK7Eow5tJfsUDxOwPRxzZ&X-Amz-Signature=54e2ff943f06b383763555a2f336dc9c647d8c6e37e313aca3358091ab5e62d6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1bb5fdbd-8147-48c6-8397-eabaad16fdc3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XTAXQJMV%2F20250703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250703T061358Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJHMEUCIQCg0uRyl0iD0T9bM4Ki19kWU3uUQRAnXu%2BcquO7GaTHkgIgRUzL5aH%2Bhm3wmnJl9H1X5NNRgEdYRQjmCIB5NIVbffYqiAQI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDFl95P79A3uwLaDOeyrcA%2FrgMHwuG0Qlq05KFwizVIAg0GY4MSQPnzm59E%2B%2BhismqXSHdET718dtnzti%2FxQMVZvSku7zDsJsXGYkY1pmvKPV%2Fgzfeit64qN2WI%2BhYdDNNyIUtS8Y0x58HReTKu25T5V3%2FGko9EvVSJrZWeT2q4Bl7qa7mmtnS%2BKk1Ij8PZZZrvvGV%2B3MSDeO0PYvpvht7BBpvkIl8z0Ge3CHI9wfeDXzxHBYWI7R30YInbjbLqrzuU2ImGWHJSCtb8eSJMAgVh%2F9aOCV9HsxLbEtozYk%2BU3WVjEcNQrR5v5z57e55iZergeVwDx%2BMApM%2FU6DPF%2FDDsJcdvm6KE8PX%2BirGYfFugqciYyHmbDbcfOyW7ESPqL%2BOhDjSKFwqkz2FBaf1Yu0sWMnb1UMK5FiX58KJp3bvu638px%2BwihuaoE4mxuN66xUc5geBtiLZQoFgMrAHvg8%2Bvq8kuZHWYuLduHGdbCY4XL%2Bk7B4zVRyEOjqjiwuJGm93WIMeokuHeWQWckWPrcmPP3yCfqO8d3lVIm62YX9kaMMM2oIaJEdbh57xK9yHESkWbye6BfIgPUVcrFA1sZkODoo%2BLjTx2M6z0qrgIriwPuP3BjZ50scISzpEV%2BUj9hvcUyVeMgg3X5f1DZcMPKumMMGOqUBmVx5deOq6YN5Gu2qOLpISToP%2Fbs0b1HDgOlK27QSJksAojTz81%2BsbC%2FlJAEwjNAX6dWSY0uP92jvWEfnqCIKmR1CBZ9tiXf0MT2jbLkuZKCShZq55b1aBLRDRZoGVc98wbByExxxNjk095cueMLPYGRJguIRnJvYXYEBsABvtde0qxaaqOWnD1fV5LbYwTuwKGCyhY6MHFwJxdaHRe0%2BINcmXEd%2B&X-Amz-Signature=0ce334c0c12f8d1439a7e63c87cca6a30c4984b563ee3304572f3266a24ba0e6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 	<details>
 	      <summary>What is CRC?</summary>
@@ -231,7 +231,7 @@ ser.close()                             # close port
 
 running this code your printout should be:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f0f20eb5-b37b-4dd1-96fb-318307f62b91/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TLSSJABL%2F20250703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250703T051328Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAQaCXVzLXdlc3QtMiJHMEUCIQDgoIgdutQ2znWm5j7VssSrji%2FYcKhAuc9nZtfqnXvRygIgMsDvvklWdI8dXsiqm2KRGjHuxKUu%2F%2F5hTz7RzZqQHqsqiAQI%2Ff%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDKkWTVYje9wPdfsJ5yrcA3H7AHcILt3LBQCfgYj5a8ZOgap8Ia8qgIw9fpsWFg3TSstwteV8lEpHa7W4FcPn9FTwjTv9y4sFANbuGNQjxMH1R9UVtgK6KBp%2BB5G3m0XFLeKKLvXXobdqB%2FE3cyeHsugX%2BSNz%2FQQ%2F2FI%2Bfw8dtipTTGW6K3tqfr5t7z6uYnqfQ5Ohbc%2FBOqTMKQTY0hFoxE2LszVSlZNoRO%2BB2NfU7S3EUGpv8ZiORmfDLswSD1f%2Bg%2BRyg%2F2%2Fjtw%2FfahJkkwG734SSk2%2BX%2BRVNzO15RnqwPzNo2AJHZA8isGmxbI6yNt2pnou3nusZ%2FvJEA3ddqjbeug0%2Ba7nUlWl8113m7geX9pYl%2Fc9ZloIZ30UN4aTq7%2FN5OteoHi8Ht3rThJsKk6ObVXYQkcKIlCEo7t8c9HNXuW5EcG5fXV7wTri32k0ZmdLnI%2FEDm%2BoFLWdxjdM3WUDy5W1d%2F4Aga0YIQ5rs35Y5aa0w39%2F9KqrjuOcjeth2T3J88wGzvi7XQ7Tr8Gdmo1lvO%2BsAAWIFvseiegKBGpNbXpbZB7kghvwES3ohOL%2BWPKNlFbu3NUBtUItqJbS8SlrqQCKrGrZOeYtgQxU4HZKuSEfubbtqH3tmzkxNGiRPV0fhAs1HKeyUxubqdx8MOeHmMMGOqUBRMjJ0WjYddHOsUuwiK9sTzETp2QgytGmtqXHPNa1tFTg4PNIy5sumGAKolXbMmA%2FVA6NFTyGDdV26lY3IoXtYj%2Bsh%2BgtP35J3lo0Yu7HMrrpsFs%2BjJmqi2HKIPbIuqtRZ8csR1S1dYhZDnMG6xhFcSZRzuhYDtQyCTwbudnsmF9298SWTRX%2FpVhv3hxb2VS7%2F%2BQ%2BgvTx3bJVXg281Ro6o%2FYGhN9R&X-Amz-Signature=8a57eff2e82d216e887f36135bf7ee6ef0bf9f9e1205df7e7ddd61015bd43071&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/f0f20eb5-b37b-4dd1-96fb-318307f62b91/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SMH4TD2K%2F20250703%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250703T061346Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJIMEYCIQDDn8Ixs8Su1WwzKv4o0zGHa4%2Bi22snzNKY5VlDMEJ8AAIhAMT2Hw9xwWZJknQtETIckiE4LBVA4FXb6hSQ4xTIEyJHKogECP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igw3P2J4h3NvT860c3Mq3AO21aMfhsuHuWONjUW%2BKIuScKv1rLcFps1PMSvaJp3300eL%2FDLbM0RM%2BMZ36Jwf1A%2BxvFW8Epz5%2FFs5Lwnah%2Fq46Xwkwwo1kuD%2Ftd4aMvNsYDwvpkiG1WDOuNaVab7f6BeYx0xYbi5yx0LvWgfKvN%2BbiUnWqDz89d9uN99tLfmFk6CUUz8piXf7ANaDmqQ0eBSSkl%2FZFcRBiT15e%2F6a6i9N3vb8Vh1kXuz8Pn2SOTIPKPN7k6b53NTC9wOJgmeAKeQlq17ca8OzblSUkOJ4opfslTsKL4AGXCz%2BLAj9vGV8Zk1HYHUZzR2p%2FcVH6MY%2FWvis3GYdh7jxd0banIGyZ4z2AKSzWa3Yc0gZM8Dh%2BRWPTiJtEo%2FAunnjXgzIYxspfYb8cmpvNNriYI%2BQ74av8NcM5CwivWvWh1v%2BPpI%2BveZEjBsp9ypxnkUqPXjl6O46o2j644zyPMCTr0ie6NxL1OmifDWJ%2BctSozi%2B6xbn8IxrnvB%2FsOZAhapnxjgDyBUkD3yIJV%2FoIbfYuLr2uxMFZETpoTSVktg%2FE3Ry9%2Flri7PE36WEcAkXaBODCr2jizIydKiVoR7d%2FP7BU3RbpC%2Bl8BqPAv12e%2FncNNZLc0aG%2Boi3PdsQURXjQpGRCrSx%2FjD%2Fr5jDBjqkATFCLjLuUnHw4%2Fam0r4fm2siyCRv9z9j%2FWSBwexM7Yo13qvU1bylnEHd2%2F3cFcFsX11v5dcfJvCohP%2BQ9%2BVUH48qpz6nRCgPPzBUfaUQ3b8yqFVwr8hRqjFVtEbm%2FIhdkGkm6vnhGeXjaF27tiy398LQau%2BWynBTkjD7imW6eoWY1vYVwQviDntH6WlN6Lg7vtrYY%2Fh1tmj2h7l6Ul6MES%2B6TuvI&X-Amz-Signature=60179538bf5b77572f4baecd594aa066002283be2463e9f863d130197dbedd52&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ### Type-C code
 
@@ -287,9 +287,6 @@ int main() {
 
 > NOTE: use `modm_packed` it packs the struct as tightly as possible and removes padding  
 > basically ensuring there are no extra bytes in between variables
-
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
-<div>
 
 **Jetson code**
 
@@ -362,9 +359,6 @@ ser.close()                             # close port
 
 ```
 
-</div>
-<div>
-
 **type-c**
 
 ```cpp
@@ -413,6 +407,3 @@ int main() {
     }
 }
 ```
-
-</div>
-</div>
