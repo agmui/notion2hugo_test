@@ -2,10 +2,10 @@
 sys:
   pageId: "cd6cded8-fb37-41e5-bb68-2de18a250975"
   createdTime: "2024-08-21T00:29:00.000Z"
-  lastEditedTime: "2025-07-04T04:10:00.000Z"
+  lastEditedTime: "2025-07-04T06:01:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/Transforms.md"
 title: "Transforms"
-date: "2025-07-04T04:10:00.000Z"
+date: "2025-07-04T06:01:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -21,3 +21,5 @@ icon: ""
 (For a more in-depth explanation go to: [https://articulatedrobotics.xyz/tutorials/ready-for-ros/tf](https://articulatedrobotics.xyz/tutorials/ready-for-ros/tf))
 
 #TODO: make activity where you read in a sensor and publish it and view it in rviz
+
+#TODO: introduce urdf as a simpler way to do transforms
