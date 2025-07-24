@@ -2,10 +2,10 @@
 sys:
   pageId: "179da3bc-6297-80f1-8809-cb37d88ed0cd"
   createdTime: "2025-01-12T14:56:00.000Z"
-  lastEditedTime: "2025-04-30T01:28:00.000Z"
+  lastEditedTime: "2025-07-24T10:20:00.000Z"
   propFilepath: "docs/Guides/intro_to_ROS2/ROS2 cheat sheet.md"
 title: "ROS2 cheat sheet"
-date: "2025-04-30T01:28:00.000Z"
+date: "2025-07-24T10:20:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
@@ -37,7 +37,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 or
 
 ```bash
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --params-file del.yaml
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
 ```
 
 ## ROS debug
