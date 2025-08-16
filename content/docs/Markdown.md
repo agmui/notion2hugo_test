@@ -65,21 +65,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis commodo mau
 
 {{< /table >}}
 
-{{< table "table-striped table-hover table-responsive" >}}
 
 | 11 | 12 | 13 |
 | -- | -- | -- |
 | 21 | 22 | 23 |
 | 31 | 32 | 33 |
 
-{{< /table >}}
-
 ---
 
 <details>
-      <summary>Toggle list</summary>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis commodo mauris, id semper ipsum condimentum sed. Nunc quam velit, malesuada et finibus a, laoreet vitae lacus. Morbi in augue sodales, semper tellus sed, scelerisque lacus. Pellentesque eu turpis non eros tristique malesuada. Quisque et magna eget lectus aliquet tempus. Donec ut nisl quis mauris tristique tincidunt. Sed eleifend facilisis enim, et gravida orci. Morbi erat ligula, commodo ut sapien non, blandit lacinia sem.
-  </details>
+  <summary>{{< markdownify >}}Toggle list{{< /markdownify >}}</summary>
+  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sagittis commodo mauris, id semper ipsum condimentum sed. Nunc quam velit, malesuada et finibus a, laoreet vitae lacus. Morbi in augue sodales, semper tellus sed, scelerisque lacus. Pellentesque eu turpis non eros tristique malesuada. Quisque et magna eget lectus aliquet tempus. Donec ut nisl quis mauris tristique tincidunt. Sed eleifend facilisis enim, et gravida orci. Morbi erat ligula, commodo ut sapien non, blandit lacinia sem.
+
+1. Ordered list 1
+2. Ordered list 2
+	1. Ordered list 3
+
+		| 11 | 12 | 13 |
+		| -- | -- | -- |
+		| 21 | 22 | 23 |
+		| 31 | 32 | 33 |
+
+</details>
+
+
 
 ---
 
@@ -120,7 +130,7 @@ $\KaTeX$
 
 ### Internal
 
-![photo-1470225620780-dba8ba36b745.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6942fdc2-293f-402d-b35d-ff8c4c74bc98/photo-1470225620780-dba8ba36b745.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T34SI2PC%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170429Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCICBQ4xpBdxDYuo5dwHaCb6ZWju55QfLQu5D0ziKLqQaBAiEAwjmEh1bqtZGSjA0ocO1YCXGWHCArMdsRbDomcUxcHiwq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDD%2FJyX6NVII7c9%2FBTSrcA6BM5uVvGatgx2Qtys%2Fa8h7uzXG7Bvn3uj0z8HbY5L%2FH%2B4h%2BhjZpm0hn3TBNHPO860oknkohiWO09YOPVX0gPYliQAQQpeLgPE3BfUifUv8CI4n4xNCElMMyt4JO%2F6%2Fbh82%2BaVFcPAbYa0gntbgfHqk07ujwGrM306szgVe6afQ3dx55%2FRJc91U24hityPzEkzY2ggbZEhSZw%2B7CGLqPqN6a44mqao11uspSQZwTq5cwTjBJ2h6fA3O7b1AMmO8h8urX%2FTG5Hce9HN7bFaB6z%2BdxhCqKhyTiJXLQ2toV5N9ixSyGLj2%2F%2FPwKZG2QRuYjIxOx7rjVtVUzpiOZx9PVM08iR5aiF7jeRBLa%2BayK4sUFXjOCJodDBpD7AOEQa%2BZfEBkDfA%2F8zztr02fFSIMFM66M4qyWGLcYvN8XZJqcwhQSxwWhF2sHzfnnkPN1i7umxfKrGcWWoGYqX0XIIsVezxoactsNhK%2FlmoiqUesDE3VU9yKAY%2F1IBud79xzh9q4YBMSXxNIERPi%2BMEEKjVBstg9238GgUHu3LRgWh3adk%2Fguyt22%2FCXRyWI23yPmCDFP%2Bq7pVCgEmLEICbsQMZs76bZIZLLOoHmHV3spdV%2Fm56g2VtlGD3vVjU3Zu22VMLOYgsUGOqUBjs7lSLb1N%2FIjnjIo7njrEyF5YPA%2B9FzVvEN7k5H2WEjPv%2Fb5xdk%2BmDD6k84rs%2B1rqq%2FZ22MvPAh9q6AwkVqLx%2B9X4sZK6UvrCrCOnMEvqi9%2B0nYBeZ46Mu9xUzATVUfero3X7A0JXkjz3a9fseawgSKredHIoZ21yEQVEMYaSZEuVHZVlb2J7%2BlkC5F9%2Bt8PSfSEkVbTZrO752f3fG7ndPXzPgAw&X-Amz-Signature=12808ebcc07c6c7ce78e3dcca9ca102e73b58e905eb2ec3819f557b934eb774f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![photo-1470225620780-dba8ba36b745.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/6942fdc2-293f-402d-b35d-ff8c4c74bc98/photo-1470225620780-dba8ba36b745.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662EX5IODE%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174323Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIA2AgK4nF2pqsg6DcWMgqg92JGid3PoJxKOU29iIP9qeAiBHkH%2FFJvkUN7pxnaXxGRQ35Njvx3xqD6hQQEJBa55mZSr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMdjVgN3KzxXyAyhx5KtwDelPiYddT%2BzwplFIxJfMHYl24QzwwQYoQGi13ofjLQkpEKEmG02D83Xm%2FPoN0Kcd35x8idHST1eBUBsoz%2B0j4QPB34W4IkEqbpCEZ%2BlvCfYgwh%2Bl5AkehupxiRR076kxM3k12gVBrU1QNRmg3gZxquiVyPg18yZMNGNT0l8oZVRtWj0crfRIc65WB%2FC3h4zLv4j81XquRdDbc0fieBgjRVMTXbgMTPqDWUx%2BgJKixja83N5zQjEOAH5Cu0ie3qYlrlaykzRwB%2BVNYiNBHO%2FvbCTtTp8iboWD0CPONsrz%2FnvHfup8kH2%2B9u%2Fv4ygd29mbnJGeX83TslDFIwKSpSuehRGwITM%2FKRmZ9Azt3bWiFKE3w9p26UYCmMRi9fxHadMJDBYGsZ56rYCf8mlAm0SY64q3dJX7KWBp01HOGEVPmG%2BezV%2BwMeGpQauJOPCEZJ1Wugf6g7P8tTTleUvTeH0hs2GPHojMTP5BnmIJBRpYQ2fUpAh8skpZM0mMvainceV59xcLuDroA%2B9J%2BLG5reZ%2BANsBrLgbzigoKeiD37Qzh4V4FpkbgdVqZNdYcroz9Nz2DtR3%2Fr%2FLaHVCM67GvLwxS%2FVtaJ5L0FQu%2FT1kLcbzl4%2B6Uu6j9R6aqUYFzLQ0w3paCxQY6pgFNb28F1dxYs8z7iuw9EXVmSs4tNtLcrtYgppfZ4ICm5xD5e8VFYJDwur7At9hrmgd%2FDDtcW77qzbPUsQgFl3LL7MVjPTBy2b0dhoZZPL6%2BAkwrlZWnXluy%2FaUIL0HVyVPGh0ObBBN%2BeBxMqz%2Ba2Tenimnki%2FjeVPyics3Sk2%2B8dNGJUIaC4rs2q9yqlC9LzASBLPJxH7XZ4CLhg5%2B%2F4QAIcnTwKQ3C&X-Amz-Signature=0b4046dc36f72af598b735844fd7a75d1de2e9771360f5c732cbbd9f0febf926&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ### External
 
@@ -150,7 +160,7 @@ YouTube
 
 ## Code
 
-```cpp
+```cpp "4-4"
 #include <stdio.h>
 
 int main() {
@@ -162,11 +172,11 @@ int main() {
 
 ## PDF
 
-[trees-that-grow.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4a0c96da-8fad-4cea-9991-f3da89f3e2c8/trees-that-grow.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T34SI2PC%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170429Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCICBQ4xpBdxDYuo5dwHaCb6ZWju55QfLQu5D0ziKLqQaBAiEAwjmEh1bqtZGSjA0ocO1YCXGWHCArMdsRbDomcUxcHiwq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDD%2FJyX6NVII7c9%2FBTSrcA6BM5uVvGatgx2Qtys%2Fa8h7uzXG7Bvn3uj0z8HbY5L%2FH%2B4h%2BhjZpm0hn3TBNHPO860oknkohiWO09YOPVX0gPYliQAQQpeLgPE3BfUifUv8CI4n4xNCElMMyt4JO%2F6%2Fbh82%2BaVFcPAbYa0gntbgfHqk07ujwGrM306szgVe6afQ3dx55%2FRJc91U24hityPzEkzY2ggbZEhSZw%2B7CGLqPqN6a44mqao11uspSQZwTq5cwTjBJ2h6fA3O7b1AMmO8h8urX%2FTG5Hce9HN7bFaB6z%2BdxhCqKhyTiJXLQ2toV5N9ixSyGLj2%2F%2FPwKZG2QRuYjIxOx7rjVtVUzpiOZx9PVM08iR5aiF7jeRBLa%2BayK4sUFXjOCJodDBpD7AOEQa%2BZfEBkDfA%2F8zztr02fFSIMFM66M4qyWGLcYvN8XZJqcwhQSxwWhF2sHzfnnkPN1i7umxfKrGcWWoGYqX0XIIsVezxoactsNhK%2FlmoiqUesDE3VU9yKAY%2F1IBud79xzh9q4YBMSXxNIERPi%2BMEEKjVBstg9238GgUHu3LRgWh3adk%2Fguyt22%2FCXRyWI23yPmCDFP%2Bq7pVCgEmLEICbsQMZs76bZIZLLOoHmHV3spdV%2Fm56g2VtlGD3vVjU3Zu22VMLOYgsUGOqUBjs7lSLb1N%2FIjnjIo7njrEyF5YPA%2B9FzVvEN7k5H2WEjPv%2Fb5xdk%2BmDD6k84rs%2B1rqq%2FZ22MvPAh9q6AwkVqLx%2B9X4sZK6UvrCrCOnMEvqi9%2B0nYBeZ46Mu9xUzATVUfero3X7A0JXkjz3a9fseawgSKredHIoZ21yEQVEMYaSZEuVHZVlb2J7%2BlkC5F9%2Bt8PSfSEkVbTZrO752f3fG7ndPXzPgAw&X-Amz-Signature=cdfee57e02c691b1a126ff429af6a055617e76fa3ce4402e2a1444139ddd8eec&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[trees-that-grow.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4a0c96da-8fad-4cea-9991-f3da89f3e2c8/trees-that-grow.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662EX5IODE%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174324Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIA2AgK4nF2pqsg6DcWMgqg92JGid3PoJxKOU29iIP9qeAiBHkH%2FFJvkUN7pxnaXxGRQ35Njvx3xqD6hQQEJBa55mZSr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMdjVgN3KzxXyAyhx5KtwDelPiYddT%2BzwplFIxJfMHYl24QzwwQYoQGi13ofjLQkpEKEmG02D83Xm%2FPoN0Kcd35x8idHST1eBUBsoz%2B0j4QPB34W4IkEqbpCEZ%2BlvCfYgwh%2Bl5AkehupxiRR076kxM3k12gVBrU1QNRmg3gZxquiVyPg18yZMNGNT0l8oZVRtWj0crfRIc65WB%2FC3h4zLv4j81XquRdDbc0fieBgjRVMTXbgMTPqDWUx%2BgJKixja83N5zQjEOAH5Cu0ie3qYlrlaykzRwB%2BVNYiNBHO%2FvbCTtTp8iboWD0CPONsrz%2FnvHfup8kH2%2B9u%2Fv4ygd29mbnJGeX83TslDFIwKSpSuehRGwITM%2FKRmZ9Azt3bWiFKE3w9p26UYCmMRi9fxHadMJDBYGsZ56rYCf8mlAm0SY64q3dJX7KWBp01HOGEVPmG%2BezV%2BwMeGpQauJOPCEZJ1Wugf6g7P8tTTleUvTeH0hs2GPHojMTP5BnmIJBRpYQ2fUpAh8skpZM0mMvainceV59xcLuDroA%2B9J%2BLG5reZ%2BANsBrLgbzigoKeiD37Qzh4V4FpkbgdVqZNdYcroz9Nz2DtR3%2Fr%2FLaHVCM67GvLwxS%2FVtaJ5L0FQu%2FT1kLcbzl4%2B6Uu6j9R6aqUYFzLQ0w3paCxQY6pgFNb28F1dxYs8z7iuw9EXVmSs4tNtLcrtYgppfZ4ICm5xD5e8VFYJDwur7At9hrmgd%2FDDtcW77qzbPUsQgFl3LL7MVjPTBy2b0dhoZZPL6%2BAkwrlZWnXluy%2FaUIL0HVyVPGh0ObBBN%2BeBxMqz%2Ba2Tenimnki%2FjeVPyics3Sk2%2B8dNGJUIaC4rs2q9yqlC9LzASBLPJxH7XZ4CLhg5%2B%2F4QAIcnTwKQ3C&X-Amz-Signature=d4d7261a2a9db957ae5ac149e16634f1e8c73dfba75d0c0d7a530630c049d548&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ## File
 
-[Living-Guide.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ce9c6086-f3d8-448a-b754-9bf37f0a8bd5/Living-Guide.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466T34SI2PC%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170429Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCICBQ4xpBdxDYuo5dwHaCb6ZWju55QfLQu5D0ziKLqQaBAiEAwjmEh1bqtZGSjA0ocO1YCXGWHCArMdsRbDomcUxcHiwq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDD%2FJyX6NVII7c9%2FBTSrcA6BM5uVvGatgx2Qtys%2Fa8h7uzXG7Bvn3uj0z8HbY5L%2FH%2B4h%2BhjZpm0hn3TBNHPO860oknkohiWO09YOPVX0gPYliQAQQpeLgPE3BfUifUv8CI4n4xNCElMMyt4JO%2F6%2Fbh82%2BaVFcPAbYa0gntbgfHqk07ujwGrM306szgVe6afQ3dx55%2FRJc91U24hityPzEkzY2ggbZEhSZw%2B7CGLqPqN6a44mqao11uspSQZwTq5cwTjBJ2h6fA3O7b1AMmO8h8urX%2FTG5Hce9HN7bFaB6z%2BdxhCqKhyTiJXLQ2toV5N9ixSyGLj2%2F%2FPwKZG2QRuYjIxOx7rjVtVUzpiOZx9PVM08iR5aiF7jeRBLa%2BayK4sUFXjOCJodDBpD7AOEQa%2BZfEBkDfA%2F8zztr02fFSIMFM66M4qyWGLcYvN8XZJqcwhQSxwWhF2sHzfnnkPN1i7umxfKrGcWWoGYqX0XIIsVezxoactsNhK%2FlmoiqUesDE3VU9yKAY%2F1IBud79xzh9q4YBMSXxNIERPi%2BMEEKjVBstg9238GgUHu3LRgWh3adk%2Fguyt22%2FCXRyWI23yPmCDFP%2Bq7pVCgEmLEICbsQMZs76bZIZLLOoHmHV3spdV%2Fm56g2VtlGD3vVjU3Zu22VMLOYgsUGOqUBjs7lSLb1N%2FIjnjIo7njrEyF5YPA%2B9FzVvEN7k5H2WEjPv%2Fb5xdk%2BmDD6k84rs%2B1rqq%2FZ22MvPAh9q6AwkVqLx%2B9X4sZK6UvrCrCOnMEvqi9%2B0nYBeZ46Mu9xUzATVUfero3X7A0JXkjz3a9fseawgSKredHIoZ21yEQVEMYaSZEuVHZVlb2J7%2BlkC5F9%2Bt8PSfSEkVbTZrO752f3fG7ndPXzPgAw&X-Amz-Signature=57c3a8c740bb28d85eb9c29bcec3fbf5738fe4f6c6be6731281bcb88c9184cfe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+[Living-Guide.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ce9c6086-f3d8-448a-b754-9bf37f0a8bd5/Living-Guide.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662EX5IODE%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174324Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIA2AgK4nF2pqsg6DcWMgqg92JGid3PoJxKOU29iIP9qeAiBHkH%2FFJvkUN7pxnaXxGRQ35Njvx3xqD6hQQEJBa55mZSr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMdjVgN3KzxXyAyhx5KtwDelPiYddT%2BzwplFIxJfMHYl24QzwwQYoQGi13ofjLQkpEKEmG02D83Xm%2FPoN0Kcd35x8idHST1eBUBsoz%2B0j4QPB34W4IkEqbpCEZ%2BlvCfYgwh%2Bl5AkehupxiRR076kxM3k12gVBrU1QNRmg3gZxquiVyPg18yZMNGNT0l8oZVRtWj0crfRIc65WB%2FC3h4zLv4j81XquRdDbc0fieBgjRVMTXbgMTPqDWUx%2BgJKixja83N5zQjEOAH5Cu0ie3qYlrlaykzRwB%2BVNYiNBHO%2FvbCTtTp8iboWD0CPONsrz%2FnvHfup8kH2%2B9u%2Fv4ygd29mbnJGeX83TslDFIwKSpSuehRGwITM%2FKRmZ9Azt3bWiFKE3w9p26UYCmMRi9fxHadMJDBYGsZ56rYCf8mlAm0SY64q3dJX7KWBp01HOGEVPmG%2BezV%2BwMeGpQauJOPCEZJ1Wugf6g7P8tTTleUvTeH0hs2GPHojMTP5BnmIJBRpYQ2fUpAh8skpZM0mMvainceV59xcLuDroA%2B9J%2BLG5reZ%2BANsBrLgbzigoKeiD37Qzh4V4FpkbgdVqZNdYcroz9Nz2DtR3%2Fr%2FLaHVCM67GvLwxS%2FVtaJ5L0FQu%2FT1kLcbzl4%2B6Uu6j9R6aqUYFzLQ0w3paCxQY6pgFNb28F1dxYs8z7iuw9EXVmSs4tNtLcrtYgppfZ4ICm5xD5e8VFYJDwur7At9hrmgd%2FDDtcW77qzbPUsQgFl3LL7MVjPTBy2b0dhoZZPL6%2BAkwrlZWnXluy%2FaUIL0HVyVPGh0ObBBN%2BeBxMqz%2Ba2Tenimnki%2FjeVPyics3Sk2%2B8dNGJUIaC4rs2q9yqlC9LzASBLPJxH7XZ4CLhg5%2B%2F4QAIcnTwKQ3C&X-Amz-Signature=73f24c6d29aba3725cdaf83d040278bbb006cefc64db97451e76550c9f1d8d28&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ---
 
@@ -182,6 +192,12 @@ graph TD
 {{<blogcard "https://github.com/">}}
 
 <details>
-      <summary>why </summary>
-      This transform is [required as in input to Nav2](https://docs.nav2.org/setup_guides/transformation/setup_transforms.html#transforms-in-navigation2)
-  </details>
+  <summary>{{< markdownify >}}why `odom => base_link`???{{< /markdownify >}}</summary>
+  
+This transform is [required as in input to Nav2](https://docs.nav2.org/setup_guides/transformation/setup_transforms.html#transforms-in-navigation2)
+
+ Will see it be used later when Nav2 performs path finding
+
+</details>
+
+

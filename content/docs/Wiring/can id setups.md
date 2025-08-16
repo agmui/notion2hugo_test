@@ -34,9 +34,8 @@ icon: ""
 
 {{< /table >}}
 
-## Standard
 
-{{< table "table-striped table-hover table-responsive" >}}
+## Standard
 
 | **motor on the robot** | **motor id** | **canbus** |
 | ---------------------- | ------------ | ---------- |
@@ -49,5 +48,3 @@ icon: ""
 | drivetrain motor 2     | 2            | 1          |
 | drivetrain motor 3     | 3            | 1          |
 | drivetrain motor 4     | 4            | 1          |
-
-{{< /table >}}

@@ -19,9 +19,43 @@ icon: ""
 Unlike python or Java C/C++ splits its files
 
 <details>
-      <summary>Why do we do this??</summary>
-      In C++ we can’t use a function until we have defined it
-  </details>
+  <summary>{{< markdownify >}}Why do we do this??{{< /markdownify >}}</summary>
+  
+In C++ we can’t use a function until we have defined it
+
+**EX:**
+
+```cpp
+int main(){
+	printf("%d\n" funnyNumber()); // this wont work
+}
+
+int funnyNumber(){
+	return 69;
+}
+```
+
+To fix this we use forward declaration
+
+```cpp
+int funnyNumber(); // forward declaration
+
+int main(){
+	printf("%d\n" funnyNumber()); // this wont work
+}
+
+int funnyNumber(){
+	return 69;
+}
+```
+
+we say “Hey C++ here I promise I will eventually define this function `funnyNumber` but don’t freak out when you see it”
+
+Here is a link that goes more in depth: [https://www.learncpp.com/cpp-tutorial/classes-and-header-files/](https://www.learncpp.com/cpp-tutorial/classes-and-header-files/)
+
+</details>
+
+
 
 `.h` file (header file) is like we deleted the body of the function
 
@@ -115,6 +149,6 @@ int main() {
 
 ```
 
-![ezgif.com-video-to-gif-converter2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZKJYAJE7%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170443Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIAnx4TQTZJCQH1Ka1usi%2BDO6CvNycR37ZrbsFB6QfBoXAiEA3W5fbCebFUaxPwG1Ab%2Bql%2BHJyjqpHRc7Ticl6sfaeF0q%2FwMIdhAAGgw2Mzc0MjMxODM4MDUiDF0x8Y6CpkOII5NpqircA13VYVIrClz6OyE1cQikC7oDRTN227T71pXFAr6K9%2BsgQpTtCAuSaSp2bBPS1R0OtU1BemWMXNRYHc7lndGDsLV3B4mqQVKKomL9jVWvpm2lpo3RvQp1mx1ib3SruMBLF6F%2By7nmT%2F5G4Uv74k36N0ln%2BRAyUlYXvwGbbXItoNpINk%2FVj2QsPRlk13ZxvfhU90%2Bxq%2FZ8k1NbGRK13jWOqSNRoSIg5cNI6ZlJXOTH1Fm8XSDWao3WVnB54lRouKQh7yhdJmwROY7ShA00pFhDf75JX9tLdW%2F97LtgXpTUBEcNAgCc2FdM2f7jK49lMFVsLzvnNYz2y9HRLMsS6zgPyrhw5RpyRgdp3jrl0S%2BhN341ci3oPOYB%2ByI8ZR%2FcAG9Ys48w0580BCpvoIqdnOL7T7oOpwWc6o%2B%2B9RTMXJudKyF2l5%2F4zrKnD8%2F3QnNVDStrhTIMiPIGjPxP4%2BMQTCgTMPeamhSJcT54Wdn%2BCM9oIrLwUdFufi7xitSDVo%2FIEqWBuw9%2F%2B8W1LWYmEtYy%2FjcbIrqJfeR1wVFLAqt0sisOnHwQTkG6P5zhUDwx7kEaL9b1Et4AIm2tQXDYI8g6jRmsy5yQIucb79S%2F6UZIpBhG1oAuwegmYayTl5WdfyqwMKeKgsUGOqUB%2FUZi1rzawr%2BMtOSGUzZf19LIlXB%2BvXy94DunufRYoLVHMfXpaXpNoxG2LghWShBxFT11eL2sFNXHOoWcCpApl0BDkl9AZvQLRpRxB3vosgBViP1cwOmGngD28UfVm3w2fni8AsSvJ8jqkV89y2fuLD8NXpbMCz2rHYdAUXdCzMj7lLp3Gzo3gXebegDf%2Bt6PR0AJYRL2P5VEMj%2F6QrhaHLYwJGcw&X-Amz-Signature=a02e747dec40434a3ad427b9ad32215810d613ab53371ae944b36c7a6b5e3ce5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![ezgif.com-video-to-gif-converter2.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9f103daa-e14d-4502-9172-47a4134fd049/ezgif.com-video-to-gif-converter2.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RGQCIX3C%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174326Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQC1n%2FAQXWI4gBUAstYdZmoSoXGSEcFmZspP8FJX8%2Fh12AIhANB5IOlwRf8bM6y7YyKSjFoa3%2FrxI6NOFD59LxMtZ%2Bf3Kv8DCHcQABoMNjM3NDIzMTgzODA1IgwlrdAyQ0CXi0TQrGcq3ANgO7Id5Y7XQo%2B0CkIYkt%2FuYHoMLRBRrXhMlCUa6VC7Gk%2FyZ5xHbp2Zq2Apdp7%2BGeVCoKJZuuH8KjzcqPQztQL53P1LQr8HfjrYTwVyN1MsQscqEhfIkARVNxk%2ByvCS2ebeziVHZ1spWqwxWHoqaG46h7fC2O7XkZa1BIhvEf7UXrUmP8hRuUgvna872rgqQoxgdAC1ONN4L%2B%2F2896kHjegEu1yfWtacIYrx0kXk9%2FSu%2Faqa7Oa6%2Fcy2LaBXjLPecYgrs0xbnM124lQhrhcSSrOvO7TbCTp9En0L3W1gGc8gPDU%2FxjiFcY55lc8RX8C%2FqpOVXy1IDAQyH4MZCmTbBnJyIskxKEInGMdpjS5svCKSgzQWAdbivxMTPtakJeb7EgO1LNvlMpeI%2Fy3anPNIScOvfx3%2BwRsDfC7twfj0Sb43KP7diYb2gEsmdnsfvqOTB7hXut51Y7b04GV9WZHs%2BUOSy%2Bldqmhqu4HIlgZqpiG%2Bp7ygGVe9uNx2yub2rFINXSEqsk0QC8qq%2BWj1HvHptjDUyLc2iUJJM4zzKWxMULSS8n06F5%2BiHVC%2BMDtfEYFPdpWIMdsNnPuDyj%2BciofU7EQHS8aaDuYFlhmlHFZN9Z7xxw0ndm%2FimfQWIjsFTCHkoLFBjqkAVSgzGKfmYTYS9rOCPQKNSwTqeeZcHqLjPmoLt0fTocDMx2J3jc3IYzYjthFSiqZiZS1l2jKupEc9AToCfbe1Wu1syLi6n7RY8U75J1ZiNfnAMGzaX9TGFL7hoO%2BVPEjc4hTwVwdQ54ayeLgnXsAexNkfHiJwvShOcbCfSIIj696c2nwmfZonrpL2qyhdtBV3moLzY7U3kwOQhhZmrRArp5iOpXX&X-Amz-Signature=e397b1405336a2ba2dc2a17a57a287d4477e2036fc7a7817ac6d4b1e1b261865&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ### Note: `.h` == `.hpp` (these are the same)

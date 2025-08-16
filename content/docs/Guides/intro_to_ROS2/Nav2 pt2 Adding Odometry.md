@@ -19,7 +19,7 @@ icon: ""
 
 Odometry (odom) is the (x,y) position of where the robot thinks it is on a map
 
-![rectanglecar.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1690c3a5-9461-461f-8698-52ffd5c91c76/rectanglecar.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170458Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=bfdf344f2a6d6baafa56a2e139f92e777156e3b4ae09a74a6b0116f025d5cc69&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![rectanglecar.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/1690c3a5-9461-461f-8698-52ffd5c91c76/rectanglecar.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174335Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=c0f662e0af719788b2e807a666663d6e8d2922a30751602ecdd07f8c01c78af5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 This is often done by measuring how many times the wheels rotate on our robot
 
@@ -30,9 +30,17 @@ Lets make a Node to do this
 {{% alert context="info" %}}
 
 <details>
-      <summary>Why not ros2_control?</summary>
-      This guide is designed to be work with hardware setups commonly found in Robomasters. Where there is a often a Raspberry Pi / Jetson, and a micro controller such as an Arduino / Robomasters type-c boards. Most of the controls code lives on the micro controller so it is more convent for the Robomasters teams to not use `ros2_control` and simply send commands over a serial interface.
-  </details>
+  <summary>{{< markdownify >}}Why not ros2_control?{{< /markdownify >}}</summary>
+  
+This guide is designed to be work with hardware setups commonly found in Robomasters. Where there is a often a Raspberry Pi / Jetson, and a micro controller such as an Arduino / Robomasters type-c boards. Most of the controls code lives on the micro controller so it is more convent for the Robomasters teams to not use `ros2_control` and simply send commands over a serial interface.
+
+If you are curious about `ros2_control` Articulate Robotics has a very good guide on it:
+
+[ros2_control guide](https://articulatedrobotics.xyz/tutorials/mobile-robot/applications/ros2_control-concepts)
+
+</details>
+
+
 
 {{% /alert %}}
 
@@ -42,7 +50,7 @@ Lets make a Node to do this
 
 {{% alert icon=”👾” context="success" %}}
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/45033173-8743-4cca-8e71-7dc186efb12b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170458Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=785f9af4b0751d3a35faa5bd3f41c2ab82fe9697e84f6b22a3a9d62f85c4dfc8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/45033173-8743-4cca-8e71-7dc186efb12b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174335Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=881beedca46f516296b1d2372ef4a1f69a9bce184804ced874b09696820c8b77&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 #### Outputs:
 
@@ -54,6 +62,7 @@ Lets make a Node to do this
 
 {{< /table >}}
 
+
 #### description:
 
 reads in the physical robot’s wheel angles and publishes them to `/joint_state` 
@@ -64,7 +73,7 @@ There should be a file `mbot_pkg/mbot_pkg/my_node.py`
 
 This is where we are going to create our custom node to read in wheel angles
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/e8398c10-b86c-43a5-996a-6f43c08c516b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170458Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=a7cfebca69e49898fcc4a6be3195c30238115a78be3e8c9d959d8934082a5e53&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/e8398c10-b86c-43a5-996a-6f43c08c516b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174335Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=667e6018839766824bb71735644b2d62513e30e563ef1b2213fdb6b72593cd81&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 First we need to **publish** to topic `/joint_states` so I will copy the example publisher code from the[ Publisher and Subscriber guide](https://agmui.github.io/notion2hugo_test/docs/guides/intro_to_ros2/ros-nodes-publisher-and-subscribers-/):
 
@@ -107,11 +116,11 @@ if __name__ == '__main__':
 
 Here is how the basic publisher object works
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9d5b61d2-d2fc-47e8-8942-31a5e2e94f59/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170458Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=a84ac0c86a6203e06f5cd37a89f97880f4b51f98be40e913694fc0c49b4f9398&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/9d5b61d2-d2fc-47e8-8942-31a5e2e94f59/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174335Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=e364722d46820b13ea1a0fa59bc5af9d9f2fbfed51a9258024cefead712d07b9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 We need to change the publisher topic type from `String` to `sensor_msg/JointState` and where it’s publishing too. Let us also import `JointState` type and some stuff we will use later.
 
-```python
+```python "4-4","5-9","14-14","15-15"
 import rclpy
 from rclpy.node import Node
 
@@ -135,7 +144,7 @@ class MinimalPublisher(Node):
 
 To find out how the `JointState` message is formatted we can run these two commands in two different terminals
 
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
+<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">
 <div>
 
 ```python
@@ -154,7 +163,7 @@ ros2 topic echo /joint_states
 
 **Output:**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/e1e25606-85a0-4bac-acdb-5ed154eb9249/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170458Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=de15dbe6a2f3466fb88892c3429b40ca7253b0b02bb5c3acaa6786e96dc3585c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/e1e25606-85a0-4bac-acdb-5ed154eb9249/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174335Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=555e60a58cf71f25f28715d76fc0afb22392293237f793f20e398c14586c4d22&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 the `ros2 topic echo /joint_states` command showed what the `joint_state_publisher_gui_node` is publishing. 
 
@@ -180,7 +189,7 @@ effort: []
 
 we can fill in the fields roughly the same
 
-```python
+```python "1-17"
 
     # gets called every 0.05 seconds
     def timer_callback(self):
@@ -211,9 +220,58 @@ if you are in Robomasters this will most likely come from the `RM_Uart` class
 {{% /alert %}}
 
 <details>
-      <summary>Final code:</summary>
-      
-  </details>
+  <summary>{{< markdownify >}}**Final code:**{{< /markdownify >}}</summary>
+  
+```python "15-29"
+import rclpy
+from rclpy.node import Node
+
+from sensor_msgs.msg import JointState
+
+
+class MinimalPublisher(Node):
+
+    def __init__(self):
+        super().__init__('minimal_publisher')
+        self.publisher_ = self.create_publisher(JointState, 'joint_states', 10)
+        self.timer = self.create_timer(0.5, self.timer_callback) # calls timer_callback() every 0.5 sec
+
+    def timer_callback(self):
+        current_time = self.get_clock().now().to_msg()
+        new_left_wheel_th =  # TODO: reading wheel position goes here
+        new_right_wheel_th = # TODO: reading wheel position goes here
+
+        
+        # ============ updating URDF wheel joints ====================
+        msg = JointState()                                  # create msg object
+        msg.header.stamp = current_time                     # fill it with data
+        msg.header.frame_id = ''
+        msg.name = ["drivewhl_l_joint","drivewhl_r_joint"]
+        msg.position = [new_left_wheel_th, new_right_wheel_th]
+        msg.velocity = []
+        msg.effort = []
+        self.publisher_.publish(msg)                        # publish the message
+        self.get_logger().info(f'Publishing position {new_left_wheel_th}, {new_right_wheel_th}')       # print msg
+
+
+def main():
+    rclpy.init()                            # initializes the rclpy library
+
+    minimal_publisher = MinimalPublisher()  # creates our MinimalPublisher object
+
+    rclpy.spin(minimal_publisher)           # causes it to loop forever
+
+    minimal_publisher.destroy_node()        # Destroy the node explicitly
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
+```
+
+</details>
+
+
 
 At this point plug in your robot to you laptop/computer
 
@@ -232,9 +290,38 @@ you may also need to run `sudo chmod 777 /dev/tty<your device>` to use the devic
 {{% /alert %}}
 
 <details>
-      <summary>What if I don’t have a robot</summary>
-      We can fake the wheel values by doing this
-  </details>
+  <summary>{{< markdownify >}}What if I don’t have a robot{{< /markdownify >}}</summary>
+  
+We can fake the wheel values by doing this
+
+```python "6-7","11-11","12-12","19-20"
+    def __init__(self):
+        super().__init__('minimal_publisher')
+        self.publisher_ = self.create_publisher(JointState, 'joint_states', 10)
+        self.timer = self.create_timer(0.05, self.timer_callback)
+
+        self.left_wheel_th = 0 # left wheel angle
+        self.right_wheel_th = 0 # right wheel angle
+    
+    # gets called every 0.05 seconds    
+    def timer_callback(self):
+        new_left_wheel_th = self.left_wheel_th+0.01 # faking wheel position
+        new_right_wheel_th = self.right_wheel_th+0.02 # faking wheel position
+
+        current_time = self.get_clock().now().to_msg()
+        
+        ...
+        
+        # updating wheel position
+        self.left_wheel_th = new_left_wheel_th
+        self.right_wheel_th = new_right_wheel_th
+```
+
+This makes it so we just increment the wheel position every period
+
+</details>
+
+
 
 ## Testing my_node
 
@@ -246,7 +333,7 @@ ros2 run mbot_pkg my_node
 
 **output:**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0583ee48-50bd-4bb9-b2d7-5e73bb9eea5d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170458Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=dd7f23a3cfa8a38a9149116a57f5234d1e148a60c7de6d292c986d405c619187&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/0583ee48-50bd-4bb9-b2d7-5e73bb9eea5d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=33ddfd3098be18714c3a4c3f8c443fb50b0352afa48716060ff673582bd9ce61&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 If the printout matches the position you move the wheels then the wheel position has successfully been moved into ROS. 🎉
 
@@ -256,11 +343,11 @@ Lets update our launch file add this into our current system
 
 ## New Node diagram
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ae9d6be3-1842-47dd-b0ae-38996310c108/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170458Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=2cb742f50a645639619b2e998f081350c22e2b6c99350a363009c3e47f921025&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/ae9d6be3-1842-47dd-b0ae-38996310c108/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=577ccbb5bd3d9767b6d63b900e48da434798bd44adcdd4120fc745fdf69804d8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 comment out `joint_state_publisher_gui_node` in the launch file
 
-```python
+```python "2-2"
 return LaunchDescription([
 		# joint_state_publisher_gui_node, # debugs urdf joints
 		robot_state_publisher_node,
@@ -270,7 +357,7 @@ return LaunchDescription([
 
 in two different terminals run
 
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
+<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">
 <div>
 
 ```bash
@@ -291,13 +378,13 @@ ros2 run mbot_pkg my_node
 
 moving the robot should also update the rviz model
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/553bc841-b6a0-4537-96b5-8cbe64552f99/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170458Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=f80cc5e635d74fbb03bfd1047e906fa09ec8c36605e6213e309c1d2dd9e590ba&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/553bc841-b6a0-4537-96b5-8cbe64552f99/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=d531c201b599e41213c689a6ad709e865a8c45315df15bfc8d8c9925d63ad65d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ## Updating launch file
 
 Lets add `my_node` to the launch file
 
-```python
+```python "1-2","2-3","4-7","10-11"
 		...
 		
 		# ros2 run mbot_pkg my_node
@@ -322,23 +409,35 @@ Now that we have the wheel angles lets get the (x, y) of the robot like in the G
 
 we do this though the `odom => base_link` transform
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/dfc11eba-872d-4b8c-8753-9b9e4685f133/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=d64b1e45d7971342049a9cac9b8e91deb7f54e571224a160dc7863bf6559e23b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/dfc11eba-872d-4b8c-8753-9b9e4685f133/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=a101d519b6e7dc131b28f2fd92ebde7be1260e001af080cecb6a772b8d14fd04&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 image courtesy of Articulate Robotics
 
 <details>
-      <summary>why </summary>
-      This transform is [required as in input to Nav2](https://docs.nav2.org/setup_guides/transformation/setup_transforms.html#transforms-in-navigation2)
-  </details>
+  <summary>{{< markdownify >}}why `odom => base_link`???{{< /markdownify >}}</summary>
+  
+This transform is [required as in input to Nav2](https://docs.nav2.org/setup_guides/transformation/setup_transforms.html#transforms-in-navigation2)
+
+ Will see it be used later when Nav2 performs path finding
+
+</details>
+
+
 
 ### New Node diagram
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/17aefdc1-ea8a-4615-ae39-9c05a5b435df/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UVCXQA7V%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIGmL64k2nFHcD4xd6wHYDkYUg6wlMbX64IFAGMv0a%2FilAiA0ghnMEJlqgq6feBCvkn3QcfyCVFq059ZSYurw%2Ffmliir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMWg9oetWGGq7wO%2BvUKtwD0RZZLcecwQizyRgf7p7zWb06mb8qIiYU8yzfc6FQ8Xg%2FmdqTeAXkkyFVzyUrsLRuvlzymwGGhsNmENw9EIxdNk7Uweum31ILY8MThK%2F5vjSUp2f0GYXlQ6OAe0vkuvV8Zas9or3rTty%2FSZZf4K3VfLHkHfQwcy6tUwiTs09uT7m3DJ8%2BOomoHGsEcf6MsbCTppODdwZCZmc7s5ryd0rqIZ55vBlSsz%2BYm7EJo40WYOv6KAIRH74mgYLEr7Wh4MG%2BCzA4wtOdm%2B6DipTWdcOXkQtF%2F9e%2BBWZFEQodMDeod4xcE66nfrvKcHtafQZXSwyTY2SxCVPVPQAglO6zhUwsuKvQ56pOCMUUYv19m9EMWuuGn74K0qENDuRzpEnliB231xsO4gZKJGQuaiZsdQto8N8ZOatSlPIdyJf5RefVSq1X2aWUQBBzT3U0GekalI5Zkc42UWkFj15aBBubJCtkSap1YsjF0MFCXl0zjIDv2Jd8xOZn2fNECMv4wQR90F2lAKEP6dLCCI%2BueCGc4nMKFpsHQEpNdWLnE%2FHyzVQr5KgqzL7BNGLt0r4QyAK89RsCWzTGBOUXD0f01oz%2B5lmEVFTOJYChSLZMv2Yhg84dTu4IhrIpN6bqGFhljw0w75aCxQY6pgGlMA8IGgC9uC%2B6tFORCS0nBBnE%2F%2FMHBJZbRed9gL1KkzfN4Zg8Himm8XLHuKhUca%2B1Kb%2FBlagoyAGgX3lOBtt4THzjrDBclMHcXMNHWUB4VvvEEwXegGjPmJ8XQFjFYUiVcxqR4ihtkSOTlqWKKx8aRGzvRBLI9mXqn1kIW65sHinEKC5NQdZwf9ibgZ3Qj684m61kIglZ%2FxADNxqi%2FeFPc0eQh9fK&X-Amz-Signature=f0ea570244fe7b0f5ddfc62babbb56eacfeeed2688874ae65a2ace1f2cce3010&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/17aefdc1-ea8a-4615-ae39-9c05a5b435df/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RSKU5FM2%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHnj%2F%2Bex9JAAom%2B4NXDlVy5FLiS7mfha3gXh2Dbq1XEHAiBjzCJJRU2prxCJDiSEliFyaZ2%2F6oVFm2I9wbof8kGE3Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMpRY69fPos7BShDfyKtwDztuqDSdkS4crPIq2C6BV4YKK5acXKcT5l%2FvrIMLgzm9YfD9eUaq5so3iiHJ%2FI36Fi6H3hzsf9dmKF88XKv19CuxC6BQc3lpBOkQk%2FwiIuIGQiWnUXgq8h2zSU9CwpFd1KefdNU5cbO3PQmnxHlFJp3JudGixunbK6RZL8fUsqgAbaQpEwKnM893uXmedCsRkb%2F837cR8pcGBi85ChNeZXsfw1F0oTqXFP%2B41zynIyJsPtGqJyM0EQCe3vRZmSI04G8QtAjplWhGM5vG577Zor6EVgtdgQ0JGz6LELbql87e9%2B92hTZeSBj8mEuqJAUH8aJsvN%2BXoWOoinza23EsTZ7TIBOX%2BH4JjjrdkZpNHEzPS7c2z%2BtJ%2F%2BEvPjM3ILXJAQS%2FbPFGmesRNqhMPkgDg6ICj58prN4pltJS9%2FJdqUV4VTmrEN4wrbtbj8zqCKFT0QzN4ULKkR4Gymi6237OTvnUZbKaAKx9DyZd6vwQLMCcw2OhVCNH5KELNWXEazJWO3jPccRstLvXwChmoRIMQCRFoQRzEi9KsaXQTQEkXafS%2BdPK1EKl8nCtpwpqBroo%2FnRGcuvcP1xKZqbP2OPDp0uUoQA6mtSsa5F62El4LHD1%2FwhJA69%2FozuDoyyEwv5qCxQY6pgGL6anscogjdh8wr31IeAXL4wHEVgwGvCmKzBEbtP8LKh8YArTjrYVlUcDDXiNzF5JY1LOQQPefHe1My6P2Sby5yzQoC54dT%2FRvn%2BG9qv8LNyX6Ao3c6b3trOp4tU2UHv5EbRLE%2FqR0IlVq4I98WcGzyF8OiMKqyonkmDNIPnIIyY2U8B4DfYVkopTVvScEXySACK%2FmOgq%2FACF75tBlyGtjYPvMjoHk&X-Amz-Signature=6c15ca68b29266f5be1b7fac767070451988921d0359a0fc3e0d4ba2af03f0fe&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 <details>
-      <summary>Here is the Theory Converting wheel angles to x,y  </summary>
-      [icckinematics.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/817cdf79-59b8-406c-a03e-9877c7270e21/icckinematics.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665NTBVW44%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170535Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIC9Bo0cMrrwX39swZVed1x2ch7tMjzm0lXSuerDrcfZCAiEA9D%2F266K3chl9T5ZmK23DG%2BK%2FYphdhbc%2BqS8bAMUFy3Eq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDGqJsvj6GmNwRmMxUircA41ryeNfcxjTgehyYoFGL8ko%2B1RTNYtDr1BwBPwyIUEuJkRj9dP33aSrAl1RRVxP8pf0P5V%2F6IeeOXAH41M4slh2l4zaEIWh241FCz10tMhlTQPStNC%2FE3swQ5yg18ests9KsPcWznjRXXv9K6Mt4X86R0%2B1ERLQs3MNGK1Hq2MuJctZeXZeMTJN%2FksKkInFapMse8a%2BY3Q34ytyAXo6xJTMooAa7hWm9aBYnF8GcV98Y1b%2B3ZPiB0MtT4lchG8fL%2FDIoRvxak0qSmNEdjgMsNRxxgvkXEtfSAajEcr%2BDrVUihDtiNi37VEFu9ZxKRjroqrcaFXRA%2Br769Nyw92Fn5rzROgScmRQEc8lc8NDAikV%2B%2FtkEDAizKwKEreOgt6LzKPBhSmuL6zynGrmYFaBD7UPB%2FJ%2BDrOPfz8q1bd7NJUbZp22HxAnb%2BVIW27tx0dXIf8oD7E6bDrhufZN%2FvoVQScvFh12ax1pxnTpJgAH%2BxfOMpuha3Uvxsynju%2FixMof7jCU53gwQgEYbUCAc3KJq2wkl58MaY6vWLiLdpPtHPNcvxOKkzgx4t72xxbXn7Oz2apqgQUBhV%2FeNKngsqsPvCiKwg0ss9HayrUd5lx80AZQTr8vDJ%2BdQXHxLfQXMPqdgsUGOqUBuJobN1ReNhhakBMtmNQxLbv7EYUS0I6Oy41ffCoTGywR8ebh0IaOE641jY45t3HcrO73z3cCMmU84rcBzwBzMlhaSjpM69H4cPJk12hUcpzTas%2B5uMf9%2F0%2FliJwFSN5iHacLXmbwvNlbbG91AAONNnIlVXO%2BzK%2BNpiPyyXNyZw3ckOMVg1EzKRsH4BnKdeCpxba3YM0JjOrq52h3SNWG%2FSWK8wP1&X-Amz-Signature=b357f9b07f78059b35723cf7708d101e8a920cc899db07280f42b78a43b464c5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
-  </details>
+  <summary>{{< markdownify >}}Here is the Theory Converting wheel angles to x,y  {{< /markdownify >}}</summary>
+  
+[icckinematics.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/817cdf79-59b8-406c-a03e-9877c7270e21/icckinematics.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U64QIO2P%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174402Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIQDaA6dJYdkYsaWd8zOb5eRjyyjRyuf65UAQkQGBD%2FdFgQIgWvYC4k71tlDNaeEwPYu9KUOUDSNs7WKW%2BVZVKk1RZ4kq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDKD%2BUSpih7CFp5jzByrcAwPcc170F67UchGS5uqkyTqquCqLu27cNVY0Q0cip2vBKtK3ZYNXaBph%2FMMTWKKV4GU2VWnZ6v6TC%2F%2BwxkKHOD7iv%2F0bxbLJ%2FX8Em0WSYYucYTEueMSNA14uWprpySD2tXhrJS4hZ%2FpU9C%2BIWe2%2Bwa7jP%2FNTGRUXnpRyUi96p8YFv0yvWXu5Pck8a5n%2FvV9%2BjADfwxrXbGfMxopGYWSDIaKQTYCgN4UzQIgtFLG9t41UZK5PeP0e%2FU%2B%2FUOpT3k56qBtwEL7%2Bx%2BcJiXdDnOhSvoLk%2FuSCSt7oE16QHv5J91cwBz0yZNMdFnRvYVX7e9atqX1IzjLOmF%2B2Uj0cDulgedeYz1Pjs5Q%2BLHREfw%2B4q7Y6aIUVGGexTZxzcZmA6YtrKgAWeitQcBmgVI%2FSVzGStT4yiRtAPfNmaJelnbLXIvJGs0TqC2ojhzZqScaw8CKas7OJzSz%2FZJV%2FXjBK2PcP82RyQa5IfzsG7t%2FPebD2Ae3XSKUGevACPJ%2BnzdPgnOtg16lUI3Dc8EewmdBIp6gzDZfrR7rvAyKWVVEKDGnd1%2BheqPJQuKfl3AYA0rO3RXHi3GLDVDsRnx3EqXgbDvhR8YEo36ywccITENU1%2FogF5H%2FH1cnMRzBT2qGkOt2iMKmYgsUGOqUBtBkQFi6%2FbQyZ7uyZ%2BnRXHLA3ACAbR2WDQQvjJl9NuyBv7URCZgYej%2F0jcqMiQBMfdQN7wW%2F%2BRFv8D51S8K7MoC7wVdg5MUPRO6OhJ0Wsn9MPnBR7N26SYNxWeANmfMUYg6He19cMci4BCucO0hqkv1elapFayAIGW1g8WKmdd7oMczVJvhMRuzT%2BQYxx8q72pjLbaAH19O9GFuE%2FUVU9bHcsa%2Fhy&X-Amz-Signature=38251dde307d4d6e3b626e3fd77d689670af5be60bd816b47a0f143d14ff1867&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+
+TODO:
+
+</details>
+
+
 
 But for those who just want the equations/functions I wrote a `calculate_position()` function that converts wheel angles to x,y
 
@@ -391,7 +490,7 @@ def calculate_position(new_right_wheel_th, right_angle, new_left_wheel_th, left_
 
 Next lets make some variables to store the wheel angle, x, y, and theta (robot rotation)
 
-```python
+```python "10-11","12-17"
 def calculate_position(new_right_wheel_th, right_angle, new_left_wheel_th, left_angle, th):
    ...
 
@@ -411,7 +510,7 @@ class MinimalPublisher(Node):
 
 ```
 
-```python
+```python "9-20","20-23"
  def timer_callback(self):
         new_left_wheel_th =  # TODO: reading wheel position goes here
         new_right_wheel_th = # TODO: reading wheel position goes here
@@ -441,7 +540,7 @@ now in `timer_callback()` lets broadcast the `odom => base_link` tf frame
 
 first create a tf broadcaster object
 
-```python
+```python "14-14"
  class MinimalPublisher(Node):
     def __init__(self):
         super().__init__('minimal_publisher')
@@ -460,7 +559,7 @@ first create a tf broadcaster object
 
 Then create a message and put `self.x` and `self.y` inside
 
-```python
+```python "6-18","18-19","19-20","20-33"
     def timer_callback(self):
         current_time = self.get_clock().now().to_msg()
 
@@ -504,7 +603,7 @@ ros2 launch mbot_pkg display.launch.py
 
 **Result:**
 
-![2025-07-28_13-52-23.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/42d1e5f1-0562-488a-9ead-82c48914ff05/2025-07-28_13-52-23.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=a65e7b81d3ce4f1930d954c9f7a11eb9f190cb947279c0ba0c7b42ae34f192de&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![2025-07-28_13-52-23.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/42d1e5f1-0562-488a-9ead-82c48914ff05/2025-07-28_13-52-23.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=77a0550aa00493dfb87f4af7375eb2e5e4c46eddbce50a5542be34393d6e8516&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 # Piloting the robot
 
@@ -514,7 +613,7 @@ we do this by subscribing to the `/cmd_vel` topic
 
 ### New Node diagram
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4cff07b8-6334-40d2-b251-d47558cb1aa2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=2c6afbc0ca9f8a65ffdb8e1a6b977099bf1215de28ebe592ea369723e9102a71&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/4cff07b8-6334-40d2-b251-d47558cb1aa2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=8077bb78ffc22c3cdb37645b5b87a9116069dbc064c7ec21d0f381592f3eb5a2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ### updating code
 
@@ -522,9 +621,9 @@ we do this by subscribing to the `/cmd_vel` topic
 
 To make a subscriber we make a subscriber object:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/242066b2-9f73-43d1-a1e7-ab660cc338d6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=d2ec0f346323c8e165f5f3fb366bcc77d2d809d77ce552b18d2b5c644840cdc8&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/242066b2-9f73-43d1-a1e7-ab660cc338d6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=7120fa8a6ad0fde842ad64a78707461f86a2408ee0138bcb0326621f92052655&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
-```python
+```python "18-18","24-25"
 
 class MinimalPublisher(Node):
 
@@ -560,27 +659,19 @@ This is where we use **`telop_twist_keyboard`**
 
 ### **New Node** **`telop_twist_keyboard`**
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/511a41d7-4ee6-44cf-adbb-6c5062737990/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=cf717325053d2a6da51f425dabc4421907515138908336dc67e4bff01114dc25&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/511a41d7-4ee6-44cf-adbb-6c5062737990/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174337Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=a57f41747d5467f664b7059f182bf08dec2c6b69d0d4a1613d5b2494cff70143&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 #### Outputs:
-
-{{< table "table-striped table-hover table-responsive" >}}
 
 | **Name**   | **Type**           |
 | ---------- | ------------------ |
 | `/cmd_vel` | geometry_msg/Twist |
 
-{{< /table >}}
-
 #### Params:
-
-{{< table "table-striped table-hover table-responsive" >}}
 
 | **Name**  | **Type** |
 | --------- | -------- |
 | `stamped` | bool     |
-
-{{< /table >}}
 
 #### description:
 
@@ -592,7 +683,7 @@ publishes geometry_msg/Twist on the `/cmd_vel` topic
 
 ## New Node diagram
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/bb7014b3-d8ee-4b21-91c8-287b03f41d46/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=2e5551e908ea260fe8c15b3fd4b83d07299d7485d8e0ed667ea3e88bf9cec55d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/bb7014b3-d8ee-4b21-91c8-287b03f41d46/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174341Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=35da63774434315184c7663eb380a4cb4737ab23d5bf894565360fedf5b13b64&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 **Running code:**
 
@@ -604,11 +695,11 @@ ros2 launch mbot_pkg display.launch.py
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/52eb3f44-8f9e-40b6-b3a0-d3de7514ac5e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=dc7bfb4131eabab954f275075c049ce8599f52b6697bf2b5f8cfd85ab0f44d3c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/52eb3f44-8f9e-40b6-b3a0-d3de7514ac5e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174341Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=dbf1f49a80e2de451262f4f716979739637e1b8b9b9a5e2a9c778c146872d5b0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 pressing `i` will send a move forward command:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3e81fe5a-469f-42b6-a6ea-b483854b27fc/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=8a76c9daefe24a2f8120c4f56589d6c3bbb9d9187bdf98db458838951f5a8afc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/3e81fe5a-469f-42b6-a6ea-b483854b27fc/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174341Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=7146c355c802d4b204f90c1a5512299af21cf12de2d34461d4ebf8b61db91d15&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 formatting the print better we can see `TwistStamped` is made of 3 parts
 
@@ -629,7 +720,7 @@ geometry_msgs.msg.TwistStamped(
 	- linear
 	- angular
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/46147678-2fd5-4c11-bdec-923e81e63d7f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=477c8a315bf1991ad46bb15d6e00966ed25d4e2fbe5a7bec4172e389a7dc25db&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/46147678-2fd5-4c11-bdec-923e81e63d7f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174341Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=cbd587272fe398649138299817cab59259e1ac2e8b8230574f8dc947497795f5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 > [`TwistStamped`](https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/TwistStamped.html)[ official docs](https://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/TwistStamped.html)
 
@@ -655,7 +746,7 @@ However, Nav2 still needs it on a separate topic called `/odom` with type `nav_m
 
 ## New Node diagram
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/833babd1-7f7b-4dc9-8def-983adc005178/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466WBSF3Z63%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLXdlc3QtMiJGMEQCIGAXo%2Bm9qDnoKWi6iMCuXXy51HPTA8gOzmrkKdUBOFYBAiBF8yjyZn3yzlb%2FVUFby9Ytoyw3WUkbmh6LjU1lQRJmaSr%2FAwh4EAAaDDYzNzQyMzE4MzgwNSIMCaXwO9y0LRUi0YMOKtwDZiODGMuJH%2FacqiTIuhTV3RGLqULQ8Tb%2FJI%2FCnatxknuMHhcx0deJLn6c4KfEXF60NIAxy27QbhsDgall084GwxFubtRFcx8cutcFLwt7vhQJTN7eHGmb2QPFYjWZtKnnwNLHFp%2BDgE4b41RY6Ol%2B4V2u%2FcrbT6MV1jnyX5AkpcI4fQNb5Bxrsxw60HxR36LyiLeWsbh5iQsADAVhChuKh5JkKjNPJQZwh7XRbkthL60ek0GQo5kAHO9x1XuqaUUajdwNrl%2B%2BI3Vv5O8AqKSerXTR%2FjA5sRVQT6AHvHvKBJUYJa%2BMb%2BYlsNgl0WJ7qI9azIQ9K6pVRllLrt7q5LzArj069XDoP6F5JpB6hyOmBCvrM3KZamGtXZpEAuVmfl6L8UbNkWLYmjdZaEJiaTl8WqiRenuwv%2BW9l8vC4BUjWDqMEs1vTMV6roUhOHFedIQYJpiMlkVy%2FZ%2FDWy6eUfGuMpUVrx7FMwyhIRUPH4txAfcRjUcXVO8dDJ9C7JW%2B%2B4TOPcclIhLrvoxpYPPDnC1ZgqnPLZ6IcGrp%2BoNeAb2iXcHt5AKa76l3UlLVaJ8bCr7C5CzCosKry1e6W01B9sBMMIWZBb6e0UFTHDd7H%2FVXhefZIcZcC3o9wHI49VMw9L%2BCxQY6pgHTkkyNkLvO1yogkssuN7Kl0hAlVz7Ose%2FjCiUmIZtQzUF82ZAmo4zwqRslKB0pQLyjJK6Mtgj1RLUo%2FRVa8mE1FBPsbn7xdgcnQwhmimXtMsq703RQDuFkVFXY5qFijzBAwDSO9LF6%2F4NhuinWinFV3SkdkfSsICvYQkOsAY%2FBuaTwTb9PUGQgeWN9i5azl6wAuY%2Bka4lygwcOTbgukjqGA6J%2BkJSV&X-Amz-Signature=5269ed949054f2bc632d3579c3c4b4be07221f3347ff372a88c45024370aaddc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/833babd1-7f7b-4dc9-8def-983adc005178/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667NFFFFGJ%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174341Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIHCzLlGA7hOr5bQQ2CBERzHaAC5TGuK09zl8UVyjIkxGAiAlx1chHyVCRBtNxegvjH3oyX9gNW%2FOb9I7bnkVPOxdkir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMOYT6CnYUyEaYzRJSKtwDiKhjuV4CcMCcbEFKZW8x8hmGozCIdi%2BK8kfde3AiNhRqwNpSTfzf0kgOukozZHE50vrZbdPTHTaRnRYWC7PI6LSS3giOmTc%2BYiYP71zWFt7h%2FCA8WsV%2BIhGZYOCG4alRFhQo59mw9qi7XyhIwsA6lsuJrBrUcrjJvZSJ1zuDEFsiy0awyngFYddE4DlBP7I4m9im1SXYmg7HGlxw9DAotV7lQvFz7BiHRnIlhijLudjfc8OK0p%2BafFZHz6plEwpHWNYzQghX0hks6e6hpeNUgHeW9yGo4WEi%2B%2BbWh1nXbc0mB2MMNs50uNvOq6Qrc2s7QMhmrcMog4dFOPvunNTjBrcUtv3%2FAUl%2BJhahdbFx%2BxZFqxuJ3t0rfxDUBKjOdOF5Quy%2F7uqNWiG84fIckmh4q3qN21%2Bc1c6cyKcHvIaqS%2FB8HCN8ei4dCvJSNZd27d7W1nifuL0zbLPQGd76sEG9IWu%2Fk96xpt6Qv03sBrwefUNYe1OlSNhLu5ahwXhz%2Bm25sF55LaTK1c3e5Zhv0QZjsglCR7ihzFgCyPxV2WRGjsmpLq7YLhrT%2B2GP%2F2GX24PCo4%2FBOw%2BvpmWtHaIeMR%2BxcvJlE%2BBeVIbne7qiTuGrRvQjfM0OCWTZcxURVyYw8pmCxQY6pgHJjlG6zbd0EaYicaWVyfUMxnpgm0ZTLdOPWa0F92sPhnCeU8Nnt0Y1jF8d%2BjOjGQOkDFh3PeVEOrbY7GAuTZXSaDQN3oPwVIn%2FOHiHIG8dRacNF%2BICwm5AsU9iR%2Bt55Ep4Xw50xTUR%2F1ih1D8wrt1wDwWrMCdJZjBDkzzrQFbYD9aGlBDvU3NleVGWItPxtlHZAjhc87jGgXaDP1a1iajS3vPTP%2FQV&X-Amz-Signature=d46da015407e09a82bd3a4cf0f1c0c3a7930609d4bf44b0e3e2bb7a5cb18c4bc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 Again we just need to make a publisher and fill in the `nav_msgs/Odometry` message format:
 
@@ -695,7 +786,7 @@ twist:
     ...
 ```
 
-```python
+```python "10-10","16-27"
        
     def __init__(self):
         super().__init__('minimal_publisher')
@@ -726,9 +817,140 @@ twist:
 ```
 
 <details>
-      <summary>Final code</summary>
-      
-  </details>
+  <summary>{{< markdownify >}}**Final code**{{< /markdownify >}}</summary>
+  
+```python
+import rclpy
+from rclpy.node import Node
+
+from sensor_msgs.msg import JointState
+from geometry_msgs.msg import *
+from tf2_ros.transform_broadcaster import TransformBroadcaster
+from tf_transformations import quaternion_from_euler
+from math import cos, sin
+
+
+def calculate_position(new_right_wheel_th, right_angle, new_left_wheel_th, left_angle, th):
+    """retruns the robots x,y offset given wheel angles
+
+    Args:
+        new_right_wheel_th (float): new mesured right wheel angle
+        right_angle (float): previous right wheel angle
+        new_float_wheel_th (float): new mesured left wheel angle
+        left_angle (float): previous left wheel angle
+        th (float): robot chassis rotation
+
+    Returns:
+        (float, float): x,y offset
+    """
+
+    WHEEL_RADIUS = 0.10
+    WHEEL_SEPARATION = 0.31+2*0.025 # body + wheel gap (there are 2 wheels)
+
+    # convert rotation to linear distance
+    dr = (new_right_wheel_th - right_angle)*WHEEL_RADIUS
+    dl = (new_left_wheel_th - left_angle)*WHEEL_RADIUS
+
+    # calcuate movement
+    offset = (dr + dl) / 2
+    delta_th = (dr - dl) / WHEEL_SEPARATION
+
+    # extract componates
+    relative_dx = offset*cos(delta_th)
+    relative_dy = offset*sin(delta_th)
+
+    #rotation matrix
+    delta_x = relative_dx*cos(th) - relative_dy*sin(th)
+    delta_y = relative_dx*sin(th) + relative_dy*cos(th)
+    return (delta_x,delta_y,delta_th)
+
+class MinimalPublisher(Node):
+
+    def __init__(self):
+        super().__init__('minimal_publisher')
+        self.publisher_ = self.create_publisher(JointState, 'joint_states', 10)
+        self.timer = self.create_timer(0.05, self.timer_callback) # calls timer_callback() every 0.05 seconds
+
+        self.left_wheel_th = 0 # left wheel angle
+        self.right_wheel_th = 0 # right wheel angle
+
+        self.x = 0.0
+        self.y = 0.0
+        self.th = 0.0 # theta
+
+        self.odom_brodcaster = TransformBroadcaster(self) # broadcasts the odom tf frame
+
+        # call listener_callback() when /cmd_vel topic recives a msg
+        self.subscription = self.create_subscription(TwistStamped, 'cmd_vel', self.listener_callback, 10) 
+    
+
+    def timer_callback(self):
+        current_time = self.get_clock().now().to_msg()
+        new_left_wheel_th = self.left_wheel_th+0.01 # reading motor position goes here
+        new_right_wheel_th = self.right_wheel_th+0.02 # reading motor position goes here
+        
+        # ============ updating URDF wheel joints ====================
+        msg = JointState()                                  # create msg object
+        msg.header.stamp = current_time                     # fill it with data
+        msg.header.frame_id = ''
+        msg.name = ["drivewhl_l_joint","drivewhl_r_joint"]
+        msg.position = [new_left_wheel_th, new_right_wheel_th]
+        msg.velocity = []
+        msg.effort = []
+        self.publisher_.publish(msg)                        # publish the message
+        self.get_logger().info(f'Publishing position {new_left_wheel_th}, {new_right_wheel_th}')       # print msg
+
+        # ============ publishing odom transform ====================
+
+        # calcuate how much the robot moved and rotated
+        delta_x, delta_y, delta_th = calcuate_position(new_right_wheel_th, self.right_wheel_th ,new_left_wheel_th, self.left_wheel_th, self.th)
+
+        # update position
+        self.x += delta_x
+        self.y += delta_y
+        self.th += delta_th
+
+        # create and publish transform message
+        odom_trans = TransformStamped()
+        odom_trans.header.stamp = current_time
+        odom_trans.header.frame_id = "odom"
+        odom_trans.child_frame_id = "base_link"
+        odom_trans.transform.translation.x = self.x
+        odom_trans.transform.translation.y = self.y
+        odom_trans.transform.translation.z = 0.0
+        q = quaternion_from_euler(0, 0, self.th) # converts theta to quaternions
+        odom_trans.transform.rotation = Quaternion(x=q[0], y=q[1], z=q[2], w=q[3])
+        self.odom_brodcaster.sendTransform(odom_trans) # publish transform
+
+        # update left and right wheel positions
+        self.left_wheel_th = new_left_wheel_th
+        self.right_wheel_th = new_right_wheel_th
+
+
+    # gets called when /cmd_vel topic recives a msg
+    def listener_callback(self, msg: TwistStamped):
+        self.get_logger().info(f'from /cmd_vel angular: {msg.twist.angular} linear: {msg.twist.linear}')
+        # self.get_logger().info(f'{msg}')
+
+
+def main():
+    rclpy.init()                            # initializes the rclpy library
+
+    minimal_publisher = MinimalPublisher()  # creates our MinimalPublisher object
+
+    rclpy.spin(minimal_publisher)           # causes it to loop forever
+
+    minimal_publisher.destroy_node()        # Destroy the node explicitly
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
+```
+
+</details>
+
+
 
 For those who are curious ROS does provide a Localization node which does most of the work we did above:
 

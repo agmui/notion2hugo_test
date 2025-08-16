@@ -42,13 +42,14 @@ Some extra features you could add to Nav2 are listed here. These are just some e
 	- obstacles that wont be picked up by the lidar can still be avoided by specifying _“keep out”_ zones.
 	- Bumps to avoid in the Robomasters 2025 field:
 
-	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/cfef7dc4-36b7-43a7-aef2-344f15ebe4c7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VNIV6L3J%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170516Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJHMEUCIBQJsZICntf9JVbxkjpk0dfPZXwhfM%2BMyFT9pmJe5BJpAiEA5fqqh3fg5Qn0MBik4IVuZgRMte18mE2OUWZaLcxf7%2BQq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDE7jM3cKdgA0j72eLCrcA9SQxWWU1E5x%2BLbzIHEfssIMGvNHK2M6cV3WgeiixAjC7XNO1hv26WtFC%2BXBOq72BUw8oQp5np83aAXJsGz7OOZ0uBVvQMyEGuMLC7BGn%2BsKIj%2FWQUL%2BRlC5Q4TsLpCuTcyZUlnVR%2FNirfLKlE7%2B9gIz%2BpbQv%2BsnrzkoZYRudImSiReZRc88vmYDxFFdL5JW8LcuRBFkhUMorO4bXvkCl0MTmzNSZqk%2B4QB0qXWUk0yJU9VXRxNj%2FMQUC2KJ%2FqKe%2FmhXirN7nrKI8ErvRb2jJwCZauZCNvwnmS%2Ba3aGmvZ769lGLId%2F8jFjv7SSdEAC9fCdQLAyr8VnNEO7HhZ%2BvI6Ms6AnHNm2h%2F3wUfJosc1OTSK8scR%2FR1P09h9UckZfGWnU9oiKSGLzIt0cCmUp8cmjLA2DbTPT%2BA8ddhbhbbNdK1gkCUOkM1K7rC70I7MImzqTv1McUSq18mYPkjMqnV%2FT9zROTF6gMY0zJoMo0E9txdv6DUb2cGPBq%2B5GkbLS9wa8urKRaE2MuQWs14vMsjFVr5uRHa2MN1zG1KVb3sXy711Ej2GysnvPDx%2FzG3EViutf81XC%2Fmy%2BVOw0NTZH%2FaL3nzn9BjYujiFkGpePaM5d%2F0r3J25ZYAR4BIkpdMNCRgsUGOqUBxpTdVVuy%2B8M5VgU8KiVpF13IYlFE8AqkuTFV4W%2FJOBMezlfEwx0tfujx1avkMrxiYA6T5zlNGVwk9sIBjHaqlHhsaGgPS%2BIF3bMAC3w6A1D1R5RJGf9K0Auyejys1iNm%2FO74WkH8nDhQdvYtRxEjhZ0%2FEps4LiXZdSd8qVKPi%2FXNaA3wx1AoObHZYRRr8K5BWczJZ6CU5rCsZCTzxIR8m8ANTU4i&X-Amz-Signature=de9a0ef180ebd4ab87ee7eea0b6f8cdcabec787ac1b84eceb5e57eafe457393a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/cfef7dc4-36b7-43a7-aef2-344f15ebe4c7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZWJGNEBA%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174344Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJGMEQCIETr1IU1IhzCgdP%2FSASzLuEqe7H2gRXUNkBfSuvwVi57AiBM5wHTpJRg7NSKlh6rFJ48fTWmvOOYuSimWBIupR18tyr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMUffZgNEdrcXIOiweKtwDDRbbLZd5Pa%2FhM1iMiLIUGy9JNN07lOKGnaDUGQoK6JFcCSOpM2rRP5ERUN5hfyT3yCmKslzjmpXI6ZHgBopagx3liBv2J6WIuoUcv2PA5RC%2B6wm8v3MRvn5eMfSyWH%2FzVToQVwyJOv39%2FJetn3xVgcbwYlfb505UAbWseFleUTVuOgjHm%2BjJcpU%2BvFCX7klQxdCVnsQxA72UvMxwa%2FRETUYc9jOhMrt%2BcIrkpPltGkguiGXiW0tR86a%2BusgMb3f%2BkIcYH51Kulx6fYziadgcHl0wyL5U0t8FuQ933VNia8fURMi0xmFHweRpzedjunNO43uzA8XELD7W9xXH%2Fcg1EHuKwwP3pV2jO%2FwQYqLhigkUOYVqEZnT5pCxZb5CDHTHHxp2W6lP9YVBtOt2R39KHHj%2Bg6ZTZX8UDlIWSJpjdifS5NwDU54N%2FgwTJYN0wYvw54kor4mLBFZdR3yHt2FHH6AOcY7%2BfvH%2Bp1ZGMi1%2BVFSMqT6WG9WgCgmIDaV2gYxbn37NzvLjSd2gF8ZgJ1ZTcJh7t3hVSsCCQcR8HWk%2FAZxpcPsQVMIeflyNpUR%2BU6h7YUsEqLels5li%2FN%2F845WB2Q0ouWXjYR5JDBFDT6kwfivXPZ8gsbygmD0faVsw1peCxQY6pgGdYPJ01KQxAtf2tMGdfgYUgirhrCPNb7Va0YdMtR%2FFsI9Oncxn7SvBn3rU607JsHpGs7JSglMhPU1IDcvB8jjyf1MlT5WqAV4nJR9kC1BdbtnSiv0zgGbs39ycZHXNeY3tMQXDyR84DhL6r2knzHSrcvSZKcEQxec8fjrcQYcjRZAMWXT%2FAwaJYMeZ7tf4FZ94M33MO6IEwY%2Fk%2Fvd9yD%2FmsG7T0oJn&X-Amz-Signature=8739a8ebaae1e5d7aa489a24c3edc443a93cae54057c110454e32d2c3e888804&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 - [lidar ignore zone](https://wiki.ros.org/laser_filters)
 	- If your robot blocks off certain parts of the Lidar’s scan it can show up in your map. To avoid this ROS has a `laser_filters` package where you can ignore parts of the Lidar scan.
 
 	<details>
-	      <summary>example setup for ROS2 (the yaml config file stays the same from the guide):</summary>
-	      ```python
+	  <summary>{{< markdownify >}}example setup for ROS2 (the yaml config file stays the same from the guide):{{< /markdownify >}}</summary>
+	  
+	```python
 	    lidar_filter_yaml = os.path.join(pkg_share, 'config', 'lidar_filter.yaml')
 	
 			...
@@ -66,7 +67,10 @@ Some extra features you could add to Nav2 are listed here. These are just some e
 	            # ],
 	            parameters=[lidar_filter_yaml])
 	```
-	  </details>
+	
+	</details>
+	
+	
 - [behavior trees](https://docs.nav2.org/behavior_trees/index.html)
 	- Nav2 has a custom system to describe “_robot behavior_” such as what to do if suck or when to go to which goal. It can be though of as an advanced state machine.
 	- It is recommend in Robomasters to use the behavior trees for sentry decision making
@@ -154,7 +158,7 @@ in the config folder make this file `my_nav_to_pose_bt.xml`
 
 Then in the launch file add this
 
-```bash
+```bash "1-1","11-11"
     bt_xml = os.path.join(pkg_share, 'config', 'my_nav_to_pose_bt.xml')
     
     ...
@@ -173,9 +177,13 @@ Then in the launch file add this
 ## architectural decisions
 
 <details>
-      <summary>Why all in one node?</summary>
-      ideally you are suppose to represent the hardware/resources better by having be physical nodes however for Robomasters many things are latency sensitive and having message pass though the ROS middleware had too much latency. Granted this was just though our limited testing was without fine tuning ROS for our specific application. However for the Robomaster’s robotics completion teams just need a dead simple working framework that works well enough for competition. Genraly robomasters clubs don’t have lots of time to fine tune and configure ROS perfectly so arcitecthing the whole robot under the `my_node` is jank but works for our specific situation. This guide is <u>_ment_</u> to give teams a bare bones working Nav2 stack where teams can later on extend and re architect the whole design.
-  </details>
+  <summary>{{< markdownify >}}Why all in one node?{{< /markdownify >}}</summary>
+  
+ideally you are suppose to represent the hardware/resources better by having be physical nodes however for Robomasters many things are latency sensitive and having message pass though the ROS middleware had too much latency. Granted this was just though our limited testing was without fine tuning ROS for our specific application. However for the Robomaster’s robotics completion teams just need a dead simple working framework that works well enough for competition. Genraly robomasters clubs don’t have lots of time to fine tune and configure ROS perfectly so arcitecthing the whole robot under the `my_node` is jank but works for our specific situation. This guide is <u>_ment_</u> to give teams a bare bones working Nav2 stack where teams can later on extend and re architect the whole design.
+
+</details>
+
+
 
 # Further Nav2 stuff to look at
 
