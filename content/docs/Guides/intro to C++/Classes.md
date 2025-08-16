@@ -50,9 +50,13 @@ int main(){
 ```
 
 <details>
-      <summary>What is </summary>
-       `~Milk()`is a [de-constructor](https://www.geeksforgeeks.org/destructors-c/#) (its basically like `free()` in c). Unlike Java or python, C++ is not garbage collected so when we make an object we have to also manually delete it. The computer does not magically make it go away when you are done with it.
-  </details>
+  <summary>{{< markdownify >}}What is `~Milk()` ?{{< /markdownify >}}</summary>
+  
+ `~Milk()`is a [de-constructor](https://www.geeksforgeeks.org/destructors-c/#) (its basically like `free()` in c). Unlike Java or python, C++ is not garbage collected so when we make an object we have to also manually delete it. The computer does not magically make it go away when you are done with it.
+
+</details>
+
+
 
 ## [Inheritance](https://www.geeksforgeeks.org/inheritance-in-c/)
 
@@ -93,7 +97,7 @@ Why use stack over heap?:
 
 This is what the `new` operator calls when ever it gets used.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8d467fe6-7dca-43b2-bf68-418ff08e35d9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466Y4VIJ4EG%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T170436Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQClOIQEWMwsDhNmMv1mFfxKH3L2llPjlDNLr8vLjy3GdwIhAOiTJoAj%2BX3f21Iwg8my%2BuRdkLUaIjg682NF1dijT3ycKv8DCHcQABoMNjM3NDIzMTgzODA1IgxTh7Fv0MTsNeY%2FPt8q3AOKdWNXHZTcEe8jp4rPSEo2kmOmCppfUu7ruv2sH%2Bnto6EsYYkyadeQ%2BEmgSJjsAvmQp7tSi83OTGW%2FdbCDK9kju8jFkHW0r0i4be0z2IaedHSdAW2%2FYhpzdegRYAphNXfHr7i6I9O04cX4suGlVKV4lntvkFn07jCaCtamDjxTfraowF54QYsQ3ot8MjOxinmvId%2B%2BN16qKzfN1aUDlKVpahkxywN5v4vyldK13W4n0Vah84kXkuRVd4Dc2ThtjNQ%2FPVcJrUlUwm8%2B3rcybAjnafLfTWSxB%2FU%2BOAL8jpuDUwyDHO8R7sze07vktb%2BXzZYeTCqONbZY7eM%2BA3%2ByQxLNRrspS4uQ0aLiojXifhOUrmZPBtV9qHkxYuPiCmZ8DP7p5zM2BQLOyMJdQo2RBjhunpogja8HYVKPfED3q853pcdDwyhM1dzzJ2cDomLaOSDZdajkqn9vS2KSsdKv3e5MQ9rMr80lmmRpfYtYa84%2BC35CpGwe2m5jMMMASodEbU77CjvK5S07rqaUc8iD67bPC4CJiIb2ni9nwz2SHK7scdgXKNeys1Zyyk%2Ffs6%2BfVs6AXm3z06oZUsHZLMFxJV8bzAR%2FSC2Ou6flPx6GbL2fSp5%2BFyQ%2FQRQmWenKZDDUlILFBjqkAandwkpDuU4v4Ws14ydOzZljkidlCl8ENzcJvFVqjaUM%2FMPp%2F%2BwBu8Nn%2Buz%2BO6SkhMuqbLW0ISDEeRX0ShZuC0lOkZqfldkhm5OrqihMw0Y8hlQR5TN8dIJEnT99qWabpEv0mj21vC4tM%2B%2BwO9j2qePRKhqQ8AwMManAtG58Ew5JWbvhfmEp3Xk%2Bp92eWO0LNn1KssaAXalMXC8VAo0sdEI9hM6D&X-Amz-Signature=d71e1947edf10cfa6f0f9754238b2bbdfc162e74e3ae2bd929d3791355a9c638&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8d467fe6-7dca-43b2-bf68-418ff08e35d9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QU5DXJRN%2F20250816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250816T174324Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC4aCXVzLXdlc3QtMiJIMEYCIQDZDvFEZqR5CVk4g69zBTLEWjN8WXeLIVQ0jb%2F4OjXIHgIhALt51BQAu78cBY0Jusrz%2FeVmwxXmYoBVbgSCuv%2FDhyBmKv8DCHcQABoMNjM3NDIzMTgzODA1IgxAAGzHn1QNiSXxIVUq3AOAUK0IjPKj8VO46EkF3k61y0Cmj1Fn%2F3sq9SCxaCo6Qz1sT2LreioZc9TjfhIeK43EWpAj7UsiQDNqNMGkQ7BVfHxB6U2nrUnwHZehyQ6b7mBbct%2Fm7KEJsusFOpR3UJIKuC8pQUflKuz9HV8iI8Enl69UB6yhgfdEbbsvBUyhgxUzqvIwq5JjJkt%2F7YoA7VUe9qnHCJYcCsXwCAw2uFA%2FtjBwEnkFlzC0MdpQAa8Fdmsa5FfFLsWL%2FEPaIcFMKS%2FbuFLY52R1wMInCcYBVbDtIEIcj6M4gvTILKH%2F4bHOAe68MmERjU9RWo8E49EcT%2FfQKexTQtqLUwP%2FXRgUj2uLuvfcg53KYzNOUSa4Doy5DcUYbLwHpl7IZNn7qrJwoU3PmPYe2o%2BoGTz2ziTdHbGeaEEMWpBxJIFuwTtzCEfZACQmQBg7plCPsD%2Foac%2B43%2BQmAMaa8AuG6S8c8ZzmutYmwjmgiADqHEtgmY0HsN3KO18LJPVCtXl6ukGC4guDaqd9%2F085HhdTEWteP4PCSSQbaCMAzfiNUkasTnAFyun95lq2nz8aW60wWju4YeVo2f7ttminV0JaxA5I49tacrtqV0lXZzEjSYD%2FTIZ8iu6y%2Fr2BgX02iBAOl%2F7zRjDsmoLFBjqkAT1Js0tx0y%2FJ1jPIf6ZP9PP%2FrBYmBp0N67q5PYO55lNRnEKP9KGI3LynGfINjJyFXjCrOAZyfvG5lVwRX%2BFmjxJbhp5LKg%2BJa6v09vOEYXwqLo9TxUl6IiJc7vWoRMI8VK6XrPJnQmkXtx3ez9iYD%2FqKw90ysi5FpiyIy5Ed5ej6kNSge3EYge%2BsgbCMvl5CMyTk1pE3azpKkBOITpIVGn7OS5eS&X-Amz-Signature=a9c667d97841632639d7d6c51185c5331f9b1023ed7b89c49bfb9ebd08381e81&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 ## Constructors
 

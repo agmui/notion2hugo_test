@@ -66,8 +66,12 @@ int main(){
 ```
 
 <details>
-      <summary>Note:</summary>
-      We use the `->` arrow syntax like in classes when struct is a pointer because all a class is is just a struct with some methods bundled in. This is the reason why places like java and python use `this` and `self`. They can be thought of as structs.
-  </details>
+  <summary>{{< markdownify >}}Note:{{< /markdownify >}}</summary>
+  
+We use the `->` arrow syntax like in classes when struct is a pointer because all a class is is just a struct with some methods bundled in. This is the reason why places like java and python use `this` and `self`. They can be thought of as structs.
+
+</details>
+
+
 
 ## TODO: Explain how classes == structs 

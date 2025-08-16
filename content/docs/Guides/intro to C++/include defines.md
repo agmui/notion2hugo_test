@@ -64,7 +64,7 @@ int main(){
 
 ### ok but what about this
 
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
+<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">
 <div>
 
 ## A.h
@@ -77,7 +77,7 @@ int main(){
 </div>
 </div>
 
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
+<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">
 <div>
 
 ```cpp
@@ -117,7 +117,7 @@ int main(){
 
 ## Result:
 
-```cpp
+```cpp "1-4","6-12"
 // from the #include A.h
 class A{
 	...
@@ -137,9 +137,17 @@ int main(){
 ```
 
 <details>
-      <summary>Why are there two A classes??</summary>
-      In main.cpp we also have a `#include A.h` so we copy A.h into main.cpp
-  </details>
+  <summary>{{< markdownify >}}Why are there two A classes??{{< /markdownify >}}</summary>
+  
+In main.cpp we also have a `#include A.h` so we copy A.h into main.cpp
+
+Then in the next line of main.cpp we `#include B.h` so we copy B.h into main.cpp
+
+but remember B.h has the line `#include A.h` so again we copy A.h into main.cpp
+
+</details>
+
+
 
 How do we get around this problem?
 
@@ -158,7 +166,7 @@ for now, don’t worry so much about what the code means. Just know wrapping our
 
 If we wrap A.cpp and B.cpp with this it will first check if a file has already been included before
 
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
+<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">
 <div>
 
 ## A.h
@@ -171,7 +179,7 @@ If we wrap A.cpp and B.cpp with this it will first check if a file has already b
 </div>
 </div>
 
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
+<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">
 <div>
 
 ```cpp
@@ -219,13 +227,23 @@ int main(){
 ```
 
 <details>
-      <summary>Step-by-step breakdown</summary>
-      the first line in main.cpp is `#include A.h` so we copy class A into main.cpp like before.
-  </details>
+  <summary>{{< markdownify >}}Step-by-step breakdown{{< /markdownify >}}</summary>
+  
+the first line in main.cpp is `#include A.h` so we copy class A into main.cpp like before.
+
+But when we get to `#include B.h`it copies the content of B.h into main.cpp
+
+Then when we get to the `#include A.h` from the copied B.h file we try to copy A.h again.
+
+But this time we get stopped by the Header guards so we end up with only one class A
+
+</details>
+
+
 
 ## Result:
 
-```cpp
+```cpp "1-4","6-12"
 // from the #include A.h
 class A{
 	...

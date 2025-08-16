@@ -30,7 +30,7 @@ namespace yourname {
 
 ## EX:
 
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
+<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">
 <div>
 
 your code
@@ -68,7 +68,7 @@ int main(){
 
 ### Think of namespaces as if you have manually added to the front of your class name
 
-<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">
+<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">
 <div>
 
 your code
@@ -103,9 +103,17 @@ int main(){
 ```
 
 <details>
-      <summary>Note:</summary>
-      Anything inside the `namespace` brackets now needs to have the prepended name before it.
-  </details>
+  <summary>{{< markdownify >}}Note:{{< /markdownify >}}</summary>
+  
+Anything inside the `namespace` brackets now needs to have the prepended name before it.
+
+This can be anything from variables, functions, classes, etc…
+
+Just think of the stuff inside a namespace always needing the `name::` prepended.
+
+</details>
+
+
 
 Other ways of using namespaces
 
@@ -137,9 +145,17 @@ int main(){
 ```
 
 <details>
-      <summary>Note</summary>
-      name spaces are a thing in other languages like python or java
-  </details>
+  <summary>{{< markdownify >}}Note{{< /markdownify >}}</summary>
+  
+name spaces are a thing in other languages like python or java
+
+they generally just get automatically created whenever you make a file or folder
+
+The `using namespace pakage` syntax is like python’s `from package import ...` syntax
+
+</details>
+
+
 
 ```powershell
 TODO: make 2 name spaces example

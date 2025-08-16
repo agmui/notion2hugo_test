@@ -23,18 +23,26 @@ A guide made by a rose student:  [https://docs.google.com/presentation/d/1WCKfnT
 Wiring ST-link
 
 <details>
-      <summary>what is an st-link??</summary>
-      TODO:
-  </details>
+  <summary>{{< markdownify >}}what is an st-link??{{< /markdownify >}}</summary>
+  
+TODO:
+
+</details>
+
+
 
 ## Flashing:
 
 `ctrl+shift+B`
 
 <details>
-      <summary>what is flashing?</summary>
-      TODO:
-  </details>
+  <summary>{{< markdownify >}}what is flashing?{{< /markdownify >}}</summary>
+  
+TODO:
+
+</details>
+
+
 
 ## Setting up Printing(Serial)
 
