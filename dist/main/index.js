@@ -150,7 +150,8 @@ const fetchBodyFromNotion = (config, frontMatter, argv) => __awaiter(void 0, voi
         config.customTransformerCallback(n2m);
     }
     const mdblocks = yield n2m.blocksToMarkdown(blocks);
-    const mdString = n2m.toMarkdownString(mdblocks).parent;
+    const mdObj = n2m.toMarkdownString(mdblocks);
+    const mdString = mdObj.parent === undefined ? "" : mdObj.parent;
     const markdownText = yield (0, markdown_1.convertS3ImageUrl)(mdString);
     if (config.s3ImageUrlWarningEnabled && (0, validation_1.includeAwsImageUrl)(markdownText)) {
         (0, logger_1.log)(markdownText, logger_1.LogTypes.debug);

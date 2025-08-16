@@ -13,7 +13,6 @@ this fixes the landing page issue of feature grid
 or
 
 `go get github.com/colinwilson/lotusdocs@128b0ae`
-``
 
 or what ever commit you want
 
@@ -31,3 +30,11 @@ hugo serve -D
 ```shell
 hugo new docs/Wiring/links.md
 ```
+
+## Notion to markdown generation
+
+This repo uses [notion-hugo-exporter](https://github.com/agmui/notion-hugo-exporter/tree/getSubDir)
+and displays the resulting markdown inside of lotus docs theme
+
+notion-hugo-exporter uses [notion-to-md](https://github.com/souvikinator/notion-to-md) package under the 
+hood to convert notion blocks into markdown

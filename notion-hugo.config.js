@@ -1,14 +1,36 @@
 const customTransformerCallback = (n2m) => {
-  n2m.setCustomTransformer("code", async (block) => {
-    if (block["code"].language == "c++") {
-      block["code"].language = "cpp";
-      n2m.blockToMarkdown(block);
+  let code_transform = async (block) => {
+    n2m.setCustomTransformer("code", async (block) => {
+      return false;
+    });
+
+    //TODO: get prism <mark> tag to work
+    if (block["code"].language == "c++") block["code"].language = "cpp";
+
+    let res = await n2m.blockToMarkdown(block);
+    let lines_to_highlight = " ";
+    let lineno = 1;
+    for (let s of block.code.rich_text) {
+      let len = s.plain_text.split(/\n/).length - 1;
+      if (s.annotations.color !== "default") {
+        lines_to_highlight += `"${lineno}-${lineno + len}",`;
+      }
+      lineno += len;
     }
-    return false;
-  });
+    if (lines_to_highlight !== "")
+      lines_to_highlight = lines_to_highlight.slice(0, -1);
+
+    let code_fence = res.indexOf("\n");
+    n2m.setCustomTransformer("code", code_transform);
+    return (
+      res.slice(0, code_fence) + lines_to_highlight + res.slice(code_fence)
+    );
+  };
+  n2m.setCustomTransformer("code", code_transform);
+
   n2m.setCustomTransformer("column_list", async (block) => {
     const mdBlocks_temp = await n2m.pageToMarkdown(block.id);
-    let final_md_string = `<div style="display: flex;flex-direction: row; column-gap:10px; max-width: 630px;justify-content: center;">`;
+    let final_md_string = `<div style="display: flex;flex-direction: row; column-gap:10px; justify-content: left;">`;
 
     for (const one_block of mdBlocks_temp) {
       const mdString_temp = n2m.toMarkdownString(one_block.children).parent;
@@ -18,14 +40,52 @@ const customTransformerCallback = (n2m) => {
     return final_md_string + "\n</div>";
   });
 
-  n2m.setCustomTransformer("toggle", async (block) => {
-    const title = block["toggle"].rich_text[0].text.content;
+  const toggle_transform = async (block) => {
+    n2m.setCustomTransformer("toggle", async (block) => {
+      return false;
+    });
+    const title = await n2m.blockToMarkdown(block);
     const child = await n2m.pageToMarkdown(block.id);
+
+    n2m.setCustomTransformer("toggle", toggle_transform);
     return `<details>
-      <summary>${title}</summary>
-      ${child[0].parent}
-  </details>`;
-  });
+  <summary>{{< markdownify >}}${title}{{< /markdownify >}}</summary>
+  ${n2m.toMarkdownString(child).parent}
+</details>\n\n`;
+  };
+  n2m.setCustomTransformer("toggle", toggle_transform);
+
+  let table_transform = async (block) => {
+    // This is a hack
+    n2m.setCustomTransformer("table", async (block) => {
+      return false;
+    });
+    const original_output = await n2m.blockToMarkdown(block);
+    let mdString =
+      '{{< table "table-striped table-hover table-responsive" >}}\n';
+    mdString += `\n${original_output}\n`;
+    mdString += "\n{{< /table >}}\n";
+
+    n2m.setCustomTransformer("table", async (block) => table_transform);
+    return mdString;
+  };
+  n2m.setCustomTransformer("table", table_transform);
+
+  /* image dim is not exposed though notion api yet
+  letimage_transform = async (block) => {
+    // this is a hack
+    n2m.setCustomTransformer("image", async (block) => {
+      return false;
+    });
+    console.log(block);
+    const original_output = await n2m.blockToMarkdown(block);
+    const res = original_output.split(/!\[(.*)\]\((.*)\)/g);
+
+    n2m.setCustomTransformer("image", image_transform);
+    return false;
+  }
+  n2m.setCustomTransformer("image", image_transform);
+  */
 
   // Example 1: Convert Bookmark block to Hugo format shortcode: {{<blogcard "https://notion.so/">}}
   n2m.setCustomTransformer("bookmark", async (block) => {
@@ -52,12 +112,12 @@ const customTransformerCallback = (n2m) => {
 module.exports = {
   directory: "content", //"../../notion2hugo_test/content",
   //"content_notion",
-  concurrency: 5, // TODO: try grearter than 1
+  concurrency: 12,
 
   // saveAwsImageDirectory: null,
   saveAwsImageDirectory: "tmp/downloads",
 
-  s3ImageUrlWarningEnabled: true,
+  s3ImageUrlWarningEnabled: false,
 
   // s3ImageUrlReplaceEnabled: true,
 
