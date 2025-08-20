@@ -2,10 +2,10 @@
 sys:
   pageId: "2c186972-738f-45b3-8010-c79e039b1b58"
   createdTime: "2024-06-24T23:51:00.000Z"
-  lastEditedTime: "2024-07-09T01:07:00.000Z"
+  lastEditedTime: "2025-08-18T08:16:00.000Z"
   propFilepath: "docs/Guides/intro to C++/C++_basics.md"
 title: "C++_basics"
-date: "2024-07-09T01:07:00.000Z"
+date: "2025-08-18T08:16:00.000Z"
 description: ""
 tags:
   - "Onboarding"
@@ -14,6 +14,10 @@ draft: false
 weight: 111
 toc: false
 icon: ""
+---
+
+> Note this C++ guide is designed for Robomasters more specifically working with [taproot](https://gitlab.com/aruw/controls/taproot-template-project). There will be many basic features in C++ skipped in this guide for the sake of brevity.
+
 ---
 
 Great resource [w3schools](https://www.w3schools.com/cpp/default.asp)
