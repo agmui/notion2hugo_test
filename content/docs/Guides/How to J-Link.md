@@ -2,10 +2,10 @@
 sys:
   pageId: "ac09983c-631e-4449-8aea-3a08ad94f09c"
   createdTime: "2024-07-10T00:15:00.000Z"
-  lastEditedTime: "2025-08-18T08:18:00.000Z"
+  lastEditedTime: "2025-08-20T08:29:00.000Z"
   propFilepath: "docs/Guides/How to J-Link.md"
 title: "How to J-Link"
-date: "2025-08-18T08:18:00.000Z"
+date: "2025-08-20T08:29:00.000Z"
 description: ""
 tags:
   - "Onboarding"

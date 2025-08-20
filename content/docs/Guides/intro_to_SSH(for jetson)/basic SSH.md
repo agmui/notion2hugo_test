@@ -2,10 +2,10 @@
 sys:
   pageId: "253da3bc-6297-8089-a208-f7fd19bf3125"
   createdTime: "2025-08-18T09:34:00.000Z"
-  lastEditedTime: "2025-08-19T23:35:00.000Z"
+  lastEditedTime: "2025-08-20T08:10:00.000Z"
   propFilepath: "docs/Guides/intro_to_SSH(for jetson)/basic SSH.md"
 title: "basic SSH"
-date: "2025-08-19T23:35:00.000Z"
+date: "2025-08-20T08:10:00.000Z"
 description: ""
 tags: []
 author: "Overridden author"
@@ -17,11 +17,7 @@ icon: ""
 
 [**What is ssh?:**](https://www.cloudflare.com/learning/access-management/what-is-ssh/)
 
-SSH lets us connect to a computer through the internet.
-
-Its useful because for the jetson we don’t need to bring a monitor+keyboard everywhere we go. We just need a laptop and a connection to connect to the jetson.
-
-It is also useful for wireless setups so when the robot is moving so we can still be connected to the jetson.
+SSH lets us connect to a computer through the internet. Its useful because for the jetson we don’t need to bring a monitor+keyboard everywhere we go. We just need a laptop and a connection to connect to the jetson. It is also useful for wireless setups so when the robot is moving so we can still be connected to the jetson.
 
 ## SSH command
 
@@ -61,12 +57,14 @@ Alternatively you could use [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham
 {{% /tab %}}
 {{< /tabs >}}
 
+---
+
 {{% alert context="warning" %}}
 
 <details>
   <summary>{{< markdownify >}}How to get the ip of your jetson without a monitor?{{< /markdownify >}}</summary>
   
-Follow this guide: **Connect to jetson using USB** TODO: link guide
+Follow this guide: [**Connect to jetson using USB**](https://agmui.github.io/notion2hugo_test/docs/guides/intro_to_sshfor-jetson/connect-to-jetson-using-usb/)
 
 </details>
 
@@ -84,7 +82,7 @@ ifconfig
 
 and look at where it says `inet: ...`
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/a2a34c82-c5fe-4bfb-87a8-3f112a31f757/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466V5UBQOR5%2F20250820%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250820T075307Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFdjHqtJqXM1lSSjYQ7xfINcr7YJx9zEj0g5iGnVKG31AiBm%2FOmm%2B8iCWq6fWwOmqdbSuJKhSbqUJkdB12oHp5i1ayqIBAjR%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDYzNzQyMzE4MzgwNSIMdGklLocWYU1sFQfOKtwDZOeGlMvPHTAfY%2FeOOWsulK7b6kCvd7aWg7qDTkKdRhgEDfvi%2FeolZekIUNInG73IfrIqHodACqal4uAtZLJUbhzrlrGjZfaY1HGk%2BIiMpNAL%2Fj%2FUwuRTsqPWU3Qk30XbGiH4JhVM8sHtuMu7lu%2FJkapO%2FwWFVJAcn3b9yvrBo7pztXwZX%2F2f7Gi02NBMGlTUErNu6bc85GlFA7NxzlgBrALsVo8UbYTiOm30jKlBj8aiyJAMND9fJFySVEjyQW5nPHerAWo6GjK1TXd2PS7mo9bwG5NzNWy2eGgYFnhjaQCtYfT7efS%2FzRkbO7orfjJmTIoppRlXxrwRg9MhfZJPV21%2BwEJwrLC4m9JO4gJxhD710G6sHZWNQsFHdHy6es%2FpHKaMiHejTfaqtc8MrvwHIFgiab3goow6eQAv8A8yF3kwtpmwJNMSOsfg7IPHb%2B%2BF9Xkfj75SdJo4WYstuwMo4EOW5Am%2BeGUa12HS21W2qTU%2BGJFPynu%2B3xGXVyEACi6kv%2Fyimw3sboN2LYPLJOuhI00fDNKEaZvPKA82hLTt7nK61GnCj9sEOLtDFAk6MO0Jq7iKz0%2FxRs1KldjFl1Xe9iv%2Bu4TgrELU%2FewId1ks5lDpFYfLu6KcKVRGddowmfmVxQY6pgEvTOBX7LsyImIaylas5OCWXZg82pAJvobXrtvsM6SWCRoIz07g50clbP0GX3V2IgGETXDyBQ0MmI6V7tcHQDpcX5tD0VEulXIo1TqSBYwkcn22O%2FWaHY3y%2F7Q2M8hAtMlC0pDasOO2j3ciuZJdzteE%2BkhIgBUaK4Y79f7QgmUFNpiI94CO5fBpPfFT6QuxKJCN4q5OyQwa6gI71KAYn0gWnCqbTtOo&X-Amz-Signature=9ed489a131234687df235346c3bfa573c41a188386462b3bb440d11f04576ca7&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/a2a34c82-c5fe-4bfb-87a8-3f112a31f757/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662OM32UGU%2F20250820%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250820T093455Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCDpeGAtEI82je2BpxXmkblT9QbSZuKVoQPY7gayoo8IAIhAKAiFjhO3MyDl9dxjiwvqRy%2Bxpjvia9%2F8iN9FaRgSBehKogECNL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1IgzH7055P%2BeXXnO1EMwq3APBxFrNFZkqKI4Zr3lBsVSw%2F1yVMspHaSzUauPKRaqmcOWhHfLCvN3t2XnW22RDTM8SJ%2FPSrNx1v3BsG4MluNgXTrjXrPk2oCJfmunXih%2FCld8gN5TtcGJAD3luSdj%2FcQRaEOF7CHDcJNlYD%2BYjgDknvXT1pXTlsg6SDGPN9oFZnH0jLKb1MLJNVxIKDT3%2BxIcN3pvtzOCOE%2FwnVe9n4kuHDT5jcYcnPvQziRdpD0wQIr5mkvUuxri7%2BgymjfnAdWfExYlwtqgdQZuexGmlnfZ7bBSGvQ5pm5qgotLtno6fBbHSly5ib6qTkWDx83nXmc%2Fviqs3jOUCD5sYsFJPfKpVsVAumzLRNu1i8shQPinibxyqZHAzyjKoa0CLTk9We540Nea3gLdNjVLVJU1jFmfZLy%2FYI9l5K39LdqtSLmNKzOOyAsuYDff%2F0JnrNV3AscXa6jY6gtlsLMpKPeXDT1ByASx9fviA8gmM%2FWiBSvR55Sjq%2FEDnUcbfpQJ5pIdBsbcFd0UEJSzrLJnGUXcQ0DFfis95NhA9pXHVXvZmfXCdN7Tlm7K7aiSYrJDdE2FCAwCPNSnMrJ9OFJkQInPjYOCHw7oj%2FE3EkMWGCYLxubMik5N1MJc46R86VvoOdzCsp5bFBjqkAQNKPp6xIkZodnJn8S%2BKsB2ILpjXHGaySChrSwhHpFbWJ7FApRJjbc1xODm36kzQNCk8PM%2BWjimQ6atGjqISCVPGlsIZhGl5qt8pu3J27l14MQxifrVI3fOE0aIWbtvd6LOK6FS6%2FVHPqJmIYrIw%2ByKB9Ym%2BY0M5kVw2Lo33dzpGQ%2FkfHKLqB00%2FGqAgBNqlPKU8l9eGjZbwmg8W6ajw0UfleL7K&X-Amz-Signature=9746b1859b570c3bd420bcd6e017b7733c8b31864816184e82833587b32c0a71&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 To make check if you laptop can “_see_” the other computer run:
 
@@ -95,7 +93,7 @@ ping <ip of computer to ssh into>
 <details>
   <summary>{{< markdownify >}}example:{{< /markdownify >}}</summary>
   
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8e32a003-a0dd-4e6d-b2ed-29d374c974a2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YK4PEZXE%2F20250820%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250820T075314Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCaMEmdJ%2ByyXajKrK9lOmY%2Bt8pvqZJafNh7EtBJ1nqZugIgVU%2FwWc%2FO%2B4iZdU8UrHBhBUEtfVe%2BpsAgVujXrezbgtQqiAQI0f%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDA5eia5kbtWydaXU9CrcA3qUw5WUDPd7RqcN%2FFR%2BpjmqEtqLwdTRkgWfbPbAWriL2JWQCVPxqzXZLw7OPhngJKM5%2FEgkROK14wpyGhHWO0Xxt8zDJQ13NnKvMEaqhoabf1paZZ%2Fa1jWVQ6Sm2Trg4V54GKvQpF%2F7cypTDhE%2FQqP%2B5kmWVBQijVMKh1MqEqGdmfLJxjXcdVkXuYgwPQZ20cRVOHptdYhpcq79SWKWMA4sY61L%2BRd7tz2lEMdhBxePIz8RnjTySoJKDQuAIS3TO9FwPKwGULODcWrZOJsFa87L7nTURaLhIImcRi5b82g3qzTyLeyeouwby5UgKRerBJmBhQkht6XnIS8%2BLaShW9dvaTetuDWblUkmVIkKc3tdVDb7E8LIpJR1qa8JaOatoSf2Z2JOFz1lu6fvleZz7T83WdEAWIbeV9b%2Beu2vqCxMKyQpNgyDmiQWVWkhOCNeWxIjBvc%2FcIbVwMFy3duNkFQkRrYBgeM76HEPfl16WfvO%2FNplnczyDf4JriN6yioxxwkqKPUd3qLGogne6sOeszXtH5r330mr%2BEAdaNc7AHdoIcaOJpk4rgGrUcNox4wSEjeab%2BlJVJfdl9DstaDfkFpXxGyUGEIRwqyGBgI3Z71JNF5mGl%2F3bhifajdiML34lcUGOqUBm2O624l4TIOQT87HYNDL5XsN6CdGcOzDKAAmhOyJBHUvzClzRhwOWca3CmrkUxIOFWiUtbelTJ57IiXsVLjrdmCfUPuj1soFOu8wQs5gz7yDhLVH%2BgZ7hzy%2FF3eXU21B%2FxQaAV7LESHRtZVpgSrxrApRCtTlULZ29uIe6ZpQYjFWIeMzXBVro4uiemjOIdic8hDBq33MI3g%2BQkOgWHBN4Ew5cswp&X-Amz-Signature=825f2e7746af8b3a128086b0150c4e300d5c43ccd4f33006c1fbb3bf14a510ba&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d518164a-d88e-44d1-a4ee-3adb3bd8bce0/8e32a003-a0dd-4e6d-b2ed-29d374c974a2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TLHACVXW%2F20250820%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250820T093506Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBWf0INBBqU%2Fb9lHV85ncXzQyMsx95DPE04ft4gPzihAAiEA1HMQshHxLrOec8pXk9ZxH%2Bw3wW0N0%2Bq%2Fj9p4klOJP6cqiAQI0v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDAsJuMp%2F1Rnm8NuMNCrcAwzUb%2FuRFYv831oT52zDLkO%2BBd85wYcAaDeBZrz8T2FU%2Foz6%2BTrcqJWtUUr4f07It90FkUGHuITUppAc03n6S7aAQ8I9Q4aUrtU594I1t7%2FJnAL2y9MSkfH3UNgft0qcz0t%2Fe42oAE5KwTuQPj8Jdhgpi7S83qjHJTDPJjBXafQ6WmI8zroZFbDSJEZE1uzZlBkhAG5m8sOszJ%2BhBar9DYlZ%2BtYS4f1iyKcdGlOSbhCJVf0KmKILbOzZQDJDXNpk2gYsu6htnDoBGCpO%2FgyiJZTc3Wqn28TGLlzNkA2kxHB02%2B9hunkY7Oi9hTapDN9y%2BmNKmA0BKQv4z9chaokqm1HTcIUhIR%2F7XdMIrU9u8ZTYlbHx2txO4QaNPdaW%2BQOj9fje4jSKvG%2BCA%2BMsuxjbH7HRkzRxDL7iKyUpR0xIE9xGTp4zqz5LbxIsrz6p%2FmUZG%2BzITbhZPNY6DgvnN9zcwA8ArQjup4K6%2B43NqHFfu6Y60NFH8Nlg6NAE53cYn6jolx45NwdOHPSpvrWArSXytYdi%2BUt9LEtmh8FtKMTI9cYS8SYFfzlQARZz%2Bq0IByOK05fgPU3J8W8VrKrvzihf%2BUAM%2BhXtSfCuJP%2BcooAggbfwvrhWxDEqhI40t4znMJ6mlsUGOqUBkepvQTSxBj9LsVUq6jse7Du0SVqhcflLSzNgVm27Z%2B0vr6J%2FX0s%2Fw4sJIvS82CrxUjWdeG6OCI%2B%2Fv4%2BZl%2F%2FRk3EtHQeZUIRdGiPzTDubBkwBeftGgGwmleeR0FMCzXci2nzspPliklfemZcE%2FRcVMVrKftTSRgYa8ScxPuK17O8sspdFqNSXjxjqVY4hLWrCq96ceFkPPT6BlU71iKMwvQDM%2FXsA&X-Amz-Signature=71a620f88c7b768cb3eceb31e40cfb843ae0d7c061f457c676e8e7213477fa1e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 </details>
 
@@ -112,6 +110,12 @@ ssh -X <username>@<ip of computer to ssh into>
 ```
 
 you can test this by running `xclock` though the ssh connection and see a window get passed though
+
+## Tailscale
+
+[official tailscale docs](https://tailscale.com/)
+
+Tailscale is a vpn that lets you buy pass the problem of always getting the ip of the jetson
 
 ---
 
